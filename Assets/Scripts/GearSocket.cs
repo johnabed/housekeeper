@@ -46,13 +46,13 @@ public class GearSocket : MonoBehaviour
 
         if(Input.GetKeyDown("space"))
         {
-            print("space key pressed");
+            print("space key pressed, should equip");
             Equip(animationClips);
         }
 
         if (Input.GetKeyDown("x"))
         {
-            print("x key pressed");
+            print("x key pressed, should unequip");
             Unequip();
         }
 
