@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tileset version="1.2" tiledversion="1.2.3" name="Terrain" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
+ <image source="../../Art/spr_tile_terrain.png" width="1024" height="1024"/>
+ <terraintypes>
+  <terrain name="Dirt" tile="112"/>
+  <terrain name="Grass" tile="118"/>
+  <terrain name="Grass-Water" tile="358"/>
+  <terrain name="Dirt-Water" tile="361"/>
+ </terraintypes>
+ <tile id="16" terrain="0,0,0,"/>
+ <tile id="17" terrain="0,0,,0"/>
+ <tile id="22" terrain="1,1,1,"/>
+ <tile id="23" terrain="1,1,,1"/>
+ <tile id="48" terrain="0,,0,0"/>
+ <tile id="49" terrain=",0,0,0"/>
+ <tile id="54" terrain="1,,1,1"/>
+ <tile id="55" terrain=",1,1,1"/>
+ <tile id="79" terrain=",,,0"/>
+ <tile id="80" terrain=",,0,0"/>
+ <tile id="81" terrain=",,0,"/>
+ <tile id="85" terrain=",,,1"/>
+ <tile id="86" terrain=",,1,1"/>
+ <tile id="87" terrain=",,1,"/>
+ <tile id="111" terrain=",0,,0"/>
+ <tile id="112" terrain="0,0,0,0"/>
+ <tile id="113" terrain="0,,0,"/>
+ <tile id="117" terrain=",1,,1"/>
+ <tile id="118" terrain="1,1,1,1"/>
+ <tile id="119" terrain="1,,1,"/>
+ <tile id="143" terrain=",0,,"/>
+ <tile id="144" terrain="0,0,,"/>
+ <tile id="145" terrain="0,,,"/>
+ <tile id="149" terrain=",1,,"/>
+ <tile id="150" terrain="1,1,,"/>
+ <tile id="151" terrain="1,,,"/>
+ <tile id="181" terrain="1,1,1,1"/>
+ <tile id="182" terrain="1,1,1,1"/>
+ <tile id="183" terrain="1,1,1,1"/>
+ <tile id="295" terrain="2,2,2,"/>
+ <tile id="296" terrain="2,2,,2"/>
+ <tile id="298" terrain="3,3,3,"/>
+ <tile id="299" terrain="3,3,,3"/>
+ <tile id="327" terrain="2,,2,2"/>
+ <tile id="328" terrain=",2,2,2"/>
+ <tile id="330" terrain="3,,3,3"/>
+ <tile id="331" terrain=",3,3,3"/>
+ <tile id="358" terrain=",,,2"/>
+ <tile id="359" terrain=",,2,2"/>
+ <tile id="360" terrain=",,2,"/>
+ <tile id="361" terrain=",,,3"/>
+ <tile id="362" terrain=",,3,3"/>
+ <tile id="363" terrain=",,3,"/>
+ <tile id="390" terrain=",2,,2"/>
+ <tile id="391" terrain="2,2,2,2"/>
+ <tile id="392" terrain="2,,2,"/>
+ <tile id="393" terrain=",3,,3"/>
+ <tile id="394" terrain="3,3,3,3"/>
+ <tile id="395" terrain="3,,3,"/>
+ <tile id="422" terrain=",2,,"/>
+ <tile id="423" terrain="2,2,,"/>
+ <tile id="424" terrain="2,,,"/>
+ <tile id="425" terrain=",3,,"/>
+ <tile id="426" terrain="3,3,,"/>
+ <tile id="427" terrain="3,,,"/>
+</tileset>
