@@ -37,13 +37,13 @@ public class GearSocketController : MonoBehaviour
         MyAnimator.SetFloat("LastMoveX", parentAnimator.GetFloat("LastMoveX"));
         MyAnimator.SetFloat("LastMoveY", parentAnimator.GetFloat("LastMoveY"));
 
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             print("space key pressed, should equip");
             Equip(animationClips);
         }
 
-        if (Input.GetKeyDown("x"))
+        if (Input.GetKeyDown(KeyCode.X))
         {
             print("x key pressed, should unequip");
             Unequip();
