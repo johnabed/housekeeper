@@ -31,7 +31,7 @@ public class Interactable : MonoBehaviour
 
     public void OnFocused (Transform playerTransform)
     {
-        GetComponent<SpriteRenderer>().color = Color.red;
+        GetComponent<SpriteRenderer>().color = Color.red; //todo: remove
         isFocus = true;
         player = playerTransform;
         hasInteracted = false;
@@ -39,7 +39,7 @@ public class Interactable : MonoBehaviour
 
     public void OnDefocused()
     {
-        GetComponent<SpriteRenderer>().color = Color.white;
+        GetComponent<SpriteRenderer>().color = Color.white; //todo: remove
         isFocus = false;
         player = null;
         hasInteracted = false;
