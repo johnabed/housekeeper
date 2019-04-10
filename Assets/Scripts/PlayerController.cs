@@ -5,12 +5,17 @@ using UnityEngine.EventSystems;
 
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed;
+    //Animation smoothing
+    [Range(0, .3f)] [SerializeField] private float m_MovementSmoothing = .05f;
+    private Vector3 m_Velocity = Vector3.zero;
+
+    public float moveSpeed = 20;
 
     private Animator anim;
     private Rigidbody2D myRigidbody;
 
     private bool playerMoving;
+    private Vector2 currMove;
     private Vector2 lastMove;
 
     public Camera cam;
@@ -20,7 +25,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        anim = GetComponent<Animator>();
+        anim = GetComponentInChildren<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
         cam = Camera.main;
     }
@@ -35,18 +40,9 @@ public class PlayerController : MonoBehaviour
             || Input.GetAxisRaw("Vertical") > 0.5f || Input.GetAxisRaw("Vertical") < -0.5f)
         {
             playerMoving = true;
-            myRigidbody.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * moveSpeed, Input.GetAxisRaw("Vertical") * moveSpeed);
+            currMove = new Vector2(Input.GetAxisRaw("Horizontal") * moveSpeed, Input.GetAxisRaw("Vertical") * moveSpeed);
             lastMove = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
             RemoveFocus();
-        }
-
-        if (Input.GetAxisRaw("Horizontal") < 0.5f && Input.GetAxisRaw("Horizontal") > -0.5f)
-        {
-            myRigidbody.velocity = new Vector2(0f, myRigidbody.velocity.y);
-        }
-        if (Input.GetAxisRaw("Vertical") < 0.5f && Input.GetAxisRaw("Vertical") > -0.5f)
-        {
-            myRigidbody.velocity = new Vector2(myRigidbody.velocity.x, 0f);
         }
 
         anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
@@ -82,6 +78,18 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+
+    private void FixedUpdate()
+    {
+        // Adjust for deltatime
+        currMove = currMove * Time.fixedDeltaTime;
+
+        // Move the character by finding the target velocity
+        Vector3 targetVelocity = currMove * 10f;
+        // And then smoothing it out and applying it to the character
+        myRigidbody.velocity = Vector3.SmoothDamp(myRigidbody.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
+    }
+
 
     //Focus on a specific interactable object
     void SetFocus(Interactable newFocus)

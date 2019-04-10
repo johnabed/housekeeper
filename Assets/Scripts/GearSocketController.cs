@@ -13,9 +13,6 @@ public class GearSocketController : MonoBehaviour
 
     private AnimatorOverrideController animatorOverrideController;
 
-    private bool playerMoving;
-    private Vector2 lastMove;
-
     [SerializeField]
     private AnimationClip[] animationClips;
 
