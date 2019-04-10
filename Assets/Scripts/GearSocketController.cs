@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GearSocket : MonoBehaviour
+public class GearSocketController : MonoBehaviour
 {
 
     public Animator MyAnimator { get; set; }
