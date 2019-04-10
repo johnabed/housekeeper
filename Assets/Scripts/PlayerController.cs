@@ -113,8 +113,6 @@ public class PlayerController : MonoBehaviour
 
     void FaceFocus()
     {
-        //Todo: DEBUG CLOTHING NOT ROTATING BECAUSE THEY DONT SHARE lastMove VARIABLE!!!
-
         //get dist from object
         Vector2 direction = (focus.transform.position - transform.position).normalized;
         lastMove.x = direction.x;
