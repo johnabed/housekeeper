@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PlayerController : MonoBehaviour
 {
@@ -53,6 +54,13 @@ public class PlayerController : MonoBehaviour
         anim.SetBool("PlayerMoving", playerMoving);
         anim.SetFloat("LastMoveX", lastMove.x);
         anim.SetFloat("LastMoveY", lastMove.y);
+
+        //Avoids clicking through UI overlays like Inventory (picking up something behind it or something)
+        //Note: Place all mouseclick events below here
+        if (EventSystem.current.IsPointerOverGameObject())
+        {
+            return;
+        }
 
         //Check for rightmouse click on Interactables
         if (Input.GetMouseButtonDown(1))

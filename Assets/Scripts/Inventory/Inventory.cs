@@ -25,7 +25,7 @@ public class Inventory : MonoBehaviour
     public OnItemChanged onItemChangedCallback;
     #endregion
 
-    public int space = 8; //inventory space
+    public int space = 24; //inventory space
 
     public List<Item> items = new List<Item>();
 
