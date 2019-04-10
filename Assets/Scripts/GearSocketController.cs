@@ -22,7 +22,7 @@ public class GearSocketController : MonoBehaviour
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        parentAnimator = GetComponentInParent<Animator>();
+        parentAnimator = transform.parent.GetComponent<Animator>();
         MyAnimator = GetComponent<Animator>();
 
         animatorOverrideController = new AnimatorOverrideController(MyAnimator.runtimeAnimatorController);
@@ -31,20 +31,13 @@ public class GearSocketController : MonoBehaviour
 
     private void Update()
     {
-        playerMoving = false;
+        MyAnimator.SetFloat("MoveX", parentAnimator.GetFloat("MoveX"));
+        MyAnimator.SetFloat("MoveY", parentAnimator.GetFloat("MoveY"));
+        MyAnimator.SetBool("PlayerMoving", parentAnimator.GetBool("PlayerMoving"));
+        MyAnimator.SetFloat("LastMoveX", parentAnimator.GetFloat("LastMoveX"));
+        MyAnimator.SetFloat("LastMoveY", parentAnimator.GetFloat("LastMoveY"));
 
-        if (Input.GetAxisRaw("Horizontal") > 0.5f || Input.GetAxisRaw("Horizontal") < -0.5f)
-        {
-            playerMoving = true;
-            lastMove = new Vector2(Input.GetAxisRaw("Horizontal"), 0f);
-        }
-        if (Input.GetAxisRaw("Vertical") > 0.5f || Input.GetAxisRaw("Vertical") < -0.5f)
-        {
-            playerMoving = true;
-            lastMove = new Vector2(0f, Input.GetAxisRaw("Vertical"));
-        }
-
-        if(Input.GetKeyDown("space"))
+        if (Input.GetKeyDown("space"))
         {
             print("space key pressed, should equip");
             Equip(animationClips);
@@ -55,12 +48,6 @@ public class GearSocketController : MonoBehaviour
             print("x key pressed, should unequip");
             Unequip();
         }
-
-        MyAnimator.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
-        MyAnimator.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
-        MyAnimator.SetBool("PlayerMoving", playerMoving);
-        MyAnimator.SetFloat("LastMoveX", lastMove.x);
-        MyAnimator.SetFloat("LastMoveY", lastMove.y);
     }
 
     public void Equip(AnimationClip[] animations)

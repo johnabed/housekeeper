@@ -29,23 +29,14 @@ public class PlayerController : MonoBehaviour
     {
         playerMoving = false;
 
-        if (Input.GetAxisRaw("Horizontal") > 0.5f || Input.GetAxisRaw("Horizontal") < -0.5f)
+        //Check for movement keys
+        if (Input.GetAxisRaw("Horizontal") > 0.5f || Input.GetAxisRaw("Horizontal") < -0.5f
+            || Input.GetAxisRaw("Vertical") > 0.5f || Input.GetAxisRaw("Vertical") < -0.5f)
         {
-            RemoveFocus();
-
-            //transform.Translate(new Vector3(Input.GetAxisRaw("Horizontal") * moveSpeed * Time.deltaTime, 0f, 0f));
-            myRigidbody.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * moveSpeed, myRigidbody.velocity.y);
             playerMoving = true;
-            lastMove = new Vector2(Input.GetAxisRaw("Horizontal"), 0f);
-        }
-        if (Input.GetAxisRaw("Vertical") > 0.5f || Input.GetAxisRaw("Vertical") < -0.5f)
-        {
+            myRigidbody.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * moveSpeed, Input.GetAxisRaw("Vertical") * moveSpeed);
+            lastMove = myRigidbody.velocity;
             RemoveFocus();
-
-            //transform.Translate(new Vector3(0f, Input.GetAxisRaw("Vertical") * moveSpeed * Time.deltaTime, 0f));
-            myRigidbody.velocity = new Vector2(myRigidbody.velocity.x, Input.GetAxisRaw("Vertical") * moveSpeed);
-            playerMoving = true;
-            lastMove = new Vector2(0f, Input.GetAxisRaw("Vertical"));
         }
 
         if (Input.GetAxisRaw("Horizontal") < 0.5f && Input.GetAxisRaw("Horizontal") > -0.5f)
@@ -63,20 +54,24 @@ public class PlayerController : MonoBehaviour
         anim.SetFloat("LastMoveX", lastMove.x);
         anim.SetFloat("LastMoveY", lastMove.y);
 
+
+        //anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
+        //anim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
+
         //Check for rightmouse click on Interactables
         if (Input.GetMouseButtonDown(1))
-        {   
+        {
             //Create a ray
             Ray ray = cam.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
 
             //Check if ray hits
-            if(Physics.Raycast(ray, out hit, 100))
+            if (Physics.Raycast(ray, out hit, 100))
             {
                 print("rightclick hit"); //Todo: Remove
                 Interactable interactable = hit.collider.GetComponent<Interactable>();
                 //Did we hit an interactable
-                if(interactable != null)
+                if (interactable != null)
                 {
                     //Set our focus to the object
                     SetFocus(interactable);
@@ -93,7 +88,7 @@ public class PlayerController : MonoBehaviour
         //if new focus
         if (newFocus != focus)
         {
-            if(focus != null)
+            if (focus != null)
             {
                 focus.OnDefocused();
             }
@@ -123,6 +118,6 @@ public class PlayerController : MonoBehaviour
         //get dist from object
         Vector2 direction = (focus.transform.position - transform.position).normalized;
         lastMove.x = direction.x;
-        lastMove.y = direction.y; 
+        lastMove.y = direction.y;
     }
 }
