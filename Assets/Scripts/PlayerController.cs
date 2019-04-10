@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
         {
             playerMoving = true;
             myRigidbody.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * moveSpeed, Input.GetAxisRaw("Vertical") * moveSpeed);
-            lastMove = myRigidbody.velocity;
+            lastMove = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
             RemoveFocus();
         }
 
@@ -54,10 +54,6 @@ public class PlayerController : MonoBehaviour
         anim.SetFloat("LastMoveX", lastMove.x);
         anim.SetFloat("LastMoveY", lastMove.y);
 
-
-        //anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
-        //anim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
-
         //Check for rightmouse click on Interactables
         if (Input.GetMouseButtonDown(1))
         {
@@ -68,7 +64,6 @@ public class PlayerController : MonoBehaviour
             //Check if ray hits
             if (Physics.Raycast(ray, out hit, 100))
             {
-                print("rightclick hit"); //Todo: Remove
                 Interactable interactable = hit.collider.GetComponent<Interactable>();
                 //Did we hit an interactable
                 if (interactable != null)
@@ -83,8 +78,6 @@ public class PlayerController : MonoBehaviour
     //Focus on a specific interactable object
     void SetFocus(Interactable newFocus)
     {
-        print("SetFocus"); //Todo: Remove
-
         //if new focus
         if (newFocus != focus)
         {
@@ -102,8 +95,6 @@ public class PlayerController : MonoBehaviour
 
     void RemoveFocus()
     {
-        print("RemoveFocus"); //Todo: Remove
-
         if (focus != null)
         {
             focus.OnDefocused();

@@ -31,7 +31,6 @@ public class Interactable : MonoBehaviour
 
     public void OnFocused (Transform playerTransform)
     {
-        GetComponent<SpriteRenderer>().color = Color.red; //todo: remove
         isFocus = true;
         player = playerTransform;
         hasInteracted = false;
@@ -39,7 +38,6 @@ public class Interactable : MonoBehaviour
 
     public void OnDefocused()
     {
-        GetComponent<SpriteRenderer>().color = Color.white; //todo: remove
         isFocus = false;
         player = null;
         hasInteracted = false;
@@ -47,6 +45,7 @@ public class Interactable : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
+        if (interactionTransform == null) { interactionTransform = transform; }
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(interactionTransform.position, radius);
     }
