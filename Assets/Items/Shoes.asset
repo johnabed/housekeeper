@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4efee85af8ce43128353ac4ee73df47, type: 3}
+  m_Name: Shoes
+  m_EditorClassIdentifier: 
+  name: Shoes
+  icon: {fileID: 21300000, guid: dff1ac71708534265a32dbaf9e3335b9, type: 3}
+  isDefaultItem: 0
+  equipSlot: 3
+  animationClips:
+  - {fileID: 7400000, guid: d59e98478e32a479cb30aab3a8014f29, type: 2}
+  - {fileID: 7400000, guid: 49695910a097a4846a4f213e58a871cf, type: 2}
+  - {fileID: 7400000, guid: 40986482f5bb848dba12816e7f20a371, type: 2}
+  - {fileID: 7400000, guid: 127b89bbe8b644f06b2bfc0f62bb60d7, type: 2}
+  - {fileID: 7400000, guid: a4832c1bbdc504f43b7f9d26fda7ffa2, type: 2}
+  - {fileID: 7400000, guid: 5b9f1de61616944a5b0e79b01e2a989f, type: 2}
+  - {fileID: 7400000, guid: ebafc8f3d6f7a44c0a49299d711fe6c0, type: 2}
+  - {fileID: 7400000, guid: 6e7e5cf45195b413a83b67ff70e42f18, type: 2}
+  armorModifier: 3
+  damageModifier: 0

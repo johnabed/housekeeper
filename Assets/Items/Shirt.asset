@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4efee85af8ce43128353ac4ee73df47, type: 3}
+  m_Name: Shirt
+  m_EditorClassIdentifier: 
+  name: Shirt
+  icon: {fileID: 21300000, guid: dff1ac71708534265a32dbaf9e3335b9, type: 3}
+  isDefaultItem: 0
+  equipSlot: 1
+  animationClips:
+  - {fileID: 7400000, guid: e577c59486fc0466c89b6cf3d9d275f5, type: 2}
+  - {fileID: 7400000, guid: 33e5fc08523e54ad3ba8c07b06eff16b, type: 2}
+  - {fileID: 7400000, guid: e17e055c7eed548729385d6dcd624343, type: 2}
+  - {fileID: 7400000, guid: 4690b336fe31b46429d09d3149519400, type: 2}
+  - {fileID: 7400000, guid: e7d4d73b7c41b4e0ca7107be40327788, type: 2}
+  - {fileID: 7400000, guid: 9ca0b6c5bd78548ca95bf1941327ea1b, type: 2}
+  - {fileID: 7400000, guid: a894a172073374afbbb3c3e33c8f260c, type: 2}
+  - {fileID: 7400000, guid: 655eb1d47ffa845cd8eb5184818131fd, type: 2}
+  armorModifier: 5
+  damageModifier: 2

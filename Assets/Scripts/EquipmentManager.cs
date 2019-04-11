@@ -26,6 +26,9 @@ public class EquipmentManager : MonoBehaviour
     #endregion
 
     Equipment[] currentEquipment;
+    GameObject[] currentSockets;
+    public GameObject targetSocket;
+    public GameObject equipmentSocket; 
 
     Inventory inventory;
 
@@ -35,6 +38,7 @@ public class EquipmentManager : MonoBehaviour
 
         int numSlots = System.Enum.GetNames(typeof(EquipmentSlot)).Length; //string array of the elements inside the Enum
         currentEquipment = new Equipment[numSlots];
+        currentSockets = new GameObject[numSlots];
     }
 
     private void Update()
@@ -62,10 +66,19 @@ public class EquipmentManager : MonoBehaviour
         }
 
         currentEquipment[slotIndex] = newItem;
+
+        GameObject newSocket = Instantiate<GameObject>(equipmentSocket, targetSocket.transform);
+        newSocket.GetComponent<GearSocketController>().Equip(newItem.animationClips);
+        currentSockets[slotIndex] = newSocket;
     }
 
     public void Unequip (int slotIndex)
     {
+        if(currentSockets[slotIndex] != null)
+        {
+            Destroy(currentSockets[slotIndex].gameObject);
+        }
+
         if(currentEquipment[slotIndex] != null)
         {
             Equipment oldItem = currentEquipment[slotIndex];

@@ -4,21 +4,14 @@ using UnityEngine;
 
 public class GearSocketController : MonoBehaviour
 {
-
     public Animator MyAnimator { get; set; }
-
-    private SpriteRenderer spriteRenderer;
 
     private Animator parentAnimator;
 
     private AnimatorOverrideController animatorOverrideController;
 
-    [SerializeField]
-    private AnimationClip[] animationClips;
-
     private void Awake()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
         parentAnimator = transform.parent.GetComponent<Animator>();
         MyAnimator = GetComponent<Animator>();
 
@@ -33,24 +26,10 @@ public class GearSocketController : MonoBehaviour
         MyAnimator.SetBool("PlayerMoving", parentAnimator.GetBool("PlayerMoving"));
         MyAnimator.SetFloat("LastMoveX", parentAnimator.GetFloat("LastMoveX"));
         MyAnimator.SetFloat("LastMoveY", parentAnimator.GetFloat("LastMoveY"));
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            print("space key pressed, should equip");
-            Equip(animationClips);
-        }
-
-        if (Input.GetKeyDown(KeyCode.X))
-        {
-            print("x key pressed, should unequip");
-            Unequip();
-        }
     }
 
     public void Equip(AnimationClip[] animations)
     {
-        spriteRenderer.color = Color.white;
-
         animatorOverrideController["Player_Idle_Down"] = animations[0];
         animatorOverrideController["Player_Idle_Left"] = animations[1];
         animatorOverrideController["Player_Idle_Right"] = animations[2];
@@ -60,22 +39,5 @@ public class GearSocketController : MonoBehaviour
         animatorOverrideController["Player_Move_Left"] = animations[5];
         animatorOverrideController["Player_Move_Right"] = animations[6];
         animatorOverrideController["Player_Move_Up"] = animations[7];
-    }
-
-    public void Unequip()
-    {
-        animatorOverrideController["Player_Idle_Down"] = null;
-        animatorOverrideController["Player_Idle_Left"] = null;
-        animatorOverrideController["Player_Idle_Right"] = null;
-        animatorOverrideController["Player_Idle_Up"] = null;
-
-        animatorOverrideController["Player_Move_Down"] = null;
-        animatorOverrideController["Player_Move_Left"] = null;
-        animatorOverrideController["Player_Move_Right"] = null;
-        animatorOverrideController["Player_Move_Up"] = null;
-
-        Color c = spriteRenderer.color;
-        c.a = 0;
-        spriteRenderer.color = c;
     }
 }
