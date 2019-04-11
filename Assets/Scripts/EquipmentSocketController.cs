@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GearSocketController : MonoBehaviour
+public class EquipmentSocketController : MonoBehaviour
 {
     public Animator MyAnimator { get; set; }
 
@@ -10,6 +10,10 @@ public class GearSocketController : MonoBehaviour
 
     private AnimatorOverrideController animatorOverrideController;
 
+    //NOTES FOR SELF:
+    //MyAnimator is creating an Override Controller so the GearSocketAnimator is not needed
+    //I think I can safely delete the GearSocketAnimator and default to Null.
+    //I should use the EquipmentManager delegate to listen for changes
     private void Awake()
     {
         parentAnimator = transform.parent.GetComponent<Animator>();

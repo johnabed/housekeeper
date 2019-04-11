@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a4efee85af8ce43128353ac4ee73df47, type: 3}
-  m_Name: Hair
+  m_Name: Hair nondefault
   m_EditorClassIdentifier: 
-  name: Hair
-  icon: {fileID: 0}
-  isDefaultItem: 1
+  name: Hair of NonDefault
+  icon: {fileID: 21300000, guid: 62d8c012627274e81b557cb59672d6ae, type: 3}
+  isDefaultItem: 0
   equipSlot: 0
   equipmentSocket: {fileID: 7753442896651583030, guid: 5581ac9d54c3b4195a0ff8438e267e76,
     type: 3}

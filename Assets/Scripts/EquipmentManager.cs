@@ -25,10 +25,10 @@ public class EquipmentManager : MonoBehaviour
     public OnEquipmentChanged onEquipmentChangedCallback;
     #endregion
 
-    Equipment[] currentEquipment;
-    GameObject[] currentSockets;
-    public GameObject targetSocket;
-    public GameObject equipmentSocket; 
+    public Equipment[] defaultEquipment; //What is initially worn by the player
+    Equipment[] currentEquipment; //equipment worn by player
+    GameObject[] currentSockets; //reference to gameobjects holding equipment worn by player
+    public GameObject targetSocket; //parent object (i.e. Player Graphics holding Anim & SpriteRenderer)
 
     Inventory inventory;
 
@@ -39,6 +39,8 @@ public class EquipmentManager : MonoBehaviour
         int numSlots = System.Enum.GetNames(typeof(EquipmentSlot)).Length; //string array of the elements inside the Enum
         currentEquipment = new Equipment[numSlots];
         currentSockets = new GameObject[numSlots];
+
+        EquipDefaultItems();
     }
 
     private void Update()
@@ -53,34 +55,30 @@ public class EquipmentManager : MonoBehaviour
     {
         int slotIndex = (int)newItem.equipSlot; //get the index of the enum (i.e. Chest=1)
 
-        Equipment oldItem = null;
-        if(currentEquipment[slotIndex] != null )
-        {
-            oldItem = currentEquipment[slotIndex];
-            inventory.Add(oldItem);
-        }
+        Equipment oldItem = Unequip(slotIndex); //removes any items currently equipped in this slot
 
-        if(onEquipmentChangedCallback != null)
+        if (onEquipmentChangedCallback != null)
         {
-            onEquipmentChangedCallback.Invoke(newItem, oldItem);
+            onEquipmentChangedCallback.Invoke(newItem, null); //todo: make sure changing oldItem to null works
         }
 
         currentEquipment[slotIndex] = newItem;
 
-        GameObject newSocket = Instantiate<GameObject>(equipmentSocket, targetSocket.transform);
-        newSocket.GetComponent<GearSocketController>().Equip(newItem.animationClips);
+        //create new EquipmentSocket prefab gameobject in scene as child of Player Graphic
+        GameObject newSocket = Instantiate<GameObject>(newItem.equipmentSocket, targetSocket.transform);
+        newSocket.GetComponent<EquipmentSocketController>().Equip(newItem.animationClips);
         currentSockets[slotIndex] = newSocket;
     }
 
-    public void Unequip (int slotIndex)
+    public Equipment Unequip (int slotIndex)
     {
-        if(currentSockets[slotIndex] != null)
-        {
-            Destroy(currentSockets[slotIndex].gameObject);
-        }
-
         if(currentEquipment[slotIndex] != null)
         {
+            if (currentSockets[slotIndex] != null)
+            {
+                Destroy(currentSockets[slotIndex].gameObject);
+            }
+
             Equipment oldItem = currentEquipment[slotIndex];
             inventory.Add(oldItem);
 
@@ -90,7 +88,9 @@ public class EquipmentManager : MonoBehaviour
             {
                 onEquipmentChangedCallback.Invoke(null, oldItem);
             }
+            return oldItem;
         }
+        return null;
     }
 
     public void UnequipAll ()
@@ -98,6 +98,16 @@ public class EquipmentManager : MonoBehaviour
         for (int i = 0; i < currentEquipment.Length; i++)
         {
             Unequip(i);
+        }
+
+        EquipDefaultItems();
+    }
+
+    public void EquipDefaultItems ()
+    {
+        foreach (Equipment item in defaultEquipment)
+        {
+            Equip(item);
         }
     }
 
