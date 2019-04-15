@@ -13,7 +13,7 @@ public class CharacterStats : MonoBehaviour
         currentHealth = maxHealth;
     }
 
-    private void Update()
+    void Update()
     {
         if(Input.GetKeyDown(KeyCode.T))
         {
