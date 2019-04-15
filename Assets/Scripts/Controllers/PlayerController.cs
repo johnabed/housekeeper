@@ -120,9 +120,6 @@ public class PlayerController : MonoBehaviour
 
     void FaceFocus()
     {
-        //get dist from object
-        Vector2 direction = (focus.transform.position - transform.position).normalized;
-        lastMove.x = direction.x;
-        lastMove.y = direction.y;
+        lastMove = (focus.transform.position - transform.position).normalized;
     }
 }

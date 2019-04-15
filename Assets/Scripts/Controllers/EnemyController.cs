@@ -6,7 +6,7 @@ public class EnemyController : MonoBehaviour
 {
 
     public float lookRadius = 6f;
-    float lookRadiusMin = 1f;
+    float stoppingDistance = 1f;
 
     Transform target;
 
@@ -22,6 +22,7 @@ public class EnemyController : MonoBehaviour
     private bool enemyMoving;
     private Vector2 currMove;
     private Vector2 lastMove;
+    private bool enemyAttacking;
 
     // Start is called before the first frame update
     void Start()
@@ -35,19 +36,30 @@ public class EnemyController : MonoBehaviour
     void Update()
     {
         enemyMoving = false;
+        enemyAttacking = false;
 
         Vector2 distance = target.position - transform.position;
 
-        if(distance.magnitude <= lookRadius && distance.magnitude >= lookRadiusMin)
+        if(distance.magnitude <= lookRadius)
         {
-            enemyMoving = true;
+            //moving
+            if(distance.magnitude >= stoppingDistance) { 
+                enemyMoving = true;
 
-            //Make sure enemy not trying to move to handle small range
-            float moveX = Mathf.Abs(distance.x) < 0.1f ? 0f : Mathf.Sign(distance.x);
-            float moveY = Mathf.Abs(distance.y) < 0.1f ? 0f : Mathf.Sign(distance.y);
+                currMove = new Vector2(distance.normalized.x * moveSpeed, distance.normalized.y * moveSpeed);
+                lastMove = new Vector2(distance.normalized.x, distance.normalized.y);
+            }
+            //attacking
+            else
+            {
+                enemyAttacking = true;
 
-            currMove = new Vector2(moveX * moveSpeed, moveY * moveSpeed);
-            lastMove = new Vector2(moveX, moveY);
+                //Attack target
+                AttackTarget();
+
+                //Face target
+                FaceTarget();
+            }
         }
 
         anim.SetFloat("MoveX", currMove.x);
@@ -66,6 +78,16 @@ public class EnemyController : MonoBehaviour
         Vector3 targetVelocity = currMove * 10f;
         // And then smoothing it out and applying it to the character
         myRigidbody.velocity = Vector3.SmoothDamp(myRigidbody.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
+    }
+
+    void AttackTarget()
+    {
+        //todo: program
+    }
+
+    void FaceTarget()
+    {
+        lastMove = (target.position - transform.position).normalized;
     }
 
     private void OnDrawGizmosSelected()
