@@ -14,9 +14,11 @@ public class PlayerController : MonoBehaviour
     private Animator anim;
     private Rigidbody2D myRigidbody;
 
-    private bool playerMoving;
+    private bool isMoving;
     private Vector2 currMove;
     private Vector2 lastMove;
+
+    private bool isAttacking;
 
     public Camera cam;
     public LayerMask movementMask;
@@ -33,13 +35,14 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        playerMoving = false;
+        isMoving = false;
+        isAttacking = false;
 
         //Check for movement keys
         if (Input.GetAxisRaw("Horizontal") > 0.5f || Input.GetAxisRaw("Horizontal") < -0.5f
             || Input.GetAxisRaw("Vertical") > 0.5f || Input.GetAxisRaw("Vertical") < -0.5f)
         {
-            playerMoving = true;
+            isMoving = true;
             currMove = new Vector2(Input.GetAxisRaw("Horizontal") * moveSpeed, Input.GetAxisRaw("Vertical") * moveSpeed);
             lastMove = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
             RemoveFocus();
@@ -47,7 +50,8 @@ public class PlayerController : MonoBehaviour
 
         anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
         anim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
-        anim.SetBool("PlayerMoving", playerMoving);
+        anim.SetBool("IsMoving", isMoving);
+        anim.SetBool("IsAttacking", isAttacking);
         anim.SetFloat("LastMoveX", lastMove.x);
         anim.SetFloat("LastMoveY", lastMove.y);
 

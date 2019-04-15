@@ -19,10 +19,10 @@ public class EnemyController : MonoBehaviour
     private Animator anim;
     private Rigidbody2D myRigidbody;
 
-    private bool enemyMoving;
+    private bool isMoving;
     private Vector2 currMove;
     private Vector2 lastMove;
-    private bool enemyAttacking;
+    private bool isAttacking;
 
     // Start is called before the first frame update
     void Start()
@@ -35,16 +35,16 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        enemyMoving = false;
-        enemyAttacking = false;
+        isMoving = false;
+        isAttacking = false;
 
         Vector2 distance = target.position - transform.position;
 
         if(distance.magnitude <= lookRadius)
         {
             //moving
-            if(distance.magnitude >= stoppingDistance) { 
-                enemyMoving = true;
+            if(distance.magnitude >= stoppingDistance) {
+                isMoving = true;
 
                 currMove = new Vector2(distance.normalized.x * moveSpeed, distance.normalized.y * moveSpeed);
                 lastMove = new Vector2(distance.normalized.x, distance.normalized.y);
@@ -52,7 +52,7 @@ public class EnemyController : MonoBehaviour
             //attacking
             else
             {
-                enemyAttacking = true;
+                isAttacking = true;
 
                 //Attack target
                 AttackTarget();
@@ -64,7 +64,8 @@ public class EnemyController : MonoBehaviour
 
         anim.SetFloat("MoveX", currMove.x);
         anim.SetFloat("MoveY", currMove.y);
-        anim.SetBool("EnemyMoving", enemyMoving);
+        anim.SetBool("IsMoving", isMoving);
+        anim.SetBool("IsAttacking", isAttacking);
         anim.SetFloat("LastMoveX", lastMove.x);
         anim.SetFloat("LastMoveY", lastMove.y);
     }
