@@ -2623,7 +2623,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 751942869}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7, y: -13, z: 0}
+  m_LocalPosition: {x: 7, y: -14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 842471130}
@@ -2642,7 +2642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8771a85ba1f9f449594cfd6b75cc9c26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 1.2
+  radius: 0.8
   interactionTransform: {fileID: 751942870}
   item: {fileID: 11400000, guid: f7de3a4539eda4d9dabb582555bfef6e, type: 2}
 --- !u!65 &751942872
@@ -2656,7 +2656,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 0.2}
+  m_Size: {x: 1, y: 1, z: 0}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &751942873
 SpriteRenderer:
@@ -2956,7 +2956,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 0.2}
+  m_Size: {x: 1, y: 1, z: 0}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &786417553
 MonoBehaviour:
@@ -2970,7 +2970,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8771a85ba1f9f449594cfd6b75cc9c26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 1.2
+  radius: 0.8
   interactionTransform: {fileID: 786417551}
   item: {fileID: 11400000, guid: af532cbaaec684369a7cc55588e7a853, type: 2}
 --- !u!212 &786417554

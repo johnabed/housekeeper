@@ -63,6 +63,7 @@ public class PlayerController : MonoBehaviour
         }
 
         //Check for rightmouse click on Interactables
+        //todo: convert RaycastHit and Physics to RaycastHit2D and Physics2D so we can use Box Collider 2D!!!
         if (Input.GetMouseButtonDown(1))
         {
             //Create a ray
