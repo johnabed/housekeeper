@@ -50,6 +50,7 @@ public class EquipmentManager : MonoBehaviour
             UnequipAll();
         }
 
+        //todo: testing. should have full equipment layout UI panel soon with E to open
         if (Input.GetKeyDown(KeyCode.H))
         {
             Unequip((int)EquipmentSlot.Head);
