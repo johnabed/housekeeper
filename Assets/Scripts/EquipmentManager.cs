@@ -49,6 +49,11 @@ public class EquipmentManager : MonoBehaviour
         {
             UnequipAll();
         }
+
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            Unequip((int)EquipmentSlot.Head);
+        }
     }
 
     public void Equip (Equipment newItem)
@@ -63,26 +68,17 @@ public class EquipmentManager : MonoBehaviour
         }
 
         currentEquipment[slotIndex] = newItem;
-
-        //create new EquipmentSocket prefab gameobject in scene as child of Player Graphic
-        GameObject newSocket = Instantiate<GameObject>(newItem.equipmentSocket, targetSocket.transform);
-        newSocket.GetComponent<EquipmentSocketController>().Equip(newItem.animationClips);
-        currentSockets[slotIndex] = newSocket;
     }
 
     public Equipment Unequip (int slotIndex)
     {
         if(currentEquipment[slotIndex] != null)
         {
-            if (currentSockets[slotIndex] != null)
-            {
-                Destroy(currentSockets[slotIndex].gameObject);
-            }
-
             Equipment oldItem = currentEquipment[slotIndex];
             inventory.Add(oldItem);
 
-            currentEquipment[slotIndex] = null;
+            currentEquipment[slotIndex] = null; 
+            EquipDefaultItem(slotIndex); //put back on the default item
 
             if (onEquipmentChangedCallback != null)
             {
@@ -99,8 +95,13 @@ public class EquipmentManager : MonoBehaviour
         {
             Unequip(i);
         }
+    }
 
-        EquipDefaultItems();
+    public void EquipDefaultItem (int slotIndex)
+    {
+        if(defaultEquipment[slotIndex] != null) { 
+            Equip(defaultEquipment[slotIndex]);
+        }
     }
 
     public void EquipDefaultItems ()

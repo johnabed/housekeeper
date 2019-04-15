@@ -4,16 +4,20 @@ using UnityEngine;
 
 public class EquipmentSocketController : MonoBehaviour
 {
+    public EquipmentSlot equipSlot;
+
     public Animator MyAnimator { get; set; }
 
     private Animator parentAnimator;
 
     private AnimatorOverrideController animatorOverrideController;
 
-    //NOTES FOR SELF:
-    //MyAnimator is creating an Override Controller so the GearSocketAnimator is not needed
-    //I think I can safely delete the GearSocketAnimator and default to Null.
-    //I should use the EquipmentManager delegate to listen for changes
+    // Start is called before the first frame update
+    void Start()
+    {
+        EquipmentManager.instance.onEquipmentChangedCallback += OnEquipmentChanged;
+    }
+
     private void Awake()
     {
         parentAnimator = transform.parent.GetComponent<Animator>();
@@ -32,16 +36,19 @@ public class EquipmentSocketController : MonoBehaviour
         MyAnimator.SetFloat("LastMoveY", parentAnimator.GetFloat("LastMoveY"));
     }
 
-    public void Equip(AnimationClip[] animations)
+    void OnEquipmentChanged(Equipment newItem, Equipment oldItem)
     {
-        animatorOverrideController["Player_Idle_Down"] = animations[0];
-        animatorOverrideController["Player_Idle_Left"] = animations[1];
-        animatorOverrideController["Player_Idle_Right"] = animations[2];
-        animatorOverrideController["Player_Idle_Up"] = animations[3];
+        if (newItem != null && newItem.equipSlot == equipSlot)
+        {
+            animatorOverrideController["Player_Idle_Down"] = newItem.animationClips[0];
+            animatorOverrideController["Player_Idle_Left"] = newItem.animationClips[1];
+            animatorOverrideController["Player_Idle_Right"] = newItem.animationClips[2];
+            animatorOverrideController["Player_Idle_Up"] = newItem.animationClips[3];
 
-        animatorOverrideController["Player_Move_Down"] = animations[4];
-        animatorOverrideController["Player_Move_Left"] = animations[5];
-        animatorOverrideController["Player_Move_Right"] = animations[6];
-        animatorOverrideController["Player_Move_Up"] = animations[7];
+            animatorOverrideController["Player_Move_Down"] = newItem.animationClips[4];
+            animatorOverrideController["Player_Move_Left"] = newItem.animationClips[5];
+            animatorOverrideController["Player_Move_Right"] = newItem.animationClips[6];
+            animatorOverrideController["Player_Move_Up"] = newItem.animationClips[7];
+        }
     }
 }
