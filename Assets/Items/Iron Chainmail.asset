@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4efee85af8ce43128353ac4ee73df47, type: 3}
+  m_Name: Iron Chainmail
+  m_EditorClassIdentifier: 
+  name: Iron Chainmail
+  icon: {fileID: 0}
+  isDefaultItem: 0
+  equipSlot: 1
+  equipmentSocket: {fileID: 7753442896651583030, guid: 5581ac9d54c3b4195a0ff8438e267e76,
+    type: 3}
+  animationClips:
+  - {fileID: 7400000, guid: 1846cb9ac149240889616b13cb211a5e, type: 2}
+  - {fileID: 7400000, guid: 52922d67e25d74d138a98db4e512d753, type: 2}
+  - {fileID: 7400000, guid: f9ddafe4c33c44ca48a2a77a8c3380f4, type: 2}
+  - {fileID: 7400000, guid: 457ad5f264d00439db523247d4eb4c4d, type: 2}
+  - {fileID: 7400000, guid: 4f773836fa4974a9ea576695b0f66454, type: 2}
+  - {fileID: 7400000, guid: 9a2de333fdf2f488b994222f0a3560d4, type: 2}
+  - {fileID: 7400000, guid: 7052e3819ddda439a93cca12f689f1b3, type: 2}
+  - {fileID: 7400000, guid: 300892693e13b40fa80e90986188238d, type: 2}
+  armorModifier: 4
+  damageModifier: 0
