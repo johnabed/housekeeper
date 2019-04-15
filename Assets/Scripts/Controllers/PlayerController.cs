@@ -66,6 +66,25 @@ public class PlayerController : MonoBehaviour
         //todo: convert RaycastHit and Physics to RaycastHit2D and Physics2D so we can use Box Collider 2D!!!
         if (Input.GetMouseButtonDown(1))
         {
+            //Create Ray
+            Vector2 ray = cam.ScreenToWorldPoint(Input.mousePosition);
+            RaycastHit2D hit = Physics2D.Raycast(ray, Vector2.zero, 100);
+
+            //check if ray hits (num is distance)
+            if (hit.collider != null)
+            {
+                Debug.Log("Target Hit: " + hit.collider.gameObject.name);
+
+                Interactable interactable = hit.collider.GetComponent<Interactable>();
+                //Did we hit an interactable
+                if (interactable != null)
+                {
+                    //Set our focus to the object
+                    SetFocus(interactable);
+                }
+            }
+
+            /* 3D Implementation 
             //Create a ray
             Ray ray = cam.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
@@ -81,6 +100,7 @@ public class PlayerController : MonoBehaviour
                     SetFocus(interactable);
                 }
             }
+            */
         }
     }
 

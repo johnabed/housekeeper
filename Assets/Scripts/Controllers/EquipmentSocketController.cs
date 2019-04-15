@@ -31,7 +31,8 @@ public class EquipmentSocketController : MonoBehaviour
     {
         MyAnimator.SetFloat("MoveX", parentAnimator.GetFloat("MoveX"));
         MyAnimator.SetFloat("MoveY", parentAnimator.GetFloat("MoveY"));
-        MyAnimator.SetBool("PlayerMoving", parentAnimator.GetBool("PlayerMoving"));
+        MyAnimator.SetBool("IsMoving", parentAnimator.GetBool("IsMoving"));
+        MyAnimator.SetBool("IsAttacking", parentAnimator.GetBool("IsAttacking"));
         MyAnimator.SetFloat("LastMoveX", parentAnimator.GetFloat("LastMoveX"));
         MyAnimator.SetFloat("LastMoveY", parentAnimator.GetFloat("LastMoveY"));
     }
