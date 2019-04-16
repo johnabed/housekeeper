@@ -60,11 +60,7 @@ public class PlayerController : MonoBehaviour
 
         //Check for rightmouse click on Interactables
         if (Input.GetMouseButtonDown(1))
-        {
-            //Attack Slash
-            StopCoroutine("Attack");
-            StartCoroutine(Attack());
-            
+        {   
             //Create Ray
             Vector2 ray = cam.ScreenToWorldPoint(Input.mousePosition);
             RaycastHit2D hit = Physics2D.Raycast(ray, Vector2.zero, 100);
@@ -80,8 +76,17 @@ public class PlayerController : MonoBehaviour
                 {
                     //Set our focus to the object
                     SetFocus(interactable);
+
+                    //Attacking anim should not occur if player is focusing on ItemPickup
+                    if (interactable is ItemPickup)
+                    {
+                        return;
+                    }
                 }
             }
+            
+            //Attack Slash
+            StartCoroutine(Attack());
         }
     }
 
