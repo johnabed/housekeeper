@@ -911,14 +911,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: 1cdd57d6d4db0444c871a19da5e39e56, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100024, guid: 1cdd57d6d4db0444c871a19da5e39e56, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1cdd57d6d4db0444c871a19da5e39e56, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -962,6 +954,34 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 1cdd57d6d4db0444c871a19da5e39e56, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3664157343022684190, guid: 1cdd57d6d4db0444c871a19da5e39e56,
+        type: 3}
+      propertyPath: m_ChunkCullingBounds.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3664157343022684190, guid: 1cdd57d6d4db0444c871a19da5e39e56,
+        type: 3}
+      propertyPath: m_ChunkCullingBounds.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3664157343022684190, guid: 1cdd57d6d4db0444c871a19da5e39e56,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1222136613
+      objectReference: {fileID: 0}
+    - target: {fileID: 3664157343022684190, guid: 1cdd57d6d4db0444c871a19da5e39e56,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 1cdd57d6d4db0444c871a19da5e39e56, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100024, guid: 1cdd57d6d4db0444c871a19da5e39e56, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3664157343022684176, guid: 1cdd57d6d4db0444c871a19da5e39e56,
         type: 3}
@@ -1513,26 +1533,6 @@ PrefabInstance:
     - target: {fileID: 6600000, guid: 1cdd57d6d4db0444c871a19da5e39e56, type: 3}
       propertyPath: m_ColliderPaths.Array.data[8].m_ColliderPaths.Array.data[0].Array.data[4].Y
       value: 53750000
-      objectReference: {fileID: 0}
-    - target: {fileID: 3664157343022684190, guid: 1cdd57d6d4db0444c871a19da5e39e56,
-        type: 3}
-      propertyPath: m_ChunkCullingBounds.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3664157343022684190, guid: 1cdd57d6d4db0444c871a19da5e39e56,
-        type: 3}
-      propertyPath: m_ChunkCullingBounds.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3664157343022684190, guid: 1cdd57d6d4db0444c871a19da5e39e56,
-        type: 3}
-      propertyPath: m_SortingLayerID
-      value: 1222136613
-      objectReference: {fileID: 0}
-    - target: {fileID: 3664157343022684190, guid: 1cdd57d6d4db0444c871a19da5e39e56,
-        type: 3}
-      propertyPath: m_SortingLayer
-      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cdd57d6d4db0444c871a19da5e39e56, type: 3}
@@ -2115,6 +2115,7 @@ GameObject:
   - component: {fileID: 682352927}
   - component: {fileID: 682352925}
   - component: {fileID: 682352928}
+  - component: {fileID: 682352931}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2186,6 +2187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackSpeed: 1
+  attackDelay: 0.6
 --- !u!61 &682352929
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2233,6 +2235,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!210 &682352931
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682352924}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1 &721157028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2243,7 +2256,6 @@ GameObject:
   m_Component:
   - component: {fileID: 721157029}
   - component: {fileID: 721157031}
-  - component: {fileID: 721157032}
   - component: {fileID: 721157030}
   m_Layer: 0
   m_Name: Player Sprite
@@ -2280,7 +2292,7 @@ Animator:
   m_GameObject: {fileID: 721157028}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4495cd679014b47a3967dbb8f487736a, type: 2}
+  m_Controller: {fileID: 9100000, guid: c1d7ac165d012479696f2ed6ea82cd06, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2337,17 +2349,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
---- !u!210 &721157032
-SortingGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 721157028}
-  m_Enabled: 1
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
 --- !u!1001 &735008324
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3537,6 +3538,7 @@ GameObject:
   - component: {fileID: 1261180147}
   - component: {fileID: 1261180148}
   - component: {fileID: 1261180150}
+  - component: {fileID: 1261180151}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -3681,6 +3683,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackSpeed: 1
+  attackDelay: 0.6
+--- !u!210 &1261180151
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261180142}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1 &1359393835
 GameObject:
   m_ObjectHideFlags: 0
@@ -3691,7 +3705,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1359393838}
   - component: {fileID: 1359393837}
-  - component: {fileID: 1359393836}
   - component: {fileID: 1359393839}
   m_Layer: 0
   m_Name: Enemy Sprite
@@ -3700,17 +3713,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!210 &1359393836
-SortingGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1359393835}
-  m_Enabled: 1
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
 --- !u!212 &1359393837
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4877,7 +4879,7 @@ Animator:
   m_GameObject: {fileID: 7753442896079293922}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 22100000, guid: 8bd32bd098f5649149f50ba858df70db, type: 2}
+  m_Controller: {fileID: 22100000, guid: 3b11e07eef74442008a970b4daba9b79, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -4923,7 +4925,7 @@ Animator:
   m_GameObject: {fileID: 7753442896396828543}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 22100000, guid: 8bd32bd098f5649149f50ba858df70db, type: 2}
+  m_Controller: {fileID: 22100000, guid: 3b11e07eef74442008a970b4daba9b79, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -5084,7 +5086,7 @@ Animator:
   m_GameObject: {fileID: 7753442896798230938}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 22100000, guid: 8bd32bd098f5649149f50ba858df70db, type: 2}
+  m_Controller: {fileID: 22100000, guid: 3b11e07eef74442008a970b4daba9b79, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -5141,7 +5143,7 @@ Animator:
   m_GameObject: {fileID: 7753442897182905585}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 22100000, guid: 8bd32bd098f5649149f50ba858df70db, type: 2}
+  m_Controller: {fileID: 22100000, guid: 3b11e07eef74442008a970b4daba9b79, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
