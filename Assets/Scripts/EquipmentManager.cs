@@ -20,7 +20,7 @@ public class EquipmentManager : MonoBehaviour
     #endregion
 
     #region Delegate
-    //used to notify changes in inventory from add / remove
+    //used to notify changes in equipment from add / remove
     public delegate void OnEquipmentChanged(Equipment newItem, Equipment oldItem);
     public OnEquipmentChanged onEquipmentChangedCallback;
     #endregion

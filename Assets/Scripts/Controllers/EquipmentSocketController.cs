@@ -12,14 +12,10 @@ public class EquipmentSocketController : MonoBehaviour
 
     private AnimatorOverrideController animatorOverrideController;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        EquipmentManager.instance.onEquipmentChangedCallback += OnEquipmentChanged;
-    }
-
     private void Awake()
     {
+        EquipmentManager.instance.onEquipmentChangedCallback += OnEquipmentChanged;
+        
         parentAnimator = transform.parent.GetComponent<Animator>();
         MyAnimator = GetComponent<Animator>();
 
