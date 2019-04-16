@@ -26,7 +26,7 @@ public class EnemyStats : CharacterStats
         anim.SetFloat("LastMoveY", 0f);
         yield return new WaitForSeconds(0.1f);
         anim.SetBool("IsDying", true);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.9f);
         Destroy(gameObject);
     }
 }

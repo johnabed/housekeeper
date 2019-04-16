@@ -33,6 +33,7 @@ public class EquipmentSocketController : MonoBehaviour
         MyAnimator.SetFloat("MoveY", parentAnimator.GetFloat("MoveY"));
         MyAnimator.SetBool("IsMoving", parentAnimator.GetBool("IsMoving"));
         MyAnimator.SetBool("IsAttacking", parentAnimator.GetBool("IsAttacking"));
+        MyAnimator.SetBool("IsDying", parentAnimator.GetBool("IsDying"));
     }
 
     void OnEquipmentChanged(Equipment newItem, Equipment oldItem)

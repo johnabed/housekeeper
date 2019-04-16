@@ -29,7 +29,7 @@ public class PlayerManager : MonoBehaviour
     
     IEnumerator PlayerDeath()
     {   
-        player.GetComponent<EnemyController>().enabled = false;
+        player.GetComponent<PlayerController>().enabled = false;
         Animator anim = player.GetComponentInChildren<Animator>();
         anim.SetFloat("MoveX", 0f);
         anim.SetFloat("MoveY", 0f);
@@ -39,7 +39,7 @@ public class PlayerManager : MonoBehaviour
         anim.SetFloat("LastMoveY", 0f);
         yield return new WaitForSeconds(0.1f);
         anim.SetBool("IsDying", true);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.9f);
         
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }

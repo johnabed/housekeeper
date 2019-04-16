@@ -18,8 +18,6 @@ public class PlayerController : MonoBehaviour
     private Vector2 currMove;
     private Vector2 lastMove;
 
-    private bool isAttacking;
-
     public Camera cam;
     public LayerMask movementMask;
     public Interactable focus;
@@ -36,7 +34,6 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         isMoving = false;
-        isAttacking = false;
 
         //Check for movement keys
         if (Input.GetAxisRaw("Horizontal") > 0.5f || Input.GetAxisRaw("Horizontal") < -0.5f
@@ -53,7 +50,6 @@ public class PlayerController : MonoBehaviour
         anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
         anim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
         anim.SetBool("IsMoving", isMoving);
-        anim.SetBool("IsAttacking", isAttacking);
 
         //Avoids clicking through UI overlays like Inventory (picking up something behind it or something)
         //Note: Place all mouseclick events below here
@@ -62,15 +58,13 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
-        //Check for leftmouse click
-        if (Input.GetMouseButtonDown(0))
-        {
-            isAttacking = true;
-        }
-
         //Check for rightmouse click on Interactables
         if (Input.GetMouseButtonDown(1))
         {
+            //Attack Slash
+            StopCoroutine("Attack");
+            StartCoroutine(Attack());
+            
             //Create Ray
             Vector2 ray = cam.ScreenToWorldPoint(Input.mousePosition);
             RaycastHit2D hit = Physics2D.Raycast(ray, Vector2.zero, 100);
@@ -133,5 +127,12 @@ public class PlayerController : MonoBehaviour
     void FaceFocus()
     {
         lastMove = (focus.transform.position - transform.position).normalized;
+    }
+    
+    IEnumerator Attack()
+    {
+        anim.SetBool("IsAttacking", true);
+        yield return new WaitForSeconds(0.5f);
+        anim.SetBool("IsAttacking", false);
     }
 }
