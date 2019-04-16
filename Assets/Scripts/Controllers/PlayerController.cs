@@ -40,13 +40,20 @@ public class PlayerController : MonoBehaviour
 
         //Check for movement keys
         if (Input.GetAxisRaw("Horizontal") > 0.5f || Input.GetAxisRaw("Horizontal") < -0.5f
-            || Input.GetAxisRaw("Vertical") > 0.5f || Input.GetAxisRaw("Vertical") < -0.5f)
+                                                  || Input.GetAxisRaw("Vertical") > 0.5f || Input.GetAxisRaw("Vertical") < -0.5f)
         {
             isMoving = true;
             currMove = new Vector2(Input.GetAxisRaw("Horizontal") * moveSpeed, Input.GetAxisRaw("Vertical") * moveSpeed);
             lastMove = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
             RemoveFocus();
         }
+        
+        anim.SetFloat("LastMoveX", lastMove.x);
+        anim.SetFloat("LastMoveY", lastMove.y);
+        anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
+        anim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
+        anim.SetBool("IsMoving", isMoving);
+        anim.SetBool("IsAttacking", isAttacking);
 
         //Avoids clicking through UI overlays like Inventory (picking up something behind it or something)
         //Note: Place all mouseclick events below here
@@ -82,13 +89,6 @@ public class PlayerController : MonoBehaviour
                 }
             }
         }
-
-        anim.SetFloat("LastMoveX", lastMove.x);
-        anim.SetFloat("LastMoveY", lastMove.y);
-        anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
-        anim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
-        anim.SetBool("IsMoving", isMoving);
-        anim.SetBool("IsAttacking", isAttacking);
     }
 
     private void FixedUpdate()
