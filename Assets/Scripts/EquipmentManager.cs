@@ -27,7 +27,6 @@ public class EquipmentManager : MonoBehaviour
 
     public Equipment[] defaultEquipment; //What is initially worn by the player
     Equipment[] currentEquipment; //equipment worn by player
-    GameObject[] currentSockets; //reference to gameobjects holding equipment worn by player
     public GameObject targetSocket; //parent object (i.e. Player Graphics holding Anim & SpriteRenderer)
 
     Inventory inventory;
@@ -38,7 +37,6 @@ public class EquipmentManager : MonoBehaviour
 
         int numSlots = System.Enum.GetNames(typeof(EquipmentSlot)).Length; //string array of the elements inside the Enum
         currentEquipment = new Equipment[numSlots];
-        currentSockets = new GameObject[numSlots];
 
         EquipDefaultItems();
     }

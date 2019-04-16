@@ -24,12 +24,15 @@ public class EnemyController : MonoBehaviour
     private Vector2 lastMove;
     private bool isAttacking;
 
+    CharacterCombat combat;
+
     // Start is called before the first frame update
     void Start()
     {
         target = PlayerManager.instance.player.transform;
         anim = GetComponentInChildren<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
+        combat = GetComponent<CharacterCombat>();
     }
 
     // Update is called once per frame
@@ -83,7 +86,11 @@ public class EnemyController : MonoBehaviour
 
     void AttackTarget()
     {
-        //todo: program
+        CharacterStats targetStats = target.GetComponent<CharacterStats>();
+        if(targetStats != null)
+        {
+            combat.Attack(targetStats);
+        }
     }
 
     void FaceTarget()

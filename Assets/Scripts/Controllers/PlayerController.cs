@@ -48,13 +48,6 @@ public class PlayerController : MonoBehaviour
             RemoveFocus();
         }
 
-        anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
-        anim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
-        anim.SetBool("IsMoving", isMoving);
-        anim.SetBool("IsAttacking", isAttacking);
-        anim.SetFloat("LastMoveX", lastMove.x);
-        anim.SetFloat("LastMoveY", lastMove.y);
-
         //Avoids clicking through UI overlays like Inventory (picking up something behind it or something)
         //Note: Place all mouseclick events below here
         if (EventSystem.current.IsPointerOverGameObject())
@@ -62,8 +55,13 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
+        //Check for leftmouse click
+        if (Input.GetMouseButtonDown(0))
+        {
+            isAttacking = true;
+        }
+
         //Check for rightmouse click on Interactables
-        //todo: convert RaycastHit and Physics to RaycastHit2D and Physics2D so we can use Box Collider 2D!!!
         if (Input.GetMouseButtonDown(1))
         {
             //Create Ray
@@ -73,7 +71,7 @@ public class PlayerController : MonoBehaviour
             //check if ray hits (num is distance)
             if (hit.collider != null)
             {
-                Debug.Log("Target Hit: " + hit.collider.gameObject.name);
+                Debug.Log("Raycast Hit: " + hit.collider.gameObject.name);
 
                 Interactable interactable = hit.collider.GetComponent<Interactable>();
                 //Did we hit an interactable
@@ -83,25 +81,14 @@ public class PlayerController : MonoBehaviour
                     SetFocus(interactable);
                 }
             }
-
-            /* 3D Implementation 
-            //Create a ray
-            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-
-            //Check if ray hits
-            if (Physics.Raycast(ray, out hit, 100))
-            {
-                Interactable interactable = hit.collider.GetComponent<Interactable>();
-                //Did we hit an interactable
-                if (interactable != null)
-                {
-                    //Set our focus to the object
-                    SetFocus(interactable);
-                }
-            }
-            */
         }
+
+        anim.SetFloat("LastMoveX", lastMove.x);
+        anim.SetFloat("LastMoveY", lastMove.y);
+        anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
+        anim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
+        anim.SetBool("IsMoving", isMoving);
+        anim.SetBool("IsAttacking", isAttacking);
     }
 
     private void FixedUpdate()

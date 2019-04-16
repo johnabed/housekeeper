@@ -29,12 +29,12 @@ public class EquipmentSocketController : MonoBehaviour
 
     private void Update()
     {
+        MyAnimator.SetFloat("LastMoveX", parentAnimator.GetFloat("LastMoveX"));
+        MyAnimator.SetFloat("LastMoveY", parentAnimator.GetFloat("LastMoveY"));
         MyAnimator.SetFloat("MoveX", parentAnimator.GetFloat("MoveX"));
         MyAnimator.SetFloat("MoveY", parentAnimator.GetFloat("MoveY"));
         MyAnimator.SetBool("IsMoving", parentAnimator.GetBool("IsMoving"));
         MyAnimator.SetBool("IsAttacking", parentAnimator.GetBool("IsAttacking"));
-        MyAnimator.SetFloat("LastMoveX", parentAnimator.GetFloat("LastMoveX"));
-        MyAnimator.SetFloat("LastMoveY", parentAnimator.GetFloat("LastMoveY"));
     }
 
     void OnEquipmentChanged(Equipment newItem, Equipment oldItem)

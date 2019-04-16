@@ -10,6 +10,13 @@ public class PlayerStats : CharacterStats
         EquipmentManager.instance.onEquipmentChangedCallback += OnEquipmentChanged;
     }
 
+    public override void Die()
+    {
+        base.Die();
+        //Kill the player
+        PlayerManager.instance.KillPlayer();
+    }
+
     void OnEquipmentChanged(Equipment newItem, Equipment oldItem)
     {
         if(newItem != null) { 
