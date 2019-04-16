@@ -22,6 +22,7 @@ public class PlayerManager : MonoBehaviour
 
     public GameObject player;
 
+    //todo: note that player respawns with no clothing... like the EquipDefault is not running on scene load?
     public void KillPlayer()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
