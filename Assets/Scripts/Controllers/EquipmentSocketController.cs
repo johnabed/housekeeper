@@ -11,6 +11,7 @@ public class EquipmentSocketController : MonoBehaviour
     private Animator parentAnimator;
 
     private AnimatorOverrideController animatorOverrideController;
+    private List<KeyValuePair<AnimationClip, AnimationClip>> overrides;
 
     private void Awake()
     {
@@ -35,17 +36,16 @@ public class EquipmentSocketController : MonoBehaviour
 
     void OnEquipmentChanged(Equipment newItem, Equipment oldItem)
     {
-        if (newItem != null && newItem.equipSlot == equipSlot)
+        if (newItem != null && newItem.equipSlot == equipSlot 
+                            && newItem.animationClips.Length == animatorOverrideController.overridesCount)
         {
-            animatorOverrideController["Player_Idle_Down"] = newItem.animationClips[0];
-            animatorOverrideController["Player_Idle_Left"] = newItem.animationClips[1];
-            animatorOverrideController["Player_Idle_Right"] = newItem.animationClips[2];
-            animatorOverrideController["Player_Idle_Up"] = newItem.animationClips[3];
-
-            animatorOverrideController["Player_Move_Down"] = newItem.animationClips[4];
-            animatorOverrideController["Player_Move_Left"] = newItem.animationClips[5];
-            animatorOverrideController["Player_Move_Right"] = newItem.animationClips[6];
-            animatorOverrideController["Player_Move_Up"] = newItem.animationClips[7];
+            overrides = new List<KeyValuePair<AnimationClip, AnimationClip>>(animatorOverrideController.overridesCount);
+            animatorOverrideController.GetOverrides(overrides);
+            for (int i = 0; i < overrides.Count; ++i) {
+                Debug.Log(overrides[i].Key.name + " = " + newItem.animationClips[i].name);
+                overrides[i] = new KeyValuePair<AnimationClip, AnimationClip>(overrides[i].Key, newItem.animationClips[i]);
+            }
+            animatorOverrideController.ApplyOverrides(overrides);
         }
     }
 }

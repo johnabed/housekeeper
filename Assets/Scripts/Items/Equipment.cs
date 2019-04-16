@@ -7,7 +7,6 @@ public class Equipment : Item
 {
     public EquipmentSlot equipSlot;
 
-    public GameObject equipmentSocket;
     public AnimationClip[] animationClips;
 
     public int armorModifier;
