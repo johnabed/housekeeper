@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4efee85af8ce43128353ac4ee73df47, type: 3}
+  m_Name: head_male_spiked
+  m_EditorClassIdentifier: 
+  name: Spiked Helm
+  icon: {fileID: 0}
+  isDefaultItem: 0
+  equipSlot: 0
+  animationClips:
+  - {fileID: 7400000, guid: f8eac2ed19b624e74921a0ce59fb0e46, type: 2}
+  - {fileID: 7400000, guid: e7cb1bc7b51804727972af81708fc6ee, type: 2}
+  - {fileID: 7400000, guid: 31dd2da981e14468db88cd226b24b5b1, type: 2}
+  - {fileID: 7400000, guid: b8e02a33305e140b191e3c7d60f4cd54, type: 2}
+  - {fileID: 7400000, guid: dfc68ac2a18f548fc9b1e11f2cdc333f, type: 2}
+  - {fileID: 7400000, guid: eadf76653910641a096a1a3e1b9fd229, type: 2}
+  - {fileID: 7400000, guid: 04631e68686be4efe8d2d3a7db9988ff, type: 2}
+  - {fileID: 7400000, guid: fdc204b6e39a8410b8a1aabffa235dc3, type: 2}
+  - {fileID: 7400000, guid: 99e2efe9719134153820ef9f8e1b63be, type: 2}
+  - {fileID: 7400000, guid: 8137ed969735240fc8a4ad36c8a9306c, type: 2}
+  - {fileID: 7400000, guid: 67cdc24aca2ca4126afa018a5afb9a9e, type: 2}
+  - {fileID: 7400000, guid: 22f823615819f40c391369c977cf1550, type: 2}
+  - {fileID: 7400000, guid: 6918042e323544a619e8702658018494, type: 2}
+  - {fileID: 7400000, guid: 7d7eb3ced9dd441bb9e768844b4d817c, type: 2}
+  - {fileID: 7400000, guid: a815c417aee9b4b08ae59d5d7ba96390, type: 2}
+  - {fileID: 7400000, guid: 31bb43d234097456ea2f7d06f026faf9, type: 2}
+  - {fileID: 7400000, guid: 5a85a8b74cce44f119a0f944734c1a57, type: 2}
+  - {fileID: 7400000, guid: c0343188bba11414d843496a15b74073, type: 2}
+  - {fileID: 7400000, guid: 54b005eac5df542258ab2c9806e18f51, type: 2}
+  - {fileID: 7400000, guid: f3b8df242e4cc4e52a6f91466025d090, type: 2}
+  - {fileID: 7400000, guid: fdc327999341a42d1b4e438d7dc4543f, type: 2}
+  - {fileID: 7400000, guid: 5e4ae87572d8c45d099a685c873c426e, type: 2}
+  - {fileID: 7400000, guid: d1eabf2a00ba4485d90e357d312fe454, type: 2}
+  - {fileID: 7400000, guid: 415f2b5f29d594335ae84e6ad5bf604f, type: 2}
+  - {fileID: 7400000, guid: 5b0a636531da14a5096fc7aa4eb5997e, type: 2}
+  armorModifier: 3
+  damageModifier: 1

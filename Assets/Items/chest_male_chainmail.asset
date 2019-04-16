@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4efee85af8ce43128353ac4ee73df47, type: 3}
+  m_Name: chest_male_chainmail
+  m_EditorClassIdentifier: 
+  name: Iron Chainmail
+  icon: {fileID: 0}
+  isDefaultItem: 0
+  equipSlot: 1
+  animationClips:
+  - {fileID: 7400000, guid: 077ef0049910540dd8c940e8fb3959ab, type: 2}
+  - {fileID: 7400000, guid: c5dcca069fa3547e8829454aed40532b, type: 2}
+  - {fileID: 7400000, guid: bf16b033c740b426cb431b8bf5eed746, type: 2}
+  - {fileID: 7400000, guid: 891f70d01ff5e40beafce9a3d15fe0fc, type: 2}
+  - {fileID: 7400000, guid: e051cbf016ff64191a7392f21b7e152b, type: 2}
+  - {fileID: 7400000, guid: 8c43bb860551146ba82ccd1b3e1257b1, type: 2}
+  - {fileID: 7400000, guid: 8949f1ad173b54f4bb7bd75fe7f0c6f8, type: 2}
+  - {fileID: 7400000, guid: 01e79a293a0734b718ab973fcd0ea358, type: 2}
+  - {fileID: 7400000, guid: b59600343dc5949379fb68adf5d5fa9b, type: 2}
+  - {fileID: 7400000, guid: d55fb6231886b47ae9aa5ddd4307e9f2, type: 2}
+  - {fileID: 7400000, guid: eeb5b90392b8548618837e6c5342875e, type: 2}
+  - {fileID: 7400000, guid: a6b9a47e425994d5584ffcb80322079a, type: 2}
+  - {fileID: 7400000, guid: 203580f3cd9a84062a3de7f682e365c3, type: 2}
+  - {fileID: 7400000, guid: a1e38937aa14543fca6690122cc6fe15, type: 2}
+  - {fileID: 7400000, guid: a64cdbb778e5d4731b0acbd7a1763e59, type: 2}
+  - {fileID: 7400000, guid: bf2aa82b7a5c4424e9efc636dc3f78df, type: 2}
+  - {fileID: 7400000, guid: ca61b6bfa26094ec4b73bcc2d6ba1d67, type: 2}
+  - {fileID: 7400000, guid: 7e024dc4e849043c2a5af91c9d6900ed, type: 2}
+  - {fileID: 7400000, guid: f66bc894410ed408aad4354094ae19f4, type: 2}
+  - {fileID: 7400000, guid: a7f6cc295b0e049fe8b693e67ca0f88f, type: 2}
+  - {fileID: 7400000, guid: c6ae3e9ca55e84e4583c9fe13bdc0259, type: 2}
+  - {fileID: 7400000, guid: 536adcde5c5b64f27a17f24136de9e4e, type: 2}
+  - {fileID: 7400000, guid: 2f856b86bc27e4bfa9a9f6cdc5d908d9, type: 2}
+  - {fileID: 7400000, guid: 2105b192d89a5480e80e5a99486a39e4, type: 2}
+  - {fileID: 7400000, guid: 1e5072688f7e345e2a7a77f7941030c6, type: 2}
+  armorModifier: 5
+  damageModifier: 0

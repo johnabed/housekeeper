@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4efee85af8ce43128353ac4ee73df47, type: 3}
+  m_Name: head_male_wizard_hat
+  m_EditorClassIdentifier: 
+  name: Wizard's Hat
+  icon: {fileID: 0}
+  isDefaultItem: 0
+  equipSlot: 0
+  animationClips:
+  - {fileID: 7400000, guid: e4e1e5647c8784f26a8a31cc75ddf0ef, type: 2}
+  - {fileID: 7400000, guid: edf1c73e4d79c44778c698fb7dc63b48, type: 2}
+  - {fileID: 7400000, guid: a56964b1bbda44556a9921ae34d141c3, type: 2}
+  - {fileID: 7400000, guid: 35fa862ad8696442aa19ea63f4a426ac, type: 2}
+  - {fileID: 7400000, guid: 9a730aec23d124bab909037d1ae2b852, type: 2}
+  - {fileID: 7400000, guid: 0e0768717162e42d990a68f255fa9f03, type: 2}
+  - {fileID: 7400000, guid: 7c62a82e82d3f4d6981ebd43687fde91, type: 2}
+  - {fileID: 7400000, guid: bfb9a76efcdbc44e2b4a845ca6bd87c4, type: 2}
+  - {fileID: 7400000, guid: 82e1ddf88b0374434a56c8f389ffd1ef, type: 2}
+  - {fileID: 7400000, guid: 682f83520bf4f4b76b425fe3975af9a0, type: 2}
+  - {fileID: 7400000, guid: 3bad16d82f2754ca29e2f0351e7977e0, type: 2}
+  - {fileID: 7400000, guid: 972f95c7459324c74b878456e6595ece, type: 2}
+  - {fileID: 7400000, guid: be43dc1dc1cda48cca5fec046ba6e714, type: 2}
+  - {fileID: 7400000, guid: db0d81ef4f4a945ea998c3d50b83446d, type: 2}
+  - {fileID: 7400000, guid: be8e6cca1a57e4183bec90c930f61c57, type: 2}
+  - {fileID: 7400000, guid: abb84b748e9474caf8eece75228a60cb, type: 2}
+  - {fileID: 7400000, guid: 26b4bd4d011c9438b842433be797eca0, type: 2}
+  - {fileID: 7400000, guid: 683e80b0842cf40bcbaf4534f531573c, type: 2}
+  - {fileID: 7400000, guid: 3082cf8e4a7694776979c75aa3fa5547, type: 2}
+  - {fileID: 7400000, guid: 119d399e7f2a44308b4085b2ec464ea4, type: 2}
+  - {fileID: 7400000, guid: b973b81cc013e4d4ba61538f38d3aed8, type: 2}
+  - {fileID: 7400000, guid: c19781a6c43af4ef283abceaed4bb228, type: 2}
+  - {fileID: 7400000, guid: e4c03932e7b5b407e926278768233f82, type: 2}
+  - {fileID: 7400000, guid: 39145e75eac1049b7b22455aa0789e4c, type: 2}
+  - {fileID: 7400000, guid: b3d64afcdb86d4c83bf55a580f9a400f, type: 2}
+  armorModifier: 2
+  damageModifier: 0

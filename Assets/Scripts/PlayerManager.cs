@@ -22,9 +22,25 @@ public class PlayerManager : MonoBehaviour
 
     public GameObject player;
 
-    //todo: note that player respawns with no clothing... like the EquipDefault is not running on scene load?
     public void KillPlayer()
     {
+        StartCoroutine(PlayerDeath());
+    }
+    
+    IEnumerator PlayerDeath()
+    {   
+        player.GetComponent<EnemyController>().enabled = false;
+        Animator anim = player.GetComponentInChildren<Animator>();
+        anim.SetFloat("MoveX", 0f);
+        anim.SetFloat("MoveY", 0f);
+        anim.SetBool("IsMoving", false);
+        anim.SetBool("IsAttacking", false);
+        anim.SetFloat("LastMoveX", 0f);
+        anim.SetFloat("LastMoveY", 0f);
+        yield return new WaitForSeconds(0.1f);
+        anim.SetBool("IsDying", true);
+        yield return new WaitForSeconds(1f);
+        
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class EquipmentSocketController : MonoBehaviour
@@ -36,14 +37,16 @@ public class EquipmentSocketController : MonoBehaviour
 
     void OnEquipmentChanged(Equipment newItem, Equipment oldItem)
     {
-        if (newItem != null && newItem.equipSlot == equipSlot 
-                            && newItem.animationClips.Length == animatorOverrideController.overridesCount)
+        if (newItem != null && newItem.equipSlot == equipSlot && newItem.animationClips.Length > 0)
         {
-            overrides = new List<KeyValuePair<AnimationClip, AnimationClip>>(animatorOverrideController.overridesCount);
+            //convert array of clips into dict
+            var animationClipsDict = newItem.animationClips.ToDictionary(item => item.name,
+                item => item);
+            
+            overrides = new List<KeyValuePair<AnimationClip, AnimationClip>>(animatorOverrideController.overridesCount);          
             animatorOverrideController.GetOverrides(overrides);
             for (int i = 0; i < overrides.Count; ++i) {
-                Debug.Log(overrides[i].Key.name + " = " + newItem.animationClips[i].name);
-                overrides[i] = new KeyValuePair<AnimationClip, AnimationClip>(overrides[i].Key, newItem.animationClips[i]);
+                overrides[i] = new KeyValuePair<AnimationClip, AnimationClip>(overrides[i].Key, animationClipsDict[overrides[i].Key.name]);
             }
             animatorOverrideController.ApplyOverrides(overrides);
         }

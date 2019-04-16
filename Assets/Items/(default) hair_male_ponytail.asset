@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4efee85af8ce43128353ac4ee73df47, type: 3}
+  m_Name: (default) hair_male_ponytail
+  m_EditorClassIdentifier: 
+  name: Ponytail
+  icon: {fileID: 0}
+  isDefaultItem: 1
+  equipSlot: 0
+  animationClips:
+  - {fileID: 7400000, guid: ea241d0efbd0f472ca6bab67af3eb331, type: 2}
+  - {fileID: 7400000, guid: 3b6b4208eda2e4da39b6b849873884a4, type: 2}
+  - {fileID: 7400000, guid: 3807a421f065540bcaebca29c284cc74, type: 2}
+  - {fileID: 7400000, guid: 2658da3c82a4a4ec2a3d98e71d4294bc, type: 2}
+  - {fileID: 7400000, guid: 821772f5f03cd4eaab6ea63c87034881, type: 2}
+  - {fileID: 7400000, guid: e9fd59f934ede4fe18e2ee9ee7e19ca6, type: 2}
+  - {fileID: 7400000, guid: 8e72bd4dbc5f24230ac0d86f94e0d0c2, type: 2}
+  - {fileID: 7400000, guid: 43cb1ee1387714896929719f2e30ba51, type: 2}
+  - {fileID: 7400000, guid: dd8e801749f63486aa55784c11dac264, type: 2}
+  - {fileID: 7400000, guid: 94f4a73eeb0dd4fceb344027d78b3f1f, type: 2}
+  - {fileID: 7400000, guid: ebab484ba980540788ed840e31cc826c, type: 2}
+  - {fileID: 7400000, guid: 68308b4cc713b4ca4bf4bdbfc011b411, type: 2}
+  - {fileID: 7400000, guid: 8d443a010047f4740ab92fca28a36e42, type: 2}
+  - {fileID: 7400000, guid: 7cdf426cab245430b95f149b5f47fc65, type: 2}
+  - {fileID: 7400000, guid: a765a19c0268a4997a4142ea18ff4bc1, type: 2}
+  - {fileID: 7400000, guid: 25c84a4d593bc4eb58e1ba5b739821ef, type: 2}
+  - {fileID: 7400000, guid: 20e6e8b14e32c416e802346729f404df, type: 2}
+  - {fileID: 7400000, guid: a3d7586b353024b728965d6da8f21fee, type: 2}
+  - {fileID: 7400000, guid: 2a0c891703fb3406684896c37c39aec9, type: 2}
+  - {fileID: 7400000, guid: 44d20db59e54a4c0d8a838a9d65033e3, type: 2}
+  - {fileID: 7400000, guid: 2a9d6a3f6b4924e718f917eab3b179e9, type: 2}
+  - {fileID: 7400000, guid: 46d371ce2253a445e83d56e1f6586ecf, type: 2}
+  - {fileID: 7400000, guid: c6d5cedf68c5c434ea39317a33ad3ef2, type: 2}
+  - {fileID: 7400000, guid: 2b5f2c3f9077442e1a7e4b21623f9f8e, type: 2}
+  - {fileID: 7400000, guid: 99e075a5b1fe543b78fec80c8c9db56a, type: 2}
+  armorModifier: 0
+  damageModifier: 0

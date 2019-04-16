@@ -116,7 +116,7 @@ public class SpriteAnimator : Editor
             
             AnimationClipSettings animClipSett = new AnimationClipSettings();
             animClipSett.loopTime = true;
-            animClipSett.stopTime = animTrack.Value.Count / frameRate; //todo: this is not fixing the anim freeze
+            animClipSett.stopTime = animTrack.Value.Count / frameRate;
             animClipSett.keepOriginalPositionY = true;
             AnimationUtility.SetAnimationClipSettings(animClip, animClipSett);
             
@@ -128,7 +128,7 @@ public class SpriteAnimator : Editor
             }
             AnimationUtility.SetObjectReferenceCurve(animClip, spriteBinding, spriteKeyFrames);
             
-            AssetDatabase.CreateAsset(animClip, "assets/Resources/Sprites/" + spriteName + "/" + spriteName + "_" + animTrack.Key + ".anim");
+            AssetDatabase.CreateAsset(animClip, "assets/Resources/Sprites/" + spriteName + "/" + animTrack.Key + ".anim");
         }
         
         AssetDatabase.SaveAssets();

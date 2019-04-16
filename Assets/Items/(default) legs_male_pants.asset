@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4efee85af8ce43128353ac4ee73df47, type: 3}
+  m_Name: (default) legs_male_pants
+  m_EditorClassIdentifier: 
+  name: Pants
+  icon: {fileID: 0}
+  isDefaultItem: 1
+  equipSlot: 2
+  animationClips:
+  - {fileID: 7400000, guid: 25b2b9351f8ac4a0aaa56c9bd8cb5bdd, type: 2}
+  - {fileID: 7400000, guid: bd2a34cc21ee64557936f21ed42132c1, type: 2}
+  - {fileID: 7400000, guid: 63864206a40e947de8c4f7c087a62a86, type: 2}
+  - {fileID: 7400000, guid: 289626635b74d4d08b9798b11a6102e5, type: 2}
+  - {fileID: 7400000, guid: 5a0e6792c1bb24880931f259c9952f54, type: 2}
+  - {fileID: 7400000, guid: 2491dcf71356b435983ace2be5750fae, type: 2}
+  - {fileID: 7400000, guid: dbf923c960f7a4f38b854ec1e682ac38, type: 2}
+  - {fileID: 7400000, guid: dc0de0aca33204f6f9e9f636b049dfe2, type: 2}
+  - {fileID: 7400000, guid: a8a43ea302c834a0c95222d310e76a87, type: 2}
+  - {fileID: 7400000, guid: 38ec75fb292cd4e7db52a3f6f9123e16, type: 2}
+  - {fileID: 7400000, guid: df30e8408091c4bc4a3f9d6c7512790c, type: 2}
+  - {fileID: 7400000, guid: 99bd51323ce6b4004b08bc4b6f8bf77c, type: 2}
+  - {fileID: 7400000, guid: 80ad3f10b74ac48b581456cc221cf195, type: 2}
+  - {fileID: 7400000, guid: 0c78e56e1b2324002bc8499ed6a772dd, type: 2}
+  - {fileID: 7400000, guid: 7cea788234ea94539812225f053cad6f, type: 2}
+  - {fileID: 7400000, guid: 4648f19978ef54b91a6b3f91de77fc4c, type: 2}
+  - {fileID: 7400000, guid: 4ff0ee2bc61d04e7cac62532bed5d8ae, type: 2}
+  - {fileID: 7400000, guid: 282fc4f28d9db418f984e0a8fbc29fbf, type: 2}
+  - {fileID: 7400000, guid: 666c7fb9573f941bebef9b5dc7da0b97, type: 2}
+  - {fileID: 7400000, guid: 357a78a8d7a7e403283a7999a2566fbc, type: 2}
+  - {fileID: 7400000, guid: e82776449c7144b5880ee346682f028d, type: 2}
+  - {fileID: 7400000, guid: 25151e74fa5d44803864b05a6651b72f, type: 2}
+  - {fileID: 7400000, guid: 850825ab1b8ca4be880f41b8dca9e331, type: 2}
+  - {fileID: 7400000, guid: f91655c5445f54292b64101c6c0413b9, type: 2}
+  - {fileID: 7400000, guid: affcf290877ea4effa192e133e6907a8, type: 2}
+  armorModifier: 0
+  damageModifier: 0

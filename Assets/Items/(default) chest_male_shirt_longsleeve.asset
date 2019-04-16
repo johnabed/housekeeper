@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4efee85af8ce43128353ac4ee73df47, type: 3}
+  m_Name: (default) chest_male_shirt_longsleeve
+  m_EditorClassIdentifier: 
+  name: Longsleeve Shirt
+  icon: {fileID: 0}
+  isDefaultItem: 1
+  equipSlot: 1
+  animationClips:
+  - {fileID: 7400000, guid: 0ae9b3b7033c74ef689a61cc97c25dff, type: 2}
+  - {fileID: 7400000, guid: 8c1ffb52083b74ad2980d05053603b99, type: 2}
+  - {fileID: 7400000, guid: 1cb7cc3b6e0474d69a3d9ad8c509248c, type: 2}
+  - {fileID: 7400000, guid: 73f4cd61073b544fe98a3cb91e31efc4, type: 2}
+  - {fileID: 7400000, guid: d11c0925d5d1a48c19eaa893dc7a028c, type: 2}
+  - {fileID: 7400000, guid: 0ac38582cabfb4d59adc1828a5e92d96, type: 2}
+  - {fileID: 7400000, guid: a013910328dc74b13aff1097381a68b2, type: 2}
+  - {fileID: 7400000, guid: efc6c66668f4c41048cd80be696c2a7e, type: 2}
+  - {fileID: 7400000, guid: 0c40fce84051b46c8a55601513f6cb94, type: 2}
+  - {fileID: 7400000, guid: d8e9a92c8548842969713005e9cf0520, type: 2}
+  - {fileID: 7400000, guid: efcf0fbb281f44044a51cc427defd40b, type: 2}
+  - {fileID: 7400000, guid: 90fbda7e81c244a46bc53a95c4c4f58f, type: 2}
+  - {fileID: 7400000, guid: c88463e0cc62c40fa89588d7a089060b, type: 2}
+  - {fileID: 7400000, guid: def96399a5e6c4f36b2ee2561f0e28b6, type: 2}
+  - {fileID: 7400000, guid: b87d17f2ea8cf459ab085b74182f95fe, type: 2}
+  - {fileID: 7400000, guid: ce896ac85a49a4f4e9aab185c922ede8, type: 2}
+  - {fileID: 7400000, guid: 606858fb0741448cab7c33d2cc50ce7a, type: 2}
+  - {fileID: 7400000, guid: b63a0d08d03084e2da7f6ffb879ebf0e, type: 2}
+  - {fileID: 7400000, guid: 01f48b97f7dfd426cb69227897e4e538, type: 2}
+  - {fileID: 7400000, guid: 9c1b36ae151b6458e9f204f40b666c41, type: 2}
+  - {fileID: 7400000, guid: 56cb9a84454244848ac1335b013e7a22, type: 2}
+  - {fileID: 7400000, guid: ad47d4c50b3104e078ac394b7b3d7cc5, type: 2}
+  - {fileID: 7400000, guid: 6f7634d4900264247b0a0e7026fc0321, type: 2}
+  - {fileID: 7400000, guid: b57c075b3cd2e44f3a0e7d520b4b3e6c, type: 2}
+  - {fileID: 7400000, guid: 1be09548009d1428183da8bfb61f1ec0, type: 2}
+  armorModifier: 0
+  damageModifier: 0
