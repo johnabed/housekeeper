@@ -4,6 +4,7 @@ using UnityEngine.UI;
 public class EquipmentSlot : MonoBehaviour
 {
     Equipment equipment;
+    public EquipmentType slot;
     public Image icon;
     public Text equipmentName;
     public Button equipmentButton;
@@ -11,7 +12,7 @@ public class EquipmentSlot : MonoBehaviour
     public void AddEquipment (Equipment newItem)
     {
         equipment = newItem;
-        equipmentName.text = equipment.equipSlot.ToString();
+        equipmentName.text = slot.ToString();
         if(!newItem.isDefaultItem)
         {
             equipmentButton.interactable = true;

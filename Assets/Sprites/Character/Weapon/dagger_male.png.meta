@@ -1,363 +1,185 @@
 fileFormatVersion: 2
-guid: 96e73b1c5bfe44f8f832a1cf4a55d8b2
+guid: 1d9cd62991a4fc64a8ea6da6b7707f14
 TextureImporter:
   fileIDToRecycleName:
-    21300000: legs_armor_male_platemail_hu_0
-    21300002: legs_armor_male_platemail_hu_1
-    21300004: legs_armor_male_platemail_hu_2
-    21300006: legs_armor_male_platemail_hu_3
-    21300008: legs_armor_male_platemail_hu_4
-    21300010: legs_armor_male_platemail_hu_5
-    21300012: legs_armor_male_platemail_sh_r_0
-    21300014: legs_armor_male_platemail_sh_r_1
-    21300016: legs_armor_male_platemail_sh_r_2
-    21300018: legs_armor_male_platemail_sh_r_3
-    21300020: legs_armor_male_platemail_sh_r_4
-    21300022: legs_armor_male_platemail_sh_r_5
-    21300024: legs_armor_male_platemail_sh_r_6
-    21300026: legs_armor_male_platemail_sh_r_7
-    21300028: legs_armor_male_platemail_sh_r_8
-    21300030: legs_armor_male_platemail_sh_r_9
-    21300032: legs_armor_male_platemail_sh_r_10
-    21300034: legs_armor_male_platemail_sh_r_11
-    21300036: legs_armor_male_platemail_sh_r_12
-    21300038: legs_armor_male_platemail_sh_d_0
-    21300040: legs_armor_male_platemail_sh_d_1
-    21300042: legs_armor_male_platemail_sh_d_2
-    21300044: legs_armor_male_platemail_sh_d_3
-    21300046: legs_armor_male_platemail_sh_d_4
-    21300048: legs_armor_male_platemail_sh_d_5
-    21300050: legs_armor_male_platemail_sh_d_6
-    21300052: legs_armor_male_platemail_sh_d_7
-    21300054: legs_armor_male_platemail_sh_d_8
-    21300056: legs_armor_male_platemail_sh_d_9
-    21300058: legs_armor_male_platemail_sh_d_10
-    21300060: legs_armor_male_platemail_sh_d_11
-    21300062: legs_armor_male_platemail_sh_d_12
-    21300064: legs_armor_male_platemail_sh_l_0
-    21300066: legs_armor_male_platemail_sh_l_1
-    21300068: legs_armor_male_platemail_sh_l_2
-    21300070: legs_armor_male_platemail_sh_l_3
-    21300072: legs_armor_male_platemail_sh_l_4
-    21300074: legs_armor_male_platemail_sh_l_5
-    21300076: legs_armor_male_platemail_sh_l_6
-    21300078: legs_armor_male_platemail_sh_l_7
-    21300080: legs_armor_male_platemail_sh_l_8
-    21300082: legs_armor_male_platemail_sh_l_9
-    21300084: legs_armor_male_platemail_sh_l_10
-    21300086: legs_armor_male_platemail_sh_l_11
-    21300088: legs_armor_male_platemail_sh_l_12
-    21300090: legs_armor_male_platemail_sh_t_0
-    21300092: legs_armor_male_platemail_sh_t_1
-    21300094: legs_armor_male_platemail_sh_t_2
-    21300096: legs_armor_male_platemail_sh_t_3
-    21300098: legs_armor_male_platemail_sh_t_4
-    21300100: legs_armor_male_platemail_sh_t_5
-    21300102: legs_armor_male_platemail_sh_t_6
-    21300104: legs_armor_male_platemail_sh_t_7
-    21300106: legs_armor_male_platemail_sh_t_8
-    21300108: legs_armor_male_platemail_sh_t_9
-    21300110: legs_armor_male_platemail_sh_t_10
-    21300112: legs_armor_male_platemail_sh_t_11
-    21300114: legs_armor_male_platemail_sh_t_12
-    21300116: legs_armor_male_platemail_sl_r_0
-    21300118: legs_armor_male_platemail_sl_r_1
-    21300120: legs_armor_male_platemail_sl_r_2
-    21300122: legs_armor_male_platemail_sl_r_3
-    21300124: legs_armor_male_platemail_sl_r_4
-    21300126: legs_armor_male_platemail_sl_r_5
-    21300128: legs_armor_male_platemail_sl_d_0
-    21300130: legs_armor_male_platemail_sl_d_1
-    21300132: legs_armor_male_platemail_sl_d_2
-    21300134: legs_armor_male_platemail_sl_d_3
-    21300136: legs_armor_male_platemail_sl_d_4
-    21300138: legs_armor_male_platemail_sl_d_5
-    21300140: legs_armor_male_platemail_sl_l_0
-    21300142: legs_armor_male_platemail_sl_l_1
-    21300144: legs_armor_male_platemail_sl_l_2
-    21300146: legs_armor_male_platemail_sl_l_3
-    21300148: legs_armor_male_platemail_sl_l_4
-    21300150: legs_armor_male_platemail_sl_l_5
-    21300152: legs_armor_male_platemail_sl_t_0
-    21300154: legs_armor_male_platemail_sl_t_1
-    21300156: legs_armor_male_platemail_sl_t_2
-    21300158: legs_armor_male_platemail_sl_t_3
-    21300160: legs_armor_male_platemail_sl_t_4
-    21300162: legs_armor_male_platemail_sl_t_5
-    21300164: legs_armor_male_platemail_wc_r_0
-    21300166: legs_armor_male_platemail_wc_r_1
-    21300168: legs_armor_male_platemail_wc_r_2
-    21300170: legs_armor_male_platemail_wc_r_3
-    21300172: legs_armor_male_platemail_wc_r_4
-    21300174: legs_armor_male_platemail_wc_r_5
-    21300176: legs_armor_male_platemail_wc_r_6
-    21300178: legs_armor_male_platemail_wc_r_7
-    21300180: legs_armor_male_platemail_wc_r_8
-    21300182: legs_armor_male_platemail_wc_d_0
-    21300184: legs_armor_male_platemail_wc_d_1
-    21300186: legs_armor_male_platemail_wc_d_2
-    21300188: legs_armor_male_platemail_wc_d_3
-    21300190: legs_armor_male_platemail_wc_d_4
-    21300192: legs_armor_male_platemail_wc_d_5
-    21300194: legs_armor_male_platemail_wc_d_6
-    21300196: legs_armor_male_platemail_wc_d_7
-    21300198: legs_armor_male_platemail_wc_d_8
-    21300200: legs_armor_male_platemail_wc_l_0
-    21300202: legs_armor_male_platemail_wc_l_1
-    21300204: legs_armor_male_platemail_wc_l_2
-    21300206: legs_armor_male_platemail_wc_l_3
-    21300208: legs_armor_male_platemail_wc_l_4
-    21300210: legs_armor_male_platemail_wc_l_5
-    21300212: legs_armor_male_platemail_wc_l_6
-    21300214: legs_armor_male_platemail_wc_l_7
-    21300216: legs_armor_male_platemail_wc_l_8
-    21300218: legs_armor_male_platemail_wc_t_0
-    21300220: legs_armor_male_platemail_wc_t_1
-    21300222: legs_armor_male_platemail_wc_t_2
-    21300224: legs_armor_male_platemail_wc_t_3
-    21300226: legs_armor_male_platemail_wc_t_4
-    21300228: legs_armor_male_platemail_wc_t_5
-    21300230: legs_armor_male_platemail_wc_t_6
-    21300232: legs_armor_male_platemail_wc_t_7
-    21300234: legs_armor_male_platemail_wc_t_8
-    21300236: legs_armor_male_platemail_th_r_0
-    21300238: legs_armor_male_platemail_th_r_1
-    21300240: legs_armor_male_platemail_th_r_2
-    21300242: legs_armor_male_platemail_th_r_3
-    21300244: legs_armor_male_platemail_th_r_4
-    21300246: legs_armor_male_platemail_th_r_5
-    21300248: legs_armor_male_platemail_th_r_6
-    21300250: legs_armor_male_platemail_th_r_7
-    21300252: legs_armor_male_platemail_th_d_0
-    21300254: legs_armor_male_platemail_th_d_1
-    21300256: legs_armor_male_platemail_th_d_2
-    21300258: legs_armor_male_platemail_th_d_3
-    21300260: legs_armor_male_platemail_th_d_4
-    21300262: legs_armor_male_platemail_th_d_5
-    21300264: legs_armor_male_platemail_th_d_6
-    21300266: legs_armor_male_platemail_th_d_7
-    21300268: legs_armor_male_platemail_th_l_0
-    21300270: legs_armor_male_platemail_th_l_1
-    21300272: legs_armor_male_platemail_th_l_2
-    21300274: legs_armor_male_platemail_th_l_3
-    21300276: legs_armor_male_platemail_th_l_4
-    21300278: legs_armor_male_platemail_th_l_5
-    21300280: legs_armor_male_platemail_th_l_6
-    21300282: legs_armor_male_platemail_th_l_7
-    21300284: legs_armor_male_platemail_th_t_0
-    21300286: legs_armor_male_platemail_th_t_1
-    21300288: legs_armor_male_platemail_th_t_2
-    21300290: legs_armor_male_platemail_th_t_3
-    21300292: legs_armor_male_platemail_th_t_4
-    21300294: legs_armor_male_platemail_th_t_5
-    21300296: legs_armor_male_platemail_th_t_6
-    21300298: legs_armor_male_platemail_th_t_7
-    21300300: legs_armor_male_platemail_sc_r_0
-    21300302: legs_armor_male_platemail_sc_r_1
-    21300304: legs_armor_male_platemail_sc_r_2
-    21300306: legs_armor_male_platemail_sc_r_3
-    21300308: legs_armor_male_platemail_sc_r_4
-    21300310: legs_armor_male_platemail_sc_r_5
-    21300312: legs_armor_male_platemail_sc_r_6
-    21300314: legs_armor_male_platemail_sc_d_0
-    21300316: legs_armor_male_platemail_sc_d_1
-    21300318: legs_armor_male_platemail_sc_d_2
-    21300320: legs_armor_male_platemail_sc_d_3
-    21300322: legs_armor_male_platemail_sc_d_4
-    21300324: legs_armor_male_platemail_sc_d_5
-    21300326: legs_armor_male_platemail_sc_d_6
-    21300328: legs_armor_male_platemail_sc_l_0
-    21300330: legs_armor_male_platemail_sc_l_1
-    21300332: legs_armor_male_platemail_sc_l_2
-    21300334: legs_armor_male_platemail_sc_l_3
-    21300336: legs_armor_male_platemail_sc_l_4
-    21300338: legs_armor_male_platemail_sc_l_5
-    21300340: legs_armor_male_platemail_sc_l_6
-    21300342: legs_armor_male_platemail_sc_t_0
-    21300344: legs_armor_male_platemail_sc_t_1
-    21300346: legs_armor_male_platemail_sc_t_2
-    21300348: legs_armor_male_platemail_sc_t_3
-    21300350: legs_armor_male_platemail_sc_t_4
-    21300352: legs_armor_male_platemail_sc_t_5
-    21300354: legs_armor_male_platemail_sc_t_6
-    21300356: legs_male_platemail_hu_0
-    21300358: legs_male_platemail_hu_1
-    21300360: legs_male_platemail_hu_2
-    21300362: legs_male_platemail_hu_3
-    21300364: legs_male_platemail_hu_4
-    21300366: legs_male_platemail_hu_5
-    21300368: legs_male_platemail_sh_r_0
-    21300370: legs_male_platemail_sh_r_1
-    21300372: legs_male_platemail_sh_r_2
-    21300374: legs_male_platemail_sh_r_3
-    21300376: legs_male_platemail_sh_r_4
-    21300378: legs_male_platemail_sh_r_5
-    21300380: legs_male_platemail_sh_r_6
-    21300382: legs_male_platemail_sh_r_7
-    21300384: legs_male_platemail_sh_r_8
-    21300386: legs_male_platemail_sh_r_9
-    21300388: legs_male_platemail_sh_r_10
-    21300390: legs_male_platemail_sh_r_11
-    21300392: legs_male_platemail_sh_r_12
-    21300394: legs_male_platemail_sh_d_0
-    21300396: legs_male_platemail_sh_d_1
-    21300398: legs_male_platemail_sh_d_2
-    21300400: legs_male_platemail_sh_d_3
-    21300402: legs_male_platemail_sh_d_4
-    21300404: legs_male_platemail_sh_d_5
-    21300406: legs_male_platemail_sh_d_6
-    21300408: legs_male_platemail_sh_d_7
-    21300410: legs_male_platemail_sh_d_8
-    21300412: legs_male_platemail_sh_d_9
-    21300414: legs_male_platemail_sh_d_10
-    21300416: legs_male_platemail_sh_d_11
-    21300418: legs_male_platemail_sh_d_12
-    21300420: legs_male_platemail_sh_l_0
-    21300422: legs_male_platemail_sh_l_1
-    21300424: legs_male_platemail_sh_l_2
-    21300426: legs_male_platemail_sh_l_3
-    21300428: legs_male_platemail_sh_l_4
-    21300430: legs_male_platemail_sh_l_5
-    21300432: legs_male_platemail_sh_l_6
-    21300434: legs_male_platemail_sh_l_7
-    21300436: legs_male_platemail_sh_l_8
-    21300438: legs_male_platemail_sh_l_9
-    21300440: legs_male_platemail_sh_l_10
-    21300442: legs_male_platemail_sh_l_11
-    21300444: legs_male_platemail_sh_l_12
-    21300446: legs_male_platemail_sh_t_0
-    21300448: legs_male_platemail_sh_t_1
-    21300450: legs_male_platemail_sh_t_2
-    21300452: legs_male_platemail_sh_t_3
-    21300454: legs_male_platemail_sh_t_4
-    21300456: legs_male_platemail_sh_t_5
-    21300458: legs_male_platemail_sh_t_6
-    21300460: legs_male_platemail_sh_t_7
-    21300462: legs_male_platemail_sh_t_8
-    21300464: legs_male_platemail_sh_t_9
-    21300466: legs_male_platemail_sh_t_10
-    21300468: legs_male_platemail_sh_t_11
-    21300470: legs_male_platemail_sh_t_12
-    21300472: legs_male_platemail_sl_r_0
-    21300474: legs_male_platemail_sl_r_1
-    21300476: legs_male_platemail_sl_r_2
-    21300478: legs_male_platemail_sl_r_3
-    21300480: legs_male_platemail_sl_r_4
-    21300482: legs_male_platemail_sl_r_5
-    21300484: legs_male_platemail_sl_d_0
-    21300486: legs_male_platemail_sl_d_1
-    21300488: legs_male_platemail_sl_d_2
-    21300490: legs_male_platemail_sl_d_3
-    21300492: legs_male_platemail_sl_d_4
-    21300494: legs_male_platemail_sl_d_5
-    21300496: legs_male_platemail_sl_l_0
-    21300498: legs_male_platemail_sl_l_1
-    21300500: legs_male_platemail_sl_l_2
-    21300502: legs_male_platemail_sl_l_3
-    21300504: legs_male_platemail_sl_l_4
-    21300506: legs_male_platemail_sl_l_5
-    21300508: legs_male_platemail_sl_t_0
-    21300510: legs_male_platemail_sl_t_1
-    21300512: legs_male_platemail_sl_t_2
-    21300514: legs_male_platemail_sl_t_3
-    21300516: legs_male_platemail_sl_t_4
-    21300518: legs_male_platemail_sl_t_5
-    21300520: legs_male_platemail_wc_r_0
-    21300522: legs_male_platemail_wc_r_1
-    21300524: legs_male_platemail_wc_r_2
-    21300526: legs_male_platemail_wc_r_3
-    21300528: legs_male_platemail_wc_r_4
-    21300530: legs_male_platemail_wc_r_5
-    21300532: legs_male_platemail_wc_r_6
-    21300534: legs_male_platemail_wc_r_7
-    21300536: legs_male_platemail_wc_r_8
-    21300538: legs_male_platemail_wc_d_0
-    21300540: legs_male_platemail_wc_d_1
-    21300542: legs_male_platemail_wc_d_2
-    21300544: legs_male_platemail_wc_d_3
-    21300546: legs_male_platemail_wc_d_4
-    21300548: legs_male_platemail_wc_d_5
-    21300550: legs_male_platemail_wc_d_6
-    21300552: legs_male_platemail_wc_d_7
-    21300554: legs_male_platemail_wc_d_8
-    21300556: legs_male_platemail_wc_l_0
-    21300558: legs_male_platemail_wc_l_1
-    21300560: legs_male_platemail_wc_l_2
-    21300562: legs_male_platemail_wc_l_3
-    21300564: legs_male_platemail_wc_l_4
-    21300566: legs_male_platemail_wc_l_5
-    21300568: legs_male_platemail_wc_l_6
-    21300570: legs_male_platemail_wc_l_7
-    21300572: legs_male_platemail_wc_l_8
-    21300574: legs_male_platemail_wc_t_0
-    21300576: legs_male_platemail_wc_t_1
-    21300578: legs_male_platemail_wc_t_2
-    21300580: legs_male_platemail_wc_t_3
-    21300582: legs_male_platemail_wc_t_4
-    21300584: legs_male_platemail_wc_t_5
-    21300586: legs_male_platemail_wc_t_6
-    21300588: legs_male_platemail_wc_t_7
-    21300590: legs_male_platemail_wc_t_8
-    21300592: legs_male_platemail_th_r_0
-    21300594: legs_male_platemail_th_r_1
-    21300596: legs_male_platemail_th_r_2
-    21300598: legs_male_platemail_th_r_3
-    21300600: legs_male_platemail_th_r_4
-    21300602: legs_male_platemail_th_r_5
-    21300604: legs_male_platemail_th_r_6
-    21300606: legs_male_platemail_th_r_7
-    21300608: legs_male_platemail_th_d_0
-    21300610: legs_male_platemail_th_d_1
-    21300612: legs_male_platemail_th_d_2
-    21300614: legs_male_platemail_th_d_3
-    21300616: legs_male_platemail_th_d_4
-    21300618: legs_male_platemail_th_d_5
-    21300620: legs_male_platemail_th_d_6
-    21300622: legs_male_platemail_th_d_7
-    21300624: legs_male_platemail_th_l_0
-    21300626: legs_male_platemail_th_l_1
-    21300628: legs_male_platemail_th_l_2
-    21300630: legs_male_platemail_th_l_3
-    21300632: legs_male_platemail_th_l_4
-    21300634: legs_male_platemail_th_l_5
-    21300636: legs_male_platemail_th_l_6
-    21300638: legs_male_platemail_th_l_7
-    21300640: legs_male_platemail_th_t_0
-    21300642: legs_male_platemail_th_t_1
-    21300644: legs_male_platemail_th_t_2
-    21300646: legs_male_platemail_th_t_3
-    21300648: legs_male_platemail_th_t_4
-    21300650: legs_male_platemail_th_t_5
-    21300652: legs_male_platemail_th_t_6
-    21300654: legs_male_platemail_th_t_7
-    21300656: legs_male_platemail_sc_r_0
-    21300658: legs_male_platemail_sc_r_1
-    21300660: legs_male_platemail_sc_r_2
-    21300662: legs_male_platemail_sc_r_3
-    21300664: legs_male_platemail_sc_r_4
-    21300666: legs_male_platemail_sc_r_5
-    21300668: legs_male_platemail_sc_r_6
-    21300670: legs_male_platemail_sc_d_0
-    21300672: legs_male_platemail_sc_d_1
-    21300674: legs_male_platemail_sc_d_2
-    21300676: legs_male_platemail_sc_d_3
-    21300678: legs_male_platemail_sc_d_4
-    21300680: legs_male_platemail_sc_d_5
-    21300682: legs_male_platemail_sc_d_6
-    21300684: legs_male_platemail_sc_l_0
-    21300686: legs_male_platemail_sc_l_1
-    21300688: legs_male_platemail_sc_l_2
-    21300690: legs_male_platemail_sc_l_3
-    21300692: legs_male_platemail_sc_l_4
-    21300694: legs_male_platemail_sc_l_5
-    21300696: legs_male_platemail_sc_l_6
-    21300698: legs_male_platemail_sc_t_0
-    21300700: legs_male_platemail_sc_t_1
-    21300702: legs_male_platemail_sc_t_2
-    21300704: legs_male_platemail_sc_t_3
-    21300706: legs_male_platemail_sc_t_4
-    21300708: legs_male_platemail_sc_t_5
-    21300710: legs_male_platemail_sc_t_6
+    21300000: righthand_male_dagger_male_hu_0
+    21300002: righthand_male_dagger_male_hu_1
+    21300004: righthand_male_dagger_male_hu_2
+    21300006: righthand_male_dagger_male_hu_3
+    21300008: righthand_male_dagger_male_hu_4
+    21300010: righthand_male_dagger_male_hu_5
+    21300012: righthand_male_dagger_male_sh_r_0
+    21300014: righthand_male_dagger_male_sh_r_1
+    21300016: righthand_male_dagger_male_sh_r_2
+    21300018: righthand_male_dagger_male_sh_r_3
+    21300020: righthand_male_dagger_male_sh_r_4
+    21300022: righthand_male_dagger_male_sh_r_5
+    21300024: righthand_male_dagger_male_sh_r_6
+    21300026: righthand_male_dagger_male_sh_r_7
+    21300028: righthand_male_dagger_male_sh_r_8
+    21300030: righthand_male_dagger_male_sh_r_9
+    21300032: righthand_male_dagger_male_sh_r_10
+    21300034: righthand_male_dagger_male_sh_r_11
+    21300036: righthand_male_dagger_male_sh_r_12
+    21300038: righthand_male_dagger_male_sh_d_0
+    21300040: righthand_male_dagger_male_sh_d_1
+    21300042: righthand_male_dagger_male_sh_d_2
+    21300044: righthand_male_dagger_male_sh_d_3
+    21300046: righthand_male_dagger_male_sh_d_4
+    21300048: righthand_male_dagger_male_sh_d_5
+    21300050: righthand_male_dagger_male_sh_d_6
+    21300052: righthand_male_dagger_male_sh_d_7
+    21300054: righthand_male_dagger_male_sh_d_8
+    21300056: righthand_male_dagger_male_sh_d_9
+    21300058: righthand_male_dagger_male_sh_d_10
+    21300060: righthand_male_dagger_male_sh_d_11
+    21300062: righthand_male_dagger_male_sh_d_12
+    21300064: righthand_male_dagger_male_sh_l_0
+    21300066: righthand_male_dagger_male_sh_l_1
+    21300068: righthand_male_dagger_male_sh_l_2
+    21300070: righthand_male_dagger_male_sh_l_3
+    21300072: righthand_male_dagger_male_sh_l_4
+    21300074: righthand_male_dagger_male_sh_l_5
+    21300076: righthand_male_dagger_male_sh_l_6
+    21300078: righthand_male_dagger_male_sh_l_7
+    21300080: righthand_male_dagger_male_sh_l_8
+    21300082: righthand_male_dagger_male_sh_l_9
+    21300084: righthand_male_dagger_male_sh_l_10
+    21300086: righthand_male_dagger_male_sh_l_11
+    21300088: righthand_male_dagger_male_sh_l_12
+    21300090: righthand_male_dagger_male_sh_t_0
+    21300092: righthand_male_dagger_male_sh_t_1
+    21300094: righthand_male_dagger_male_sh_t_2
+    21300096: righthand_male_dagger_male_sh_t_3
+    21300098: righthand_male_dagger_male_sh_t_4
+    21300100: righthand_male_dagger_male_sh_t_5
+    21300102: righthand_male_dagger_male_sh_t_6
+    21300104: righthand_male_dagger_male_sh_t_7
+    21300106: righthand_male_dagger_male_sh_t_8
+    21300108: righthand_male_dagger_male_sh_t_9
+    21300110: righthand_male_dagger_male_sh_t_10
+    21300112: righthand_male_dagger_male_sh_t_11
+    21300114: righthand_male_dagger_male_sh_t_12
+    21300116: righthand_male_dagger_male_sl_r_0
+    21300118: righthand_male_dagger_male_sl_r_1
+    21300120: righthand_male_dagger_male_sl_r_2
+    21300122: righthand_male_dagger_male_sl_r_3
+    21300124: righthand_male_dagger_male_sl_r_4
+    21300126: righthand_male_dagger_male_sl_r_5
+    21300128: righthand_male_dagger_male_sl_d_0
+    21300130: righthand_male_dagger_male_sl_d_1
+    21300132: righthand_male_dagger_male_sl_d_2
+    21300134: righthand_male_dagger_male_sl_d_3
+    21300136: righthand_male_dagger_male_sl_d_4
+    21300138: righthand_male_dagger_male_sl_d_5
+    21300140: righthand_male_dagger_male_sl_l_0
+    21300142: righthand_male_dagger_male_sl_l_1
+    21300144: righthand_male_dagger_male_sl_l_2
+    21300146: righthand_male_dagger_male_sl_l_3
+    21300148: righthand_male_dagger_male_sl_l_4
+    21300150: righthand_male_dagger_male_sl_l_5
+    21300152: righthand_male_dagger_male_sl_t_0
+    21300154: righthand_male_dagger_male_sl_t_1
+    21300156: righthand_male_dagger_male_sl_t_2
+    21300158: righthand_male_dagger_male_sl_t_3
+    21300160: righthand_male_dagger_male_sl_t_4
+    21300162: righthand_male_dagger_male_sl_t_5
+    21300164: righthand_male_dagger_male_wc_r_0
+    21300166: righthand_male_dagger_male_wc_r_1
+    21300168: righthand_male_dagger_male_wc_r_2
+    21300170: righthand_male_dagger_male_wc_r_3
+    21300172: righthand_male_dagger_male_wc_r_4
+    21300174: righthand_male_dagger_male_wc_r_5
+    21300176: righthand_male_dagger_male_wc_r_6
+    21300178: righthand_male_dagger_male_wc_r_7
+    21300180: righthand_male_dagger_male_wc_r_8
+    21300182: righthand_male_dagger_male_wc_d_0
+    21300184: righthand_male_dagger_male_wc_d_1
+    21300186: righthand_male_dagger_male_wc_d_2
+    21300188: righthand_male_dagger_male_wc_d_3
+    21300190: righthand_male_dagger_male_wc_d_4
+    21300192: righthand_male_dagger_male_wc_d_5
+    21300194: righthand_male_dagger_male_wc_d_6
+    21300196: righthand_male_dagger_male_wc_d_7
+    21300198: righthand_male_dagger_male_wc_d_8
+    21300200: righthand_male_dagger_male_wc_l_0
+    21300202: righthand_male_dagger_male_wc_l_1
+    21300204: righthand_male_dagger_male_wc_l_2
+    21300206: righthand_male_dagger_male_wc_l_3
+    21300208: righthand_male_dagger_male_wc_l_4
+    21300210: righthand_male_dagger_male_wc_l_5
+    21300212: righthand_male_dagger_male_wc_l_6
+    21300214: righthand_male_dagger_male_wc_l_7
+    21300216: righthand_male_dagger_male_wc_l_8
+    21300218: righthand_male_dagger_male_wc_t_0
+    21300220: righthand_male_dagger_male_wc_t_1
+    21300222: righthand_male_dagger_male_wc_t_2
+    21300224: righthand_male_dagger_male_wc_t_3
+    21300226: righthand_male_dagger_male_wc_t_4
+    21300228: righthand_male_dagger_male_wc_t_5
+    21300230: righthand_male_dagger_male_wc_t_6
+    21300232: righthand_male_dagger_male_wc_t_7
+    21300234: righthand_male_dagger_male_wc_t_8
+    21300236: righthand_male_dagger_male_th_r_0
+    21300238: righthand_male_dagger_male_th_r_1
+    21300240: righthand_male_dagger_male_th_r_2
+    21300242: righthand_male_dagger_male_th_r_3
+    21300244: righthand_male_dagger_male_th_r_4
+    21300246: righthand_male_dagger_male_th_r_5
+    21300248: righthand_male_dagger_male_th_r_6
+    21300250: righthand_male_dagger_male_th_r_7
+    21300252: righthand_male_dagger_male_th_d_0
+    21300254: righthand_male_dagger_male_th_d_1
+    21300256: righthand_male_dagger_male_th_d_2
+    21300258: righthand_male_dagger_male_th_d_3
+    21300260: righthand_male_dagger_male_th_d_4
+    21300262: righthand_male_dagger_male_th_d_5
+    21300264: righthand_male_dagger_male_th_d_6
+    21300266: righthand_male_dagger_male_th_d_7
+    21300268: righthand_male_dagger_male_th_l_0
+    21300270: righthand_male_dagger_male_th_l_1
+    21300272: righthand_male_dagger_male_th_l_2
+    21300274: righthand_male_dagger_male_th_l_3
+    21300276: righthand_male_dagger_male_th_l_4
+    21300278: righthand_male_dagger_male_th_l_5
+    21300280: righthand_male_dagger_male_th_l_6
+    21300282: righthand_male_dagger_male_th_l_7
+    21300284: righthand_male_dagger_male_th_t_0
+    21300286: righthand_male_dagger_male_th_t_1
+    21300288: righthand_male_dagger_male_th_t_2
+    21300290: righthand_male_dagger_male_th_t_3
+    21300292: righthand_male_dagger_male_th_t_4
+    21300294: righthand_male_dagger_male_th_t_5
+    21300296: righthand_male_dagger_male_th_t_6
+    21300298: righthand_male_dagger_male_th_t_7
+    21300300: righthand_male_dagger_male_sc_r_0
+    21300302: righthand_male_dagger_male_sc_r_1
+    21300304: righthand_male_dagger_male_sc_r_2
+    21300306: righthand_male_dagger_male_sc_r_3
+    21300308: righthand_male_dagger_male_sc_r_4
+    21300310: righthand_male_dagger_male_sc_r_5
+    21300312: righthand_male_dagger_male_sc_r_6
+    21300314: righthand_male_dagger_male_sc_d_0
+    21300316: righthand_male_dagger_male_sc_d_1
+    21300318: righthand_male_dagger_male_sc_d_2
+    21300320: righthand_male_dagger_male_sc_d_3
+    21300322: righthand_male_dagger_male_sc_d_4
+    21300324: righthand_male_dagger_male_sc_d_5
+    21300326: righthand_male_dagger_male_sc_d_6
+    21300328: righthand_male_dagger_male_sc_l_0
+    21300330: righthand_male_dagger_male_sc_l_1
+    21300332: righthand_male_dagger_male_sc_l_2
+    21300334: righthand_male_dagger_male_sc_l_3
+    21300336: righthand_male_dagger_male_sc_l_4
+    21300338: righthand_male_dagger_male_sc_l_5
+    21300340: righthand_male_dagger_male_sc_l_6
+    21300342: righthand_male_dagger_male_sc_t_0
+    21300344: righthand_male_dagger_male_sc_t_1
+    21300346: righthand_male_dagger_male_sc_t_2
+    21300348: righthand_male_dagger_male_sc_t_3
+    21300350: righthand_male_dagger_male_sc_t_4
+    21300352: righthand_male_dagger_male_sc_t_5
+    21300354: righthand_male_dagger_male_sc_t_6
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -440,7 +262,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: legs_male_platemail_hu_0
+      name: righthand_male_dagger_male_hu_0
       rect:
         serializedVersion: 2
         x: 0
@@ -454,13 +276,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 59bf76435141943f48e3ee65a1274a79
+      spriteID: 2aa2557ebc02e438d92618ed48103be8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_hu_1
+      name: righthand_male_dagger_male_hu_1
       rect:
         serializedVersion: 2
         x: 64
@@ -474,13 +296,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 213262ad80c074a64b73672d76ad1824
+      spriteID: 70cd50530e6ce4f369a46bf094f09f37
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_hu_2
+      name: righthand_male_dagger_male_hu_2
       rect:
         serializedVersion: 2
         x: 128
@@ -494,13 +316,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c5c5885cdab394c1db092c78db9b3e08
+      spriteID: af9cc440ebd91418fab23fe4326eb34f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_hu_3
+      name: righthand_male_dagger_male_hu_3
       rect:
         serializedVersion: 2
         x: 192
@@ -514,13 +336,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a11b3af9f88de46f2a4795bcdb7f65e7
+      spriteID: a2887cee31b9042aa867f000f9972585
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_hu_4
+      name: righthand_male_dagger_male_hu_4
       rect:
         serializedVersion: 2
         x: 256
@@ -534,13 +356,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d2baadb3018a34731bbebe5991320825
+      spriteID: 9f148fd11641442dba9a4a7f0944e4c9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_hu_5
+      name: righthand_male_dagger_male_hu_5
       rect:
         serializedVersion: 2
         x: 320
@@ -554,13 +376,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8a02db11e9044489a8f140ea5532b4d8
+      spriteID: 8ac77598325544a44a6fa0f72dc3b348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_r_0
+      name: righthand_male_dagger_male_sh_r_0
       rect:
         serializedVersion: 2
         x: 0
@@ -574,13 +396,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7fecf56bbfa8047689fa691493a66361
+      spriteID: b881a4c5b82be4898a6eff92fc229f3e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_r_1
+      name: righthand_male_dagger_male_sh_r_1
       rect:
         serializedVersion: 2
         x: 64
@@ -594,13 +416,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d43c559ecf3a44a18ba82fd962045ab5
+      spriteID: 91be672435f894f72b7c64f14f7bb908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_r_2
+      name: righthand_male_dagger_male_sh_r_2
       rect:
         serializedVersion: 2
         x: 128
@@ -614,13 +436,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 07ef1913fb0254ad5a1406bf3bec877a
+      spriteID: 84f83889d3fee4aca8fdff99ff467638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_r_3
+      name: righthand_male_dagger_male_sh_r_3
       rect:
         serializedVersion: 2
         x: 192
@@ -634,13 +456,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6802289f6f5b644acaa5a0d6ccbac52c
+      spriteID: acecb1eb944a64646a99dc8fa21c6962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_r_4
+      name: righthand_male_dagger_male_sh_r_4
       rect:
         serializedVersion: 2
         x: 256
@@ -654,13 +476,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 989b5ada84fcf4ad6bcae9bc7664982d
+      spriteID: 1e50651cefa9944f19193808f2fdb3ff
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_r_5
+      name: righthand_male_dagger_male_sh_r_5
       rect:
         serializedVersion: 2
         x: 320
@@ -674,13 +496,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d6f6e3375a6b4664b2f5d1badca1ad5
+      spriteID: 4966db8c05fbb45c78d2b97eedbbba75
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_r_6
+      name: righthand_male_dagger_male_sh_r_6
       rect:
         serializedVersion: 2
         x: 384
@@ -694,13 +516,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 45c0b301f00a1419488c373746f18dd0
+      spriteID: 2ed384eadeb72436b9dabab922d6b4d1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_r_7
+      name: righthand_male_dagger_male_sh_r_7
       rect:
         serializedVersion: 2
         x: 448
@@ -714,13 +536,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 11a4f245e6808436793fa3aadbda9540
+      spriteID: 02700e40c2e1947d59bc22fd743e8606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_r_8
+      name: righthand_male_dagger_male_sh_r_8
       rect:
         serializedVersion: 2
         x: 512
@@ -734,13 +556,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f65ec4e348234a6cbe992ec120f601c
+      spriteID: ccce51ade85854ca69b2cca9e1227e9d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_r_9
+      name: righthand_male_dagger_male_sh_r_9
       rect:
         serializedVersion: 2
         x: 576
@@ -754,13 +576,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d98f4a7c7e04b4f8eb14209fee18140f
+      spriteID: ed25a2fbbaaa6469a97afd6cd75aae0d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_r_10
+      name: righthand_male_dagger_male_sh_r_10
       rect:
         serializedVersion: 2
         x: 640
@@ -774,13 +596,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b96a54d7a0932477889d33b1f997cbae
+      spriteID: 536ecc55ab1da4681878ac39581b941f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_r_11
+      name: righthand_male_dagger_male_sh_r_11
       rect:
         serializedVersion: 2
         x: 704
@@ -794,13 +616,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d7f9835b1dcfd463d916cfd793d6f8cb
+      spriteID: ad72c724d70a04fc58ad1c4c8993c811
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_r_12
+      name: righthand_male_dagger_male_sh_r_12
       rect:
         serializedVersion: 2
         x: 768
@@ -814,13 +636,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20c014390f4ac446c9bbb02edd7462aa
+      spriteID: 202721549b7934afaad1940f82ad2cf8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_d_0
+      name: righthand_male_dagger_male_sh_d_0
       rect:
         serializedVersion: 2
         x: 0
@@ -834,13 +656,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f38151a5263254fe7bb730badc8e4960
+      spriteID: a1296e1dfa2f64f089031fdb7ff8b3b9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_d_1
+      name: righthand_male_dagger_male_sh_d_1
       rect:
         serializedVersion: 2
         x: 64
@@ -854,13 +676,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: edfb8718aca014edd9019b0f4cc696e1
+      spriteID: 562cb86d67f7240fb8fdec13566c8c9f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_d_2
+      name: righthand_male_dagger_male_sh_d_2
       rect:
         serializedVersion: 2
         x: 128
@@ -874,13 +696,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dde4cbb53d9ae4c82bf31cda235b19d7
+      spriteID: 5711995b4027d4a2384ea63102acd094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_d_3
+      name: righthand_male_dagger_male_sh_d_3
       rect:
         serializedVersion: 2
         x: 192
@@ -894,13 +716,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f9ce4acc4bb041569eb3a960aafe151
+      spriteID: 6a2d9e5d824f14594aa30dba2d1c23b6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_d_4
+      name: righthand_male_dagger_male_sh_d_4
       rect:
         serializedVersion: 2
         x: 256
@@ -914,13 +736,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 80e55a8c22d7c4cd685619004885ed02
+      spriteID: c146410fe88544d67895e855b618270c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_d_5
+      name: righthand_male_dagger_male_sh_d_5
       rect:
         serializedVersion: 2
         x: 320
@@ -934,13 +756,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 911ddeca0dccc4c03b5f2bbe8b5fa0b0
+      spriteID: 9faaec7a99121459e8eaae6c8cbb67ca
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_d_6
+      name: righthand_male_dagger_male_sh_d_6
       rect:
         serializedVersion: 2
         x: 384
@@ -954,13 +776,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bde17bda4dda04db09271bf8b5950c82
+      spriteID: 8a5be57ebb0134a369ffe7db729825de
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_d_7
+      name: righthand_male_dagger_male_sh_d_7
       rect:
         serializedVersion: 2
         x: 448
@@ -974,13 +796,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1798b6919187e4fa0a9d40d71021b7bd
+      spriteID: c95c4a836b58141fb930fb8dbdcab439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_d_8
+      name: righthand_male_dagger_male_sh_d_8
       rect:
         serializedVersion: 2
         x: 512
@@ -994,13 +816,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0bbb73949fdf248208ce4137bc0141bf
+      spriteID: 02717cc009c1c4ed78b595cf8209e6e1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_d_9
+      name: righthand_male_dagger_male_sh_d_9
       rect:
         serializedVersion: 2
         x: 576
@@ -1014,13 +836,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fecb5ad522dd145fca57378cc7daabee
+      spriteID: 0c923166725a149fabd2947daa20ff52
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_d_10
+      name: righthand_male_dagger_male_sh_d_10
       rect:
         serializedVersion: 2
         x: 640
@@ -1034,13 +856,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f7814e516cda14ebaad35af43c6a6942
+      spriteID: b0f98f01c39e546c6a86db647773581b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_d_11
+      name: righthand_male_dagger_male_sh_d_11
       rect:
         serializedVersion: 2
         x: 704
@@ -1054,13 +876,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a11d8ad6ae201487fafb37117945603b
+      spriteID: 9da5a1bc5be42460ca9e0e0d90d87778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_d_12
+      name: righthand_male_dagger_male_sh_d_12
       rect:
         serializedVersion: 2
         x: 768
@@ -1074,13 +896,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4dbde7a2a178b486da131d1fce046911
+      spriteID: 1e27b0a5d434042c78db08775577d535
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_l_0
+      name: righthand_male_dagger_male_sh_l_0
       rect:
         serializedVersion: 2
         x: 0
@@ -1094,13 +916,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad517fb9b515d4d63b3f09cf0578ce66
+      spriteID: 2243b455d080049c6bf6e58f23c8f703
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_l_1
+      name: righthand_male_dagger_male_sh_l_1
       rect:
         serializedVersion: 2
         x: 64
@@ -1114,13 +936,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5c80d39e8212b49b39f805cbd10cbc44
+      spriteID: 82e5524afa3154324a4c06a0b8252110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_l_2
+      name: righthand_male_dagger_male_sh_l_2
       rect:
         serializedVersion: 2
         x: 128
@@ -1134,13 +956,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 07299b611088c4d98a0ddbe41069f647
+      spriteID: dd95e242a7c8944a1ac6bbbd21689e4a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_l_3
+      name: righthand_male_dagger_male_sh_l_3
       rect:
         serializedVersion: 2
         x: 192
@@ -1154,13 +976,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a3500feda9eed4c268271ed9ac9adf69
+      spriteID: d88c2731d87a847119545dd0c0e52a5f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_l_4
+      name: righthand_male_dagger_male_sh_l_4
       rect:
         serializedVersion: 2
         x: 256
@@ -1174,13 +996,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 270a75e063a9d48549a460636177ac5a
+      spriteID: 728dbc2436057408285b997089d58507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_l_5
+      name: righthand_male_dagger_male_sh_l_5
       rect:
         serializedVersion: 2
         x: 320
@@ -1194,13 +1016,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b1d38994331c4861a71b487962114c0
+      spriteID: 334793df0687b42aa8e4a4f6da232d10
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_l_6
+      name: righthand_male_dagger_male_sh_l_6
       rect:
         serializedVersion: 2
         x: 384
@@ -1214,13 +1036,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4fba69a6413954b7ba13ecba1d9a604a
+      spriteID: ea70e1174ed0c4ef7b7cf3de11a5ff0d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_l_7
+      name: righthand_male_dagger_male_sh_l_7
       rect:
         serializedVersion: 2
         x: 448
@@ -1234,13 +1056,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4d2932b4d114d4d8184f79d598b97435
+      spriteID: b4cbaffb1396c452c856a38812c80848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_l_8
+      name: righthand_male_dagger_male_sh_l_8
       rect:
         serializedVersion: 2
         x: 512
@@ -1254,13 +1076,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: feebdb0d95c914885894e51bcddfb16c
+      spriteID: 7e11fc231e04e453bb316882ea34d03e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_l_9
+      name: righthand_male_dagger_male_sh_l_9
       rect:
         serializedVersion: 2
         x: 576
@@ -1274,13 +1096,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4d8b39a0d0d3f4855b35b2e1fdb24b02
+      spriteID: 50c79dd709f7644b780ba38f3282687c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_l_10
+      name: righthand_male_dagger_male_sh_l_10
       rect:
         serializedVersion: 2
         x: 640
@@ -1294,13 +1116,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 41ca2ea3f35fb48d6b9f3e1f48fe139e
+      spriteID: f50b908e22a6b4c25860b970723ce54b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_l_11
+      name: righthand_male_dagger_male_sh_l_11
       rect:
         serializedVersion: 2
         x: 704
@@ -1314,13 +1136,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e9cb72860dd0349288e439ba4e116feb
+      spriteID: 4d46e8186efaa46b8aa34e3e2eed4127
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_l_12
+      name: righthand_male_dagger_male_sh_l_12
       rect:
         serializedVersion: 2
         x: 768
@@ -1334,13 +1156,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 470e547167763459b8c1dce79cc8ec79
+      spriteID: 3b8611bfbb527431aa1481886b66a5c1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_t_0
+      name: righthand_male_dagger_male_sh_t_0
       rect:
         serializedVersion: 2
         x: 0
@@ -1354,13 +1176,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ee6ff95bff9643f0a6ddfed828073e8
+      spriteID: 7413789fc0561451aae653ec8f7eca94
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_t_1
+      name: righthand_male_dagger_male_sh_t_1
       rect:
         serializedVersion: 2
         x: 64
@@ -1374,13 +1196,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 50cadc1a47c1e48ba9e30971bf0237a7
+      spriteID: 4f8bdc283d6634c69807c6da6f091bbe
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_t_2
+      name: righthand_male_dagger_male_sh_t_2
       rect:
         serializedVersion: 2
         x: 128
@@ -1394,13 +1216,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5b58c72dda22346e4b20ccc914f511ad
+      spriteID: be2616abdd9274f93a12eb8b53d13804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_t_3
+      name: righthand_male_dagger_male_sh_t_3
       rect:
         serializedVersion: 2
         x: 192
@@ -1414,13 +1236,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f7da8fef8740418aa98d35a8c234c31
+      spriteID: 89a38d75ee86445b381894b217eb2cce
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_t_4
+      name: righthand_male_dagger_male_sh_t_4
       rect:
         serializedVersion: 2
         x: 256
@@ -1434,13 +1256,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5bad957be6b61455785c8942a9b4d38c
+      spriteID: dd2d2d596ce3540a4a3c24f0acb87a4c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_t_5
+      name: righthand_male_dagger_male_sh_t_5
       rect:
         serializedVersion: 2
         x: 320
@@ -1454,13 +1276,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e1f83f93cf2874e5097039605d0ebee4
+      spriteID: 7a8103516ee6a457a88f02c7aa51d1ee
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_t_6
+      name: righthand_male_dagger_male_sh_t_6
       rect:
         serializedVersion: 2
         x: 384
@@ -1474,13 +1296,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b10a344dc011425fb135f766f138b06
+      spriteID: df7005a6e1b0f41c3b8ca82b0fe461f5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_t_7
+      name: righthand_male_dagger_male_sh_t_7
       rect:
         serializedVersion: 2
         x: 448
@@ -1494,13 +1316,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0db4c8e8178634073b675f25e8716b36
+      spriteID: c11437689730c4c749bae7a1d06d3a89
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_t_8
+      name: righthand_male_dagger_male_sh_t_8
       rect:
         serializedVersion: 2
         x: 512
@@ -1514,13 +1336,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c81f59e2bda1f41cdbc3cdf101d33534
+      spriteID: c2242a2068e814be49fcf404796a9146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_t_9
+      name: righthand_male_dagger_male_sh_t_9
       rect:
         serializedVersion: 2
         x: 576
@@ -1534,13 +1356,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 81075f55b044c4e53afd6d790794bc5c
+      spriteID: 35f583a68b8e04b66832b6bf1a07dff5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_t_10
+      name: righthand_male_dagger_male_sh_t_10
       rect:
         serializedVersion: 2
         x: 640
@@ -1554,13 +1376,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 69c6efd4ea8524162b982f5c2f6f8190
+      spriteID: d425d9524fbfc4c74b5bb3e549614121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_t_11
+      name: righthand_male_dagger_male_sh_t_11
       rect:
         serializedVersion: 2
         x: 704
@@ -1574,13 +1396,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f790ce3322095427b9090be00ab7957f
+      spriteID: bb0d2ea8d41e84200a093fa39702613e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_t_12
+      name: righthand_male_dagger_male_sh_t_12
       rect:
         serializedVersion: 2
         x: 768
@@ -1594,13 +1416,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3587488da09c140118e7ccc0399bd87a
+      spriteID: 194176bddd130446a959c76f737c839e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_r_0
+      name: righthand_male_dagger_male_sl_r_0
       rect:
         serializedVersion: 2
         x: 0
@@ -1614,13 +1436,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bd8f5ce9045364be7bd846f5610ed186
+      spriteID: 05e183a8303884b069aa9a59088b26ad
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_r_1
+      name: righthand_male_dagger_male_sl_r_1
       rect:
         serializedVersion: 2
         x: 64
@@ -1634,13 +1456,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 32ef2ecb5bc5b454d911024c0eafccc4
+      spriteID: 35b4405b3765f4e9db079927e8bcd6d2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_r_2
+      name: righthand_male_dagger_male_sl_r_2
       rect:
         serializedVersion: 2
         x: 128
@@ -1654,13 +1476,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c556727468eb64c31ab8e1d6d1fc6176
+      spriteID: e8335d988fd8e421aa72cdb068fe3c7d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_r_3
+      name: righthand_male_dagger_male_sl_r_3
       rect:
         serializedVersion: 2
         x: 192
@@ -1674,13 +1496,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0136eefd3e0b9437c8f919cd36506e89
+      spriteID: db4d42b02e3d543b2aac9d2ea70a96b3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_r_4
+      name: righthand_male_dagger_male_sl_r_4
       rect:
         serializedVersion: 2
         x: 256
@@ -1694,13 +1516,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 406a265d0b84447fc9e8e5d9ce3fdaa3
+      spriteID: efa24c0edc4814065a46a27ead882344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_r_5
+      name: righthand_male_dagger_male_sl_r_5
       rect:
         serializedVersion: 2
         x: 320
@@ -1714,13 +1536,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d2f9abd11fe924a4c924dc93cd7532d1
+      spriteID: d6c7ebfaad4d14f3dbf892356e8cc24a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_d_0
+      name: righthand_male_dagger_male_sl_d_0
       rect:
         serializedVersion: 2
         x: 0
@@ -1734,13 +1556,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5d4af1e76feee46f399e33be576d2e84
+      spriteID: 757a71a9d7516452ebed5bfd91c825e8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_d_1
+      name: righthand_male_dagger_male_sl_d_1
       rect:
         serializedVersion: 2
         x: 64
@@ -1754,13 +1576,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 99be8b1cbeeaf4319917ddf97df5fc87
+      spriteID: c0d9ca302993a4abe9cbccbe088ca48d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_d_2
+      name: righthand_male_dagger_male_sl_d_2
       rect:
         serializedVersion: 2
         x: 128
@@ -1774,13 +1596,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eb7574d66e4af4a93bebb63399337db0
+      spriteID: 18243b58b483d48989392e41957ce149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_d_3
+      name: righthand_male_dagger_male_sl_d_3
       rect:
         serializedVersion: 2
         x: 192
@@ -1794,13 +1616,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6ae614c9c468045a68058b271c105033
+      spriteID: 86ace0c49e9504e1a941db7319d1b232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_d_4
+      name: righthand_male_dagger_male_sl_d_4
       rect:
         serializedVersion: 2
         x: 256
@@ -1814,13 +1636,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c6643e9e0f5e14c3c92a4b585a7a87c3
+      spriteID: 940e154cfe89643358c722c3bb8d2f63
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_d_5
+      name: righthand_male_dagger_male_sl_d_5
       rect:
         serializedVersion: 2
         x: 320
@@ -1834,13 +1656,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9031fb237ae834fe29629d8ffdeaf7d1
+      spriteID: e38727b2aec914aae81223606fbc9608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_l_0
+      name: righthand_male_dagger_male_sl_l_0
       rect:
         serializedVersion: 2
         x: 0
@@ -1854,13 +1676,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 36a00ac9df1b646e698c34b7f887c41b
+      spriteID: 46c7543bde6ed4c149395c311360e994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_l_1
+      name: righthand_male_dagger_male_sl_l_1
       rect:
         serializedVersion: 2
         x: 64
@@ -1874,13 +1696,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 910320008745745ea8c05e41d9f400ea
+      spriteID: 10c2ac1724f564eb889ea7c63d06717f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_l_2
+      name: righthand_male_dagger_male_sl_l_2
       rect:
         serializedVersion: 2
         x: 128
@@ -1894,13 +1716,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 484a28237302341389cd08cb84ba6823
+      spriteID: 29b13c7434e2d42dab9761bfe1682d7c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_l_3
+      name: righthand_male_dagger_male_sl_l_3
       rect:
         serializedVersion: 2
         x: 192
@@ -1914,13 +1736,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 462527d3a95bc4adbab794242a6b48c3
+      spriteID: 06b6a87b358a248fb917eb5fcc89db74
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_l_4
+      name: righthand_male_dagger_male_sl_l_4
       rect:
         serializedVersion: 2
         x: 256
@@ -1934,13 +1756,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 941b6df0b2d284d18bd4e4d44495168c
+      spriteID: 09127e33d95614273bffd6461402c0ab
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_l_5
+      name: righthand_male_dagger_male_sl_l_5
       rect:
         serializedVersion: 2
         x: 320
@@ -1954,13 +1776,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 484e4b85b62fa4cf69abd447d059a0b0
+      spriteID: 08deb4ee3d4394aa590566ea69fcd49b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_t_0
+      name: righthand_male_dagger_male_sl_t_0
       rect:
         serializedVersion: 2
         x: 0
@@ -1974,13 +1796,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b1595c6f1f29044719f8800de4bb7551
+      spriteID: 9f3db8dbcb5974d51b10bbe479a6e3bd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_t_1
+      name: righthand_male_dagger_male_sl_t_1
       rect:
         serializedVersion: 2
         x: 64
@@ -1994,13 +1816,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6f14c946b26da4746b43ad8cc2cc8879
+      spriteID: a614c5e2b03694bdba23c823e377e08f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_t_2
+      name: righthand_male_dagger_male_sl_t_2
       rect:
         serializedVersion: 2
         x: 128
@@ -2014,13 +1836,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d982fe5aace94421197c443a176916c1
+      spriteID: 94b7615a900694f4db776aa51349eac3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_t_3
+      name: righthand_male_dagger_male_sl_t_3
       rect:
         serializedVersion: 2
         x: 192
@@ -2034,13 +1856,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6050f37a4f6244d9ea2b5ae59eed6f7e
+      spriteID: 72639796db18e42489f2686f1d57af3f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_t_4
+      name: righthand_male_dagger_male_sl_t_4
       rect:
         serializedVersion: 2
         x: 256
@@ -2054,13 +1876,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9e33d5f50354742c1bff6c3f8887c616
+      spriteID: 4c0837e2304e640a9a0c3f29beb27711
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_t_5
+      name: righthand_male_dagger_male_sl_t_5
       rect:
         serializedVersion: 2
         x: 320
@@ -2074,13 +1896,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 362a80b351b444e94910181e22beac80
+      spriteID: 53789d051db80432599242aee13d0b01
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_r_0
+      name: righthand_male_dagger_male_wc_r_0
       rect:
         serializedVersion: 2
         x: 0
@@ -2094,13 +1916,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1aeb190403094ef8838f99468a63f40
+      spriteID: 37b58285f523846a79a85bcd63263c7d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_r_1
+      name: righthand_male_dagger_male_wc_r_1
       rect:
         serializedVersion: 2
         x: 64
@@ -2114,13 +1936,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2aa53f7e15e084e0aacff749d7ba8c17
+      spriteID: 474447aa514e24fc8ab34e57415c59de
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_r_2
+      name: righthand_male_dagger_male_wc_r_2
       rect:
         serializedVersion: 2
         x: 128
@@ -2134,13 +1956,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eaf795018f7bb44b3b4c570a479df954
+      spriteID: 7fb7bcc19ecee4862b87aa4504c2206f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_r_3
+      name: righthand_male_dagger_male_wc_r_3
       rect:
         serializedVersion: 2
         x: 192
@@ -2154,13 +1976,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 08b13377b2b5a45938de655a3be1119e
+      spriteID: 8132474583866469b832623128fc2451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_r_4
+      name: righthand_male_dagger_male_wc_r_4
       rect:
         serializedVersion: 2
         x: 256
@@ -2174,13 +1996,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a65c6584fb97645c1b34f4db3a45ac41
+      spriteID: 965cd5874cd074eac84c98e0c9e77682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_r_5
+      name: righthand_male_dagger_male_wc_r_5
       rect:
         serializedVersion: 2
         x: 320
@@ -2194,13 +2016,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b2af0d834901d4794b151889c00d2de9
+      spriteID: 10e548de25647401e9c3ee45c8b26e3f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_r_6
+      name: righthand_male_dagger_male_wc_r_6
       rect:
         serializedVersion: 2
         x: 384
@@ -2214,13 +2036,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d4fc4e4a7cc72469ea48bfeed729b7bb
+      spriteID: ac8481b5e102943f38e1c68d58c6a304
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_r_7
+      name: righthand_male_dagger_male_wc_r_7
       rect:
         serializedVersion: 2
         x: 448
@@ -2234,13 +2056,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ddd5c05c4fbb44871873314da2092bd8
+      spriteID: 4296e4c563e434a35bea0cb06ce8e3b1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_r_8
+      name: righthand_male_dagger_male_wc_r_8
       rect:
         serializedVersion: 2
         x: 512
@@ -2254,13 +2076,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 719e19888a56b485c97c00cbb72a21df
+      spriteID: 673cc05020cda4da1bb864f9be20ef93
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_d_0
+      name: righthand_male_dagger_male_wc_d_0
       rect:
         serializedVersion: 2
         x: 0
@@ -2274,13 +2096,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3d187bd6eabce4c90b89b4a0096f3db7
+      spriteID: c221094e1c05c43e49f5d3a35e9cfe0a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_d_1
+      name: righthand_male_dagger_male_wc_d_1
       rect:
         serializedVersion: 2
         x: 64
@@ -2294,13 +2116,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 155654320592e458bb5009466b22d953
+      spriteID: 0d6a8eb71683f4663a9189ae346b949f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_d_2
+      name: righthand_male_dagger_male_wc_d_2
       rect:
         serializedVersion: 2
         x: 128
@@ -2314,13 +2136,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8345e23353c1f4c82a4b493392e52d4d
+      spriteID: bc26813d202b2477f98c4b63be7ee556
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_d_3
+      name: righthand_male_dagger_male_wc_d_3
       rect:
         serializedVersion: 2
         x: 192
@@ -2334,13 +2156,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 43a058ac69c194861abc3bdc65a12776
+      spriteID: 6fbeb50c5401342dfa800b8680c04b38
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_d_4
+      name: righthand_male_dagger_male_wc_d_4
       rect:
         serializedVersion: 2
         x: 256
@@ -2354,13 +2176,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 847bbf5d7128944678a9bfb9642ec742
+      spriteID: f409728fd0c7341beb8797ff4c004091
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_d_5
+      name: righthand_male_dagger_male_wc_d_5
       rect:
         serializedVersion: 2
         x: 320
@@ -2374,13 +2196,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d42d6893767924283a8801e906382e76
+      spriteID: 71a68b38c4a1b41ac884d0e43d30b5f2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_d_6
+      name: righthand_male_dagger_male_wc_d_6
       rect:
         serializedVersion: 2
         x: 384
@@ -2394,13 +2216,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e2e1cbfdcce5f4c2e9ba9142ade2966b
+      spriteID: 64c6506565922495bb3c88771b3f1e36
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_d_7
+      name: righthand_male_dagger_male_wc_d_7
       rect:
         serializedVersion: 2
         x: 448
@@ -2414,13 +2236,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 54edf31e05d8e4fa0a59bfc392b58ed2
+      spriteID: 6795ff7c7e9d64ab6b06a9c3409dde5c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_d_8
+      name: righthand_male_dagger_male_wc_d_8
       rect:
         serializedVersion: 2
         x: 512
@@ -2434,13 +2256,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 115828a5983474e23bd765f8956f2e8e
+      spriteID: 1546dfa74153745fa8f1c640d74c99ed
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_l_0
+      name: righthand_male_dagger_male_wc_l_0
       rect:
         serializedVersion: 2
         x: 0
@@ -2454,13 +2276,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 846a558b16ecd49b29890639aaece4d1
+      spriteID: 88396fd4a656942f2ba4cca74d640ae8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_l_1
+      name: righthand_male_dagger_male_wc_l_1
       rect:
         serializedVersion: 2
         x: 64
@@ -2474,13 +2296,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 83818c45066aa46c9bbfe4893f1afa1d
+      spriteID: c478d6ec6dd524244b26924b9abee5ab
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_l_2
+      name: righthand_male_dagger_male_wc_l_2
       rect:
         serializedVersion: 2
         x: 128
@@ -2494,13 +2316,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 65a6c86ffbd354ea68b35d88f0aad942
+      spriteID: a680e777e33114baeb21478a5835013e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_l_3
+      name: righthand_male_dagger_male_wc_l_3
       rect:
         serializedVersion: 2
         x: 192
@@ -2514,13 +2336,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a7e4bb4c7ee744f71a42b78de77a3d42
+      spriteID: 7c2375b55e99045b9a679b83f48cae83
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_l_4
+      name: righthand_male_dagger_male_wc_l_4
       rect:
         serializedVersion: 2
         x: 256
@@ -2534,13 +2356,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 84c0c95c2804e43daa4fa62d67e2cac4
+      spriteID: 22e76d34dc6b44bddb57c79daa3ddb74
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_l_5
+      name: righthand_male_dagger_male_wc_l_5
       rect:
         serializedVersion: 2
         x: 320
@@ -2554,13 +2376,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 070bac8c103cd4d5cab013c0432d1797
+      spriteID: 93b3a943231bc48d893e51e579e98eb3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_l_6
+      name: righthand_male_dagger_male_wc_l_6
       rect:
         serializedVersion: 2
         x: 384
@@ -2574,13 +2396,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6b1efc5d2acc14dc8bfaee8683f142c3
+      spriteID: c7d95b50e727a4217a90b6e7e531119d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_l_7
+      name: righthand_male_dagger_male_wc_l_7
       rect:
         serializedVersion: 2
         x: 448
@@ -2594,13 +2416,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5fe9de3695d964d02ae52b370ac45819
+      spriteID: 20d3873e4dbc340538f34453023aab2f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_l_8
+      name: righthand_male_dagger_male_wc_l_8
       rect:
         serializedVersion: 2
         x: 512
@@ -2614,13 +2436,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0e382cbcebf8e4d48ac7f594ed2cf4fe
+      spriteID: a9822a27998ec4ff8aa5bc91bd3e7c74
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_t_0
+      name: righthand_male_dagger_male_wc_t_0
       rect:
         serializedVersion: 2
         x: 0
@@ -2634,13 +2456,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 19cce2861b462464293621c7c9488481
+      spriteID: d3f86079e8c064f64a1efca9806b5178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_t_1
+      name: righthand_male_dagger_male_wc_t_1
       rect:
         serializedVersion: 2
         x: 64
@@ -2654,13 +2476,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b39f2e63b2e34a08a099a2d6b01f1ca
+      spriteID: 786319e45b3f34d12a777ef7e1f1a0f1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_t_2
+      name: righthand_male_dagger_male_wc_t_2
       rect:
         serializedVersion: 2
         x: 128
@@ -2674,13 +2496,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6d6ad940a5741498ebf8ea42ded6a12c
+      spriteID: 94181bb792cc9442f8f5959bd6341225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_t_3
+      name: righthand_male_dagger_male_wc_t_3
       rect:
         serializedVersion: 2
         x: 192
@@ -2694,13 +2516,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f3821edabe4f544d7bf6453450dccc11
+      spriteID: a24d04a39bc8245bc9e29ce30df913ae
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_t_4
+      name: righthand_male_dagger_male_wc_t_4
       rect:
         serializedVersion: 2
         x: 256
@@ -2714,13 +2536,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cc291ce02fc364d95a18619f3f559b82
+      spriteID: ce64a8dadd1eb4ee082463486d28b0f1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_t_5
+      name: righthand_male_dagger_male_wc_t_5
       rect:
         serializedVersion: 2
         x: 320
@@ -2734,13 +2556,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 17c8ba3ea95e74f50bc2eb82102eb9ef
+      spriteID: fec5155a2ec214bbd806463b78f8341a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_t_6
+      name: righthand_male_dagger_male_wc_t_6
       rect:
         serializedVersion: 2
         x: 384
@@ -2754,13 +2576,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 66de0e749b4c24c409f8d43d8b68e39d
+      spriteID: 74a62b5d6047e43da895a04802df7a13
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_t_7
+      name: righthand_male_dagger_male_wc_t_7
       rect:
         serializedVersion: 2
         x: 448
@@ -2774,13 +2596,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b6a3f5d29950a42cea55fb8c857d497b
+      spriteID: a068e1d1c0c7b4882b59ba7db7eb74cd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_t_8
+      name: righthand_male_dagger_male_wc_t_8
       rect:
         serializedVersion: 2
         x: 512
@@ -2794,13 +2616,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 68adb83c19b804e598c37485a45ca1ec
+      spriteID: b28c0cb2aaf0a46fdabb648d384f61e3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_r_0
+      name: righthand_male_dagger_male_th_r_0
       rect:
         serializedVersion: 2
         x: 0
@@ -2814,13 +2636,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e90b8bab9eb9d4b43bef40b7611b7064
+      spriteID: 40e0d9da3480b447bbd92a238f2d7038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_r_1
+      name: righthand_male_dagger_male_th_r_1
       rect:
         serializedVersion: 2
         x: 64
@@ -2834,13 +2656,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f2d46adf9eba49078b5753ec8d92f43
+      spriteID: 579b5ce77a0a94aedb8f753be2a05f59
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_r_2
+      name: righthand_male_dagger_male_th_r_2
       rect:
         serializedVersion: 2
         x: 128
@@ -2854,13 +2676,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: da245a7f91e3743f9a0dceb688010af4
+      spriteID: 4c2722773f7214a00b3e5da1d7f17604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_r_3
+      name: righthand_male_dagger_male_th_r_3
       rect:
         serializedVersion: 2
         x: 192
@@ -2874,13 +2696,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1739ca87f5d5641bd90bf60d0c3d11d2
+      spriteID: c909b247a4abe40c2a4c220e0e59d157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_r_4
+      name: righthand_male_dagger_male_th_r_4
       rect:
         serializedVersion: 2
         x: 256
@@ -2894,13 +2716,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: abff4a5390b744945b1c1d16ed0ac230
+      spriteID: aac46b1b63692442ca552bed569deffc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_r_5
+      name: righthand_male_dagger_male_th_r_5
       rect:
         serializedVersion: 2
         x: 320
@@ -2914,13 +2736,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a4170ca6706c241eeb78a5779c6b52ad
+      spriteID: a0a8f80b7e32c4a9bae3f6485c2bd4e1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_r_6
+      name: righthand_male_dagger_male_th_r_6
       rect:
         serializedVersion: 2
         x: 384
@@ -2934,13 +2756,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b0a93c6cb7e4c46c9ac82d5171d96b3b
+      spriteID: 2abbb42805b5b439e8d1d132937f1491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_r_7
+      name: righthand_male_dagger_male_th_r_7
       rect:
         serializedVersion: 2
         x: 448
@@ -2954,13 +2776,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 973cea0b1764341c9bf07eec585df773
+      spriteID: 2f4dc3c2c68a94b79a9706f74447fd03
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_d_0
+      name: righthand_male_dagger_male_th_d_0
       rect:
         serializedVersion: 2
         x: 0
@@ -2974,13 +2796,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0c7a407a34ed14cb19b537482f24415e
+      spriteID: 7f819f031aa984d58b2a9be0bd33cf72
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_d_1
+      name: righthand_male_dagger_male_th_d_1
       rect:
         serializedVersion: 2
         x: 64
@@ -2994,13 +2816,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 89202addfdac74132907c85b3b073a44
+      spriteID: 1c92aa2abab4f4dcd9653481f250a6b0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_d_2
+      name: righthand_male_dagger_male_th_d_2
       rect:
         serializedVersion: 2
         x: 128
@@ -3014,13 +2836,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 09a2f76a0e964413f9dedf71cfb0646f
+      spriteID: 952e0d3d2bfdb49f0a3bc1b8b96a988e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_d_3
+      name: righthand_male_dagger_male_th_d_3
       rect:
         serializedVersion: 2
         x: 192
@@ -3034,13 +2856,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4a749a6ca1eb44d919bd6b285efdc366
+      spriteID: 645cb940b7d58447da14d6ae8558739f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_d_4
+      name: righthand_male_dagger_male_th_d_4
       rect:
         serializedVersion: 2
         x: 256
@@ -3054,13 +2876,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 772f6c55204ff482daa9a8bd2a063795
+      spriteID: 81de804a0812f4c29b7f44f9492b733c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_d_5
+      name: righthand_male_dagger_male_th_d_5
       rect:
         serializedVersion: 2
         x: 320
@@ -3074,13 +2896,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 551067592eb204f28b22f58ae2634614
+      spriteID: 50c9dee1990124aa1872d23577334bba
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_d_6
+      name: righthand_male_dagger_male_th_d_6
       rect:
         serializedVersion: 2
         x: 384
@@ -3094,13 +2916,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 96ad710e9d04a42699267f65c0984479
+      spriteID: 50b5e5e63b7834127b76b71ce1626b5b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_d_7
+      name: righthand_male_dagger_male_th_d_7
       rect:
         serializedVersion: 2
         x: 448
@@ -3114,13 +2936,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a53f9c121d3ba4a7eabe89c1e6a0c3d4
+      spriteID: a570dccd54dac4a5eb7e0bd4935066c1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_l_0
+      name: righthand_male_dagger_male_th_l_0
       rect:
         serializedVersion: 2
         x: 0
@@ -3134,13 +2956,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e414ff9341a5e45f0bb84a69d2291fa7
+      spriteID: 359ace4841f8a469cb73d1835507e66c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_l_1
+      name: righthand_male_dagger_male_th_l_1
       rect:
         serializedVersion: 2
         x: 64
@@ -3154,13 +2976,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02ce4b2c127e347af99644a09a5d0192
+      spriteID: 7d28b7d512808464dae654216de50f74
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_l_2
+      name: righthand_male_dagger_male_th_l_2
       rect:
         serializedVersion: 2
         x: 128
@@ -3174,13 +2996,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 15a3cef05e0634063b77e80f6ef84f4c
+      spriteID: 5e0f82ce49d404c1a8122ff1ac4382f3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_l_3
+      name: righthand_male_dagger_male_th_l_3
       rect:
         serializedVersion: 2
         x: 192
@@ -3194,13 +3016,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 86205956bb6d24df3a7cc62b5de38fc8
+      spriteID: d713a283eabca410cbf5fb92f67f553c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_l_4
+      name: righthand_male_dagger_male_th_l_4
       rect:
         serializedVersion: 2
         x: 256
@@ -3214,13 +3036,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c3608e660199d4cbb8ef2ef3787b0d94
+      spriteID: 28ee716b5849c49f4a0a394c9e954957
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_l_5
+      name: righthand_male_dagger_male_th_l_5
       rect:
         serializedVersion: 2
         x: 320
@@ -3234,13 +3056,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3490de28370054368bc775088b6d1343
+      spriteID: 139aadd5d9c6545f694041a8475a0896
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_l_6
+      name: righthand_male_dagger_male_th_l_6
       rect:
         serializedVersion: 2
         x: 384
@@ -3254,13 +3076,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4913dfff4c92141d5a9bd99ec23a3e9b
+      spriteID: 72572641a6def4a7eaea2434243f0300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_l_7
+      name: righthand_male_dagger_male_th_l_7
       rect:
         serializedVersion: 2
         x: 448
@@ -3274,13 +3096,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: edd8f3989887b47d6aa781f76c1a9b08
+      spriteID: 4472fb942ffe44535811ba2f61e99eb1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_t_0
+      name: righthand_male_dagger_male_th_t_0
       rect:
         serializedVersion: 2
         x: 0
@@ -3294,13 +3116,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e8ae046631f1a49ff9bee178eb658a10
+      spriteID: 6b095fa8114c44a86b5912bec6dbe0fa
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_t_1
+      name: righthand_male_dagger_male_th_t_1
       rect:
         serializedVersion: 2
         x: 64
@@ -3314,13 +3136,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5e0abdc6e29ab47b8a3f28b379dbc0c0
+      spriteID: 94cdaa96b80bd4bae8a5b6fdf041b2a0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_t_2
+      name: righthand_male_dagger_male_th_t_2
       rect:
         serializedVersion: 2
         x: 128
@@ -3334,13 +3156,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d28f92e2b721402e94a714174e5ef69
+      spriteID: e639f8e5b67c94e2d9382e56fd760d69
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_t_3
+      name: righthand_male_dagger_male_th_t_3
       rect:
         serializedVersion: 2
         x: 192
@@ -3354,13 +3176,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d536a35e3c66e443cb80e5a7bb544a67
+      spriteID: 85ee7f363b67f4298874f02b6bae17d6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_t_4
+      name: righthand_male_dagger_male_th_t_4
       rect:
         serializedVersion: 2
         x: 256
@@ -3374,13 +3196,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 52e2ec313ee7b4b90bc1f1bc95dbccc1
+      spriteID: 965880b44fc444e6b8be6e7936e4364a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_t_5
+      name: righthand_male_dagger_male_th_t_5
       rect:
         serializedVersion: 2
         x: 320
@@ -3394,13 +3216,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 29cb3a9ddc4774878a0c13d24f90e38e
+      spriteID: 81656c02bf8914cf28af55e8149bf4ee
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_t_6
+      name: righthand_male_dagger_male_th_t_6
       rect:
         serializedVersion: 2
         x: 384
@@ -3414,13 +3236,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ce001cc08a304e4e984b4560186fded
+      spriteID: 84655192086d945d99a408fa05f9b329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_t_7
+      name: righthand_male_dagger_male_th_t_7
       rect:
         serializedVersion: 2
         x: 448
@@ -3434,13 +3256,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4880034e34bd144b79da49eccf9b9e23
+      spriteID: 092103a8808ad4b4ba279de0ca419211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_r_0
+      name: righthand_male_dagger_male_sc_r_0
       rect:
         serializedVersion: 2
         x: 0
@@ -3454,13 +3276,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f06a69a3401814db6b19b94b8f1efaa5
+      spriteID: c4381580bdcc14a9291716a72473a52c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_r_1
+      name: righthand_male_dagger_male_sc_r_1
       rect:
         serializedVersion: 2
         x: 64
@@ -3474,13 +3296,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cac71ed9dfda54a2c8a8a1385f53a31a
+      spriteID: ffedf59b553ab4f86a4e6008d1136865
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_r_2
+      name: righthand_male_dagger_male_sc_r_2
       rect:
         serializedVersion: 2
         x: 128
@@ -3494,13 +3316,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5c614e50ef2424f8eb985756c1075cb2
+      spriteID: c4c3e9482787241c3b188b2aec4f45d1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_r_3
+      name: righthand_male_dagger_male_sc_r_3
       rect:
         serializedVersion: 2
         x: 192
@@ -3514,13 +3336,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 87265322f359849d492ce3f3bc487dbd
+      spriteID: 547e4b3287a084063a660edba7332fb3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_r_4
+      name: righthand_male_dagger_male_sc_r_4
       rect:
         serializedVersion: 2
         x: 256
@@ -3534,13 +3356,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4d5ba72b1500841a2ad9f0d9a6e102fc
+      spriteID: 94cf29c20c7de4700ad4c80ad682a69d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_r_5
+      name: righthand_male_dagger_male_sc_r_5
       rect:
         serializedVersion: 2
         x: 320
@@ -3554,13 +3376,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cfb406aa90ec4470f8354a353b5f78eb
+      spriteID: ef38a0600721e4c1e93b0272a45b4b9d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_r_6
+      name: righthand_male_dagger_male_sc_r_6
       rect:
         serializedVersion: 2
         x: 384
@@ -3574,13 +3396,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e5b9e74f6964b4b95a57e0b0af7c0c6d
+      spriteID: 9d16474b7e1b44814906d58eb7439492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_d_0
+      name: righthand_male_dagger_male_sc_d_0
       rect:
         serializedVersion: 2
         x: 0
@@ -3594,13 +3416,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a8815d63a8c934058b2fcb1d4d6d29ea
+      spriteID: cd301d5e598274951bfc81ec7a9fe956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_d_1
+      name: righthand_male_dagger_male_sc_d_1
       rect:
         serializedVersion: 2
         x: 64
@@ -3614,13 +3436,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 172dcecb61e4f4556b5f17c9b5dd60eb
+      spriteID: 97d8c4c316e2c43edb50a1f77941709f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_d_2
+      name: righthand_male_dagger_male_sc_d_2
       rect:
         serializedVersion: 2
         x: 128
@@ -3634,13 +3456,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3acae7cd0161745f58e9d63ae8c9f464
+      spriteID: c904a9eb04e0e47999d4396da2e4a8a8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_d_3
+      name: righthand_male_dagger_male_sc_d_3
       rect:
         serializedVersion: 2
         x: 192
@@ -3654,13 +3476,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d79dd650e429d4588b0c001a31f949d1
+      spriteID: 9f738695a276546feb0140dc2b3cccb9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_d_4
+      name: righthand_male_dagger_male_sc_d_4
       rect:
         serializedVersion: 2
         x: 256
@@ -3674,13 +3496,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a29144630eaa46e0bc678b6cb44a1fe
+      spriteID: 523ea35c43d3940afb4c4da0143f788e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_d_5
+      name: righthand_male_dagger_male_sc_d_5
       rect:
         serializedVersion: 2
         x: 320
@@ -3694,13 +3516,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b77c286e40cd0411bbc6e49855c71f3a
+      spriteID: fa56a20672d90454ea29351e2d2a28f1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_d_6
+      name: righthand_male_dagger_male_sc_d_6
       rect:
         serializedVersion: 2
         x: 384
@@ -3714,13 +3536,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1ca239c5cd5a446c8b8acf5c491fa186
+      spriteID: 2f309c4c219c24cee8714042f383cb5e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_l_0
+      name: righthand_male_dagger_male_sc_l_0
       rect:
         serializedVersion: 2
         x: 0
@@ -3734,13 +3556,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c96c51e7f28b48c29d531506ee2a0df
+      spriteID: 10701dd9802f14dcd9f13d32a5fdc0fa
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_l_1
+      name: righthand_male_dagger_male_sc_l_1
       rect:
         serializedVersion: 2
         x: 64
@@ -3754,13 +3576,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 18ada23d92d3941e0a0d6f929e65734f
+      spriteID: b7273d5dcd47c47cab640e7b0a34bf0a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_l_2
+      name: righthand_male_dagger_male_sc_l_2
       rect:
         serializedVersion: 2
         x: 128
@@ -3774,13 +3596,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ca4de2fe1c9fa4e24942e8d1747d2d05
+      spriteID: 83098b029c9be4b859b8fb2da3cd1c63
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_l_3
+      name: righthand_male_dagger_male_sc_l_3
       rect:
         serializedVersion: 2
         x: 192
@@ -3794,13 +3616,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9555bd408413747c290d07a98b03b39e
+      spriteID: 4e27e257bea3d424d889e04baa17efe6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_l_4
+      name: righthand_male_dagger_male_sc_l_4
       rect:
         serializedVersion: 2
         x: 256
@@ -3814,13 +3636,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 838915ab3fce547a8bd481062ada8ebe
+      spriteID: 9443a45bbc80e4ebe8f5af8da66de5cb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_l_5
+      name: righthand_male_dagger_male_sc_l_5
       rect:
         serializedVersion: 2
         x: 320
@@ -3834,13 +3656,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: db789b4dc7e084e178beca8277e3654b
+      spriteID: 5e5b4f63f38c74f768b43e3db82f07fa
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_l_6
+      name: righthand_male_dagger_male_sc_l_6
       rect:
         serializedVersion: 2
         x: 384
@@ -3854,13 +3676,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13eae1a5cee584491bfe7e3bb798a5d6
+      spriteID: 8a9a9ad977a174d2597e3831592be356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_t_0
+      name: righthand_male_dagger_male_sc_t_0
       rect:
         serializedVersion: 2
         x: 0
@@ -3874,13 +3696,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fb4e03bc9ccd84840849fbb9fd517d03
+      spriteID: d91eb13770cbf4996b0af6aa6bad31e0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_t_1
+      name: righthand_male_dagger_male_sc_t_1
       rect:
         serializedVersion: 2
         x: 64
@@ -3894,13 +3716,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c4619fb14ec154a1399d9a691adca273
+      spriteID: 70e9a99f7c6a94983ab5de499b96f9a5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_t_2
+      name: righthand_male_dagger_male_sc_t_2
       rect:
         serializedVersion: 2
         x: 128
@@ -3914,13 +3736,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0cf837559b19f4df8ab576fdb7fca978
+      spriteID: b99741cf380954ce99cfaa668e7fb1b8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_t_3
+      name: righthand_male_dagger_male_sc_t_3
       rect:
         serializedVersion: 2
         x: 192
@@ -3934,13 +3756,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 66f99fd902a2a44508d22470e7f50939
+      spriteID: 4b8729952e03c4b3b8f76b1a14a40c41
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_t_4
+      name: righthand_male_dagger_male_sc_t_4
       rect:
         serializedVersion: 2
         x: 256
@@ -3954,13 +3776,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 46a0e55e0f51049c2ac338307a714766
+      spriteID: 71275398e04d44ea9a5bfdb8fa9a189d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_t_5
+      name: righthand_male_dagger_male_sc_t_5
       rect:
         serializedVersion: 2
         x: 320
@@ -3974,13 +3796,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c73f3668d4173451bb2bc9acc339f6cd
+      spriteID: c0b83b04ad425436e8f7fdf6ff76910a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_t_6
+      name: righthand_male_dagger_male_sc_t_6
       rect:
         serializedVersion: 2
         x: 384
@@ -3994,7 +3816,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: be5e5b662be8d4633badcb10501a5df7
+      spriteID: 48d08ca6da6254831afd7a0fc4515b37
       vertices: []
       indices: 
       edges: []

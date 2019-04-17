@@ -1,363 +1,185 @@
 fileFormatVersion: 2
-guid: 96e73b1c5bfe44f8f832a1cf4a55d8b2
+guid: fde54edb7e1606a49ba10e000b01b7b8
 TextureImporter:
   fileIDToRecycleName:
-    21300000: legs_armor_male_platemail_hu_0
-    21300002: legs_armor_male_platemail_hu_1
-    21300004: legs_armor_male_platemail_hu_2
-    21300006: legs_armor_male_platemail_hu_3
-    21300008: legs_armor_male_platemail_hu_4
-    21300010: legs_armor_male_platemail_hu_5
-    21300012: legs_armor_male_platemail_sh_r_0
-    21300014: legs_armor_male_platemail_sh_r_1
-    21300016: legs_armor_male_platemail_sh_r_2
-    21300018: legs_armor_male_platemail_sh_r_3
-    21300020: legs_armor_male_platemail_sh_r_4
-    21300022: legs_armor_male_platemail_sh_r_5
-    21300024: legs_armor_male_platemail_sh_r_6
-    21300026: legs_armor_male_platemail_sh_r_7
-    21300028: legs_armor_male_platemail_sh_r_8
-    21300030: legs_armor_male_platemail_sh_r_9
-    21300032: legs_armor_male_platemail_sh_r_10
-    21300034: legs_armor_male_platemail_sh_r_11
-    21300036: legs_armor_male_platemail_sh_r_12
-    21300038: legs_armor_male_platemail_sh_d_0
-    21300040: legs_armor_male_platemail_sh_d_1
-    21300042: legs_armor_male_platemail_sh_d_2
-    21300044: legs_armor_male_platemail_sh_d_3
-    21300046: legs_armor_male_platemail_sh_d_4
-    21300048: legs_armor_male_platemail_sh_d_5
-    21300050: legs_armor_male_platemail_sh_d_6
-    21300052: legs_armor_male_platemail_sh_d_7
-    21300054: legs_armor_male_platemail_sh_d_8
-    21300056: legs_armor_male_platemail_sh_d_9
-    21300058: legs_armor_male_platemail_sh_d_10
-    21300060: legs_armor_male_platemail_sh_d_11
-    21300062: legs_armor_male_platemail_sh_d_12
-    21300064: legs_armor_male_platemail_sh_l_0
-    21300066: legs_armor_male_platemail_sh_l_1
-    21300068: legs_armor_male_platemail_sh_l_2
-    21300070: legs_armor_male_platemail_sh_l_3
-    21300072: legs_armor_male_platemail_sh_l_4
-    21300074: legs_armor_male_platemail_sh_l_5
-    21300076: legs_armor_male_platemail_sh_l_6
-    21300078: legs_armor_male_platemail_sh_l_7
-    21300080: legs_armor_male_platemail_sh_l_8
-    21300082: legs_armor_male_platemail_sh_l_9
-    21300084: legs_armor_male_platemail_sh_l_10
-    21300086: legs_armor_male_platemail_sh_l_11
-    21300088: legs_armor_male_platemail_sh_l_12
-    21300090: legs_armor_male_platemail_sh_t_0
-    21300092: legs_armor_male_platemail_sh_t_1
-    21300094: legs_armor_male_platemail_sh_t_2
-    21300096: legs_armor_male_platemail_sh_t_3
-    21300098: legs_armor_male_platemail_sh_t_4
-    21300100: legs_armor_male_platemail_sh_t_5
-    21300102: legs_armor_male_platemail_sh_t_6
-    21300104: legs_armor_male_platemail_sh_t_7
-    21300106: legs_armor_male_platemail_sh_t_8
-    21300108: legs_armor_male_platemail_sh_t_9
-    21300110: legs_armor_male_platemail_sh_t_10
-    21300112: legs_armor_male_platemail_sh_t_11
-    21300114: legs_armor_male_platemail_sh_t_12
-    21300116: legs_armor_male_platemail_sl_r_0
-    21300118: legs_armor_male_platemail_sl_r_1
-    21300120: legs_armor_male_platemail_sl_r_2
-    21300122: legs_armor_male_platemail_sl_r_3
-    21300124: legs_armor_male_platemail_sl_r_4
-    21300126: legs_armor_male_platemail_sl_r_5
-    21300128: legs_armor_male_platemail_sl_d_0
-    21300130: legs_armor_male_platemail_sl_d_1
-    21300132: legs_armor_male_platemail_sl_d_2
-    21300134: legs_armor_male_platemail_sl_d_3
-    21300136: legs_armor_male_platemail_sl_d_4
-    21300138: legs_armor_male_platemail_sl_d_5
-    21300140: legs_armor_male_platemail_sl_l_0
-    21300142: legs_armor_male_platemail_sl_l_1
-    21300144: legs_armor_male_platemail_sl_l_2
-    21300146: legs_armor_male_platemail_sl_l_3
-    21300148: legs_armor_male_platemail_sl_l_4
-    21300150: legs_armor_male_platemail_sl_l_5
-    21300152: legs_armor_male_platemail_sl_t_0
-    21300154: legs_armor_male_platemail_sl_t_1
-    21300156: legs_armor_male_platemail_sl_t_2
-    21300158: legs_armor_male_platemail_sl_t_3
-    21300160: legs_armor_male_platemail_sl_t_4
-    21300162: legs_armor_male_platemail_sl_t_5
-    21300164: legs_armor_male_platemail_wc_r_0
-    21300166: legs_armor_male_platemail_wc_r_1
-    21300168: legs_armor_male_platemail_wc_r_2
-    21300170: legs_armor_male_platemail_wc_r_3
-    21300172: legs_armor_male_platemail_wc_r_4
-    21300174: legs_armor_male_platemail_wc_r_5
-    21300176: legs_armor_male_platemail_wc_r_6
-    21300178: legs_armor_male_platemail_wc_r_7
-    21300180: legs_armor_male_platemail_wc_r_8
-    21300182: legs_armor_male_platemail_wc_d_0
-    21300184: legs_armor_male_platemail_wc_d_1
-    21300186: legs_armor_male_platemail_wc_d_2
-    21300188: legs_armor_male_platemail_wc_d_3
-    21300190: legs_armor_male_platemail_wc_d_4
-    21300192: legs_armor_male_platemail_wc_d_5
-    21300194: legs_armor_male_platemail_wc_d_6
-    21300196: legs_armor_male_platemail_wc_d_7
-    21300198: legs_armor_male_platemail_wc_d_8
-    21300200: legs_armor_male_platemail_wc_l_0
-    21300202: legs_armor_male_platemail_wc_l_1
-    21300204: legs_armor_male_platemail_wc_l_2
-    21300206: legs_armor_male_platemail_wc_l_3
-    21300208: legs_armor_male_platemail_wc_l_4
-    21300210: legs_armor_male_platemail_wc_l_5
-    21300212: legs_armor_male_platemail_wc_l_6
-    21300214: legs_armor_male_platemail_wc_l_7
-    21300216: legs_armor_male_platemail_wc_l_8
-    21300218: legs_armor_male_platemail_wc_t_0
-    21300220: legs_armor_male_platemail_wc_t_1
-    21300222: legs_armor_male_platemail_wc_t_2
-    21300224: legs_armor_male_platemail_wc_t_3
-    21300226: legs_armor_male_platemail_wc_t_4
-    21300228: legs_armor_male_platemail_wc_t_5
-    21300230: legs_armor_male_platemail_wc_t_6
-    21300232: legs_armor_male_platemail_wc_t_7
-    21300234: legs_armor_male_platemail_wc_t_8
-    21300236: legs_armor_male_platemail_th_r_0
-    21300238: legs_armor_male_platemail_th_r_1
-    21300240: legs_armor_male_platemail_th_r_2
-    21300242: legs_armor_male_platemail_th_r_3
-    21300244: legs_armor_male_platemail_th_r_4
-    21300246: legs_armor_male_platemail_th_r_5
-    21300248: legs_armor_male_platemail_th_r_6
-    21300250: legs_armor_male_platemail_th_r_7
-    21300252: legs_armor_male_platemail_th_d_0
-    21300254: legs_armor_male_platemail_th_d_1
-    21300256: legs_armor_male_platemail_th_d_2
-    21300258: legs_armor_male_platemail_th_d_3
-    21300260: legs_armor_male_platemail_th_d_4
-    21300262: legs_armor_male_platemail_th_d_5
-    21300264: legs_armor_male_platemail_th_d_6
-    21300266: legs_armor_male_platemail_th_d_7
-    21300268: legs_armor_male_platemail_th_l_0
-    21300270: legs_armor_male_platemail_th_l_1
-    21300272: legs_armor_male_platemail_th_l_2
-    21300274: legs_armor_male_platemail_th_l_3
-    21300276: legs_armor_male_platemail_th_l_4
-    21300278: legs_armor_male_platemail_th_l_5
-    21300280: legs_armor_male_platemail_th_l_6
-    21300282: legs_armor_male_platemail_th_l_7
-    21300284: legs_armor_male_platemail_th_t_0
-    21300286: legs_armor_male_platemail_th_t_1
-    21300288: legs_armor_male_platemail_th_t_2
-    21300290: legs_armor_male_platemail_th_t_3
-    21300292: legs_armor_male_platemail_th_t_4
-    21300294: legs_armor_male_platemail_th_t_5
-    21300296: legs_armor_male_platemail_th_t_6
-    21300298: legs_armor_male_platemail_th_t_7
-    21300300: legs_armor_male_platemail_sc_r_0
-    21300302: legs_armor_male_platemail_sc_r_1
-    21300304: legs_armor_male_platemail_sc_r_2
-    21300306: legs_armor_male_platemail_sc_r_3
-    21300308: legs_armor_male_platemail_sc_r_4
-    21300310: legs_armor_male_platemail_sc_r_5
-    21300312: legs_armor_male_platemail_sc_r_6
-    21300314: legs_armor_male_platemail_sc_d_0
-    21300316: legs_armor_male_platemail_sc_d_1
-    21300318: legs_armor_male_platemail_sc_d_2
-    21300320: legs_armor_male_platemail_sc_d_3
-    21300322: legs_armor_male_platemail_sc_d_4
-    21300324: legs_armor_male_platemail_sc_d_5
-    21300326: legs_armor_male_platemail_sc_d_6
-    21300328: legs_armor_male_platemail_sc_l_0
-    21300330: legs_armor_male_platemail_sc_l_1
-    21300332: legs_armor_male_platemail_sc_l_2
-    21300334: legs_armor_male_platemail_sc_l_3
-    21300336: legs_armor_male_platemail_sc_l_4
-    21300338: legs_armor_male_platemail_sc_l_5
-    21300340: legs_armor_male_platemail_sc_l_6
-    21300342: legs_armor_male_platemail_sc_t_0
-    21300344: legs_armor_male_platemail_sc_t_1
-    21300346: legs_armor_male_platemail_sc_t_2
-    21300348: legs_armor_male_platemail_sc_t_3
-    21300350: legs_armor_male_platemail_sc_t_4
-    21300352: legs_armor_male_platemail_sc_t_5
-    21300354: legs_armor_male_platemail_sc_t_6
-    21300356: legs_male_platemail_hu_0
-    21300358: legs_male_platemail_hu_1
-    21300360: legs_male_platemail_hu_2
-    21300362: legs_male_platemail_hu_3
-    21300364: legs_male_platemail_hu_4
-    21300366: legs_male_platemail_hu_5
-    21300368: legs_male_platemail_sh_r_0
-    21300370: legs_male_platemail_sh_r_1
-    21300372: legs_male_platemail_sh_r_2
-    21300374: legs_male_platemail_sh_r_3
-    21300376: legs_male_platemail_sh_r_4
-    21300378: legs_male_platemail_sh_r_5
-    21300380: legs_male_platemail_sh_r_6
-    21300382: legs_male_platemail_sh_r_7
-    21300384: legs_male_platemail_sh_r_8
-    21300386: legs_male_platemail_sh_r_9
-    21300388: legs_male_platemail_sh_r_10
-    21300390: legs_male_platemail_sh_r_11
-    21300392: legs_male_platemail_sh_r_12
-    21300394: legs_male_platemail_sh_d_0
-    21300396: legs_male_platemail_sh_d_1
-    21300398: legs_male_platemail_sh_d_2
-    21300400: legs_male_platemail_sh_d_3
-    21300402: legs_male_platemail_sh_d_4
-    21300404: legs_male_platemail_sh_d_5
-    21300406: legs_male_platemail_sh_d_6
-    21300408: legs_male_platemail_sh_d_7
-    21300410: legs_male_platemail_sh_d_8
-    21300412: legs_male_platemail_sh_d_9
-    21300414: legs_male_platemail_sh_d_10
-    21300416: legs_male_platemail_sh_d_11
-    21300418: legs_male_platemail_sh_d_12
-    21300420: legs_male_platemail_sh_l_0
-    21300422: legs_male_platemail_sh_l_1
-    21300424: legs_male_platemail_sh_l_2
-    21300426: legs_male_platemail_sh_l_3
-    21300428: legs_male_platemail_sh_l_4
-    21300430: legs_male_platemail_sh_l_5
-    21300432: legs_male_platemail_sh_l_6
-    21300434: legs_male_platemail_sh_l_7
-    21300436: legs_male_platemail_sh_l_8
-    21300438: legs_male_platemail_sh_l_9
-    21300440: legs_male_platemail_sh_l_10
-    21300442: legs_male_platemail_sh_l_11
-    21300444: legs_male_platemail_sh_l_12
-    21300446: legs_male_platemail_sh_t_0
-    21300448: legs_male_platemail_sh_t_1
-    21300450: legs_male_platemail_sh_t_2
-    21300452: legs_male_platemail_sh_t_3
-    21300454: legs_male_platemail_sh_t_4
-    21300456: legs_male_platemail_sh_t_5
-    21300458: legs_male_platemail_sh_t_6
-    21300460: legs_male_platemail_sh_t_7
-    21300462: legs_male_platemail_sh_t_8
-    21300464: legs_male_platemail_sh_t_9
-    21300466: legs_male_platemail_sh_t_10
-    21300468: legs_male_platemail_sh_t_11
-    21300470: legs_male_platemail_sh_t_12
-    21300472: legs_male_platemail_sl_r_0
-    21300474: legs_male_platemail_sl_r_1
-    21300476: legs_male_platemail_sl_r_2
-    21300478: legs_male_platemail_sl_r_3
-    21300480: legs_male_platemail_sl_r_4
-    21300482: legs_male_platemail_sl_r_5
-    21300484: legs_male_platemail_sl_d_0
-    21300486: legs_male_platemail_sl_d_1
-    21300488: legs_male_platemail_sl_d_2
-    21300490: legs_male_platemail_sl_d_3
-    21300492: legs_male_platemail_sl_d_4
-    21300494: legs_male_platemail_sl_d_5
-    21300496: legs_male_platemail_sl_l_0
-    21300498: legs_male_platemail_sl_l_1
-    21300500: legs_male_platemail_sl_l_2
-    21300502: legs_male_platemail_sl_l_3
-    21300504: legs_male_platemail_sl_l_4
-    21300506: legs_male_platemail_sl_l_5
-    21300508: legs_male_platemail_sl_t_0
-    21300510: legs_male_platemail_sl_t_1
-    21300512: legs_male_platemail_sl_t_2
-    21300514: legs_male_platemail_sl_t_3
-    21300516: legs_male_platemail_sl_t_4
-    21300518: legs_male_platemail_sl_t_5
-    21300520: legs_male_platemail_wc_r_0
-    21300522: legs_male_platemail_wc_r_1
-    21300524: legs_male_platemail_wc_r_2
-    21300526: legs_male_platemail_wc_r_3
-    21300528: legs_male_platemail_wc_r_4
-    21300530: legs_male_platemail_wc_r_5
-    21300532: legs_male_platemail_wc_r_6
-    21300534: legs_male_platemail_wc_r_7
-    21300536: legs_male_platemail_wc_r_8
-    21300538: legs_male_platemail_wc_d_0
-    21300540: legs_male_platemail_wc_d_1
-    21300542: legs_male_platemail_wc_d_2
-    21300544: legs_male_platemail_wc_d_3
-    21300546: legs_male_platemail_wc_d_4
-    21300548: legs_male_platemail_wc_d_5
-    21300550: legs_male_platemail_wc_d_6
-    21300552: legs_male_platemail_wc_d_7
-    21300554: legs_male_platemail_wc_d_8
-    21300556: legs_male_platemail_wc_l_0
-    21300558: legs_male_platemail_wc_l_1
-    21300560: legs_male_platemail_wc_l_2
-    21300562: legs_male_platemail_wc_l_3
-    21300564: legs_male_platemail_wc_l_4
-    21300566: legs_male_platemail_wc_l_5
-    21300568: legs_male_platemail_wc_l_6
-    21300570: legs_male_platemail_wc_l_7
-    21300572: legs_male_platemail_wc_l_8
-    21300574: legs_male_platemail_wc_t_0
-    21300576: legs_male_platemail_wc_t_1
-    21300578: legs_male_platemail_wc_t_2
-    21300580: legs_male_platemail_wc_t_3
-    21300582: legs_male_platemail_wc_t_4
-    21300584: legs_male_platemail_wc_t_5
-    21300586: legs_male_platemail_wc_t_6
-    21300588: legs_male_platemail_wc_t_7
-    21300590: legs_male_platemail_wc_t_8
-    21300592: legs_male_platemail_th_r_0
-    21300594: legs_male_platemail_th_r_1
-    21300596: legs_male_platemail_th_r_2
-    21300598: legs_male_platemail_th_r_3
-    21300600: legs_male_platemail_th_r_4
-    21300602: legs_male_platemail_th_r_5
-    21300604: legs_male_platemail_th_r_6
-    21300606: legs_male_platemail_th_r_7
-    21300608: legs_male_platemail_th_d_0
-    21300610: legs_male_platemail_th_d_1
-    21300612: legs_male_platemail_th_d_2
-    21300614: legs_male_platemail_th_d_3
-    21300616: legs_male_platemail_th_d_4
-    21300618: legs_male_platemail_th_d_5
-    21300620: legs_male_platemail_th_d_6
-    21300622: legs_male_platemail_th_d_7
-    21300624: legs_male_platemail_th_l_0
-    21300626: legs_male_platemail_th_l_1
-    21300628: legs_male_platemail_th_l_2
-    21300630: legs_male_platemail_th_l_3
-    21300632: legs_male_platemail_th_l_4
-    21300634: legs_male_platemail_th_l_5
-    21300636: legs_male_platemail_th_l_6
-    21300638: legs_male_platemail_th_l_7
-    21300640: legs_male_platemail_th_t_0
-    21300642: legs_male_platemail_th_t_1
-    21300644: legs_male_platemail_th_t_2
-    21300646: legs_male_platemail_th_t_3
-    21300648: legs_male_platemail_th_t_4
-    21300650: legs_male_platemail_th_t_5
-    21300652: legs_male_platemail_th_t_6
-    21300654: legs_male_platemail_th_t_7
-    21300656: legs_male_platemail_sc_r_0
-    21300658: legs_male_platemail_sc_r_1
-    21300660: legs_male_platemail_sc_r_2
-    21300662: legs_male_platemail_sc_r_3
-    21300664: legs_male_platemail_sc_r_4
-    21300666: legs_male_platemail_sc_r_5
-    21300668: legs_male_platemail_sc_r_6
-    21300670: legs_male_platemail_sc_d_0
-    21300672: legs_male_platemail_sc_d_1
-    21300674: legs_male_platemail_sc_d_2
-    21300676: legs_male_platemail_sc_d_3
-    21300678: legs_male_platemail_sc_d_4
-    21300680: legs_male_platemail_sc_d_5
-    21300682: legs_male_platemail_sc_d_6
-    21300684: legs_male_platemail_sc_l_0
-    21300686: legs_male_platemail_sc_l_1
-    21300688: legs_male_platemail_sc_l_2
-    21300690: legs_male_platemail_sc_l_3
-    21300692: legs_male_platemail_sc_l_4
-    21300694: legs_male_platemail_sc_l_5
-    21300696: legs_male_platemail_sc_l_6
-    21300698: legs_male_platemail_sc_t_0
-    21300700: legs_male_platemail_sc_t_1
-    21300702: legs_male_platemail_sc_t_2
-    21300704: legs_male_platemail_sc_t_3
-    21300706: legs_male_platemail_sc_t_4
-    21300708: legs_male_platemail_sc_t_5
-    21300710: legs_male_platemail_sc_t_6
+    21300000: lefthand_male_shield_male_cutoutforbody_hu_0
+    21300002: lefthand_male_shield_male_cutoutforbody_hu_1
+    21300004: lefthand_male_shield_male_cutoutforbody_hu_2
+    21300006: lefthand_male_shield_male_cutoutforbody_hu_3
+    21300008: lefthand_male_shield_male_cutoutforbody_hu_4
+    21300010: lefthand_male_shield_male_cutoutforbody_hu_5
+    21300012: lefthand_male_shield_male_cutoutforbody_sh_r_0
+    21300014: lefthand_male_shield_male_cutoutforbody_sh_r_1
+    21300016: lefthand_male_shield_male_cutoutforbody_sh_r_2
+    21300018: lefthand_male_shield_male_cutoutforbody_sh_r_3
+    21300020: lefthand_male_shield_male_cutoutforbody_sh_r_4
+    21300022: lefthand_male_shield_male_cutoutforbody_sh_r_5
+    21300024: lefthand_male_shield_male_cutoutforbody_sh_r_6
+    21300026: lefthand_male_shield_male_cutoutforbody_sh_r_7
+    21300028: lefthand_male_shield_male_cutoutforbody_sh_r_8
+    21300030: lefthand_male_shield_male_cutoutforbody_sh_r_9
+    21300032: lefthand_male_shield_male_cutoutforbody_sh_r_10
+    21300034: lefthand_male_shield_male_cutoutforbody_sh_r_11
+    21300036: lefthand_male_shield_male_cutoutforbody_sh_r_12
+    21300038: lefthand_male_shield_male_cutoutforbody_sh_d_0
+    21300040: lefthand_male_shield_male_cutoutforbody_sh_d_1
+    21300042: lefthand_male_shield_male_cutoutforbody_sh_d_2
+    21300044: lefthand_male_shield_male_cutoutforbody_sh_d_3
+    21300046: lefthand_male_shield_male_cutoutforbody_sh_d_4
+    21300048: lefthand_male_shield_male_cutoutforbody_sh_d_5
+    21300050: lefthand_male_shield_male_cutoutforbody_sh_d_6
+    21300052: lefthand_male_shield_male_cutoutforbody_sh_d_7
+    21300054: lefthand_male_shield_male_cutoutforbody_sh_d_8
+    21300056: lefthand_male_shield_male_cutoutforbody_sh_d_9
+    21300058: lefthand_male_shield_male_cutoutforbody_sh_d_10
+    21300060: lefthand_male_shield_male_cutoutforbody_sh_d_11
+    21300062: lefthand_male_shield_male_cutoutforbody_sh_d_12
+    21300064: lefthand_male_shield_male_cutoutforbody_sh_l_0
+    21300066: lefthand_male_shield_male_cutoutforbody_sh_l_1
+    21300068: lefthand_male_shield_male_cutoutforbody_sh_l_2
+    21300070: lefthand_male_shield_male_cutoutforbody_sh_l_3
+    21300072: lefthand_male_shield_male_cutoutforbody_sh_l_4
+    21300074: lefthand_male_shield_male_cutoutforbody_sh_l_5
+    21300076: lefthand_male_shield_male_cutoutforbody_sh_l_6
+    21300078: lefthand_male_shield_male_cutoutforbody_sh_l_7
+    21300080: lefthand_male_shield_male_cutoutforbody_sh_l_8
+    21300082: lefthand_male_shield_male_cutoutforbody_sh_l_9
+    21300084: lefthand_male_shield_male_cutoutforbody_sh_l_10
+    21300086: lefthand_male_shield_male_cutoutforbody_sh_l_11
+    21300088: lefthand_male_shield_male_cutoutforbody_sh_l_12
+    21300090: lefthand_male_shield_male_cutoutforbody_sh_t_0
+    21300092: lefthand_male_shield_male_cutoutforbody_sh_t_1
+    21300094: lefthand_male_shield_male_cutoutforbody_sh_t_2
+    21300096: lefthand_male_shield_male_cutoutforbody_sh_t_3
+    21300098: lefthand_male_shield_male_cutoutforbody_sh_t_4
+    21300100: lefthand_male_shield_male_cutoutforbody_sh_t_5
+    21300102: lefthand_male_shield_male_cutoutforbody_sh_t_6
+    21300104: lefthand_male_shield_male_cutoutforbody_sh_t_7
+    21300106: lefthand_male_shield_male_cutoutforbody_sh_t_8
+    21300108: lefthand_male_shield_male_cutoutforbody_sh_t_9
+    21300110: lefthand_male_shield_male_cutoutforbody_sh_t_10
+    21300112: lefthand_male_shield_male_cutoutforbody_sh_t_11
+    21300114: lefthand_male_shield_male_cutoutforbody_sh_t_12
+    21300116: lefthand_male_shield_male_cutoutforbody_sl_r_0
+    21300118: lefthand_male_shield_male_cutoutforbody_sl_r_1
+    21300120: lefthand_male_shield_male_cutoutforbody_sl_r_2
+    21300122: lefthand_male_shield_male_cutoutforbody_sl_r_3
+    21300124: lefthand_male_shield_male_cutoutforbody_sl_r_4
+    21300126: lefthand_male_shield_male_cutoutforbody_sl_r_5
+    21300128: lefthand_male_shield_male_cutoutforbody_sl_d_0
+    21300130: lefthand_male_shield_male_cutoutforbody_sl_d_1
+    21300132: lefthand_male_shield_male_cutoutforbody_sl_d_2
+    21300134: lefthand_male_shield_male_cutoutforbody_sl_d_3
+    21300136: lefthand_male_shield_male_cutoutforbody_sl_d_4
+    21300138: lefthand_male_shield_male_cutoutforbody_sl_d_5
+    21300140: lefthand_male_shield_male_cutoutforbody_sl_l_0
+    21300142: lefthand_male_shield_male_cutoutforbody_sl_l_1
+    21300144: lefthand_male_shield_male_cutoutforbody_sl_l_2
+    21300146: lefthand_male_shield_male_cutoutforbody_sl_l_3
+    21300148: lefthand_male_shield_male_cutoutforbody_sl_l_4
+    21300150: lefthand_male_shield_male_cutoutforbody_sl_l_5
+    21300152: lefthand_male_shield_male_cutoutforbody_sl_t_0
+    21300154: lefthand_male_shield_male_cutoutforbody_sl_t_1
+    21300156: lefthand_male_shield_male_cutoutforbody_sl_t_2
+    21300158: lefthand_male_shield_male_cutoutforbody_sl_t_3
+    21300160: lefthand_male_shield_male_cutoutforbody_sl_t_4
+    21300162: lefthand_male_shield_male_cutoutforbody_sl_t_5
+    21300164: lefthand_male_shield_male_cutoutforbody_wc_r_0
+    21300166: lefthand_male_shield_male_cutoutforbody_wc_r_1
+    21300168: lefthand_male_shield_male_cutoutforbody_wc_r_2
+    21300170: lefthand_male_shield_male_cutoutforbody_wc_r_3
+    21300172: lefthand_male_shield_male_cutoutforbody_wc_r_4
+    21300174: lefthand_male_shield_male_cutoutforbody_wc_r_5
+    21300176: lefthand_male_shield_male_cutoutforbody_wc_r_6
+    21300178: lefthand_male_shield_male_cutoutforbody_wc_r_7
+    21300180: lefthand_male_shield_male_cutoutforbody_wc_r_8
+    21300182: lefthand_male_shield_male_cutoutforbody_wc_d_0
+    21300184: lefthand_male_shield_male_cutoutforbody_wc_d_1
+    21300186: lefthand_male_shield_male_cutoutforbody_wc_d_2
+    21300188: lefthand_male_shield_male_cutoutforbody_wc_d_3
+    21300190: lefthand_male_shield_male_cutoutforbody_wc_d_4
+    21300192: lefthand_male_shield_male_cutoutforbody_wc_d_5
+    21300194: lefthand_male_shield_male_cutoutforbody_wc_d_6
+    21300196: lefthand_male_shield_male_cutoutforbody_wc_d_7
+    21300198: lefthand_male_shield_male_cutoutforbody_wc_d_8
+    21300200: lefthand_male_shield_male_cutoutforbody_wc_l_0
+    21300202: lefthand_male_shield_male_cutoutforbody_wc_l_1
+    21300204: lefthand_male_shield_male_cutoutforbody_wc_l_2
+    21300206: lefthand_male_shield_male_cutoutforbody_wc_l_3
+    21300208: lefthand_male_shield_male_cutoutforbody_wc_l_4
+    21300210: lefthand_male_shield_male_cutoutforbody_wc_l_5
+    21300212: lefthand_male_shield_male_cutoutforbody_wc_l_6
+    21300214: lefthand_male_shield_male_cutoutforbody_wc_l_7
+    21300216: lefthand_male_shield_male_cutoutforbody_wc_l_8
+    21300218: lefthand_male_shield_male_cutoutforbody_wc_t_0
+    21300220: lefthand_male_shield_male_cutoutforbody_wc_t_1
+    21300222: lefthand_male_shield_male_cutoutforbody_wc_t_2
+    21300224: lefthand_male_shield_male_cutoutforbody_wc_t_3
+    21300226: lefthand_male_shield_male_cutoutforbody_wc_t_4
+    21300228: lefthand_male_shield_male_cutoutforbody_wc_t_5
+    21300230: lefthand_male_shield_male_cutoutforbody_wc_t_6
+    21300232: lefthand_male_shield_male_cutoutforbody_wc_t_7
+    21300234: lefthand_male_shield_male_cutoutforbody_wc_t_8
+    21300236: lefthand_male_shield_male_cutoutforbody_th_r_0
+    21300238: lefthand_male_shield_male_cutoutforbody_th_r_1
+    21300240: lefthand_male_shield_male_cutoutforbody_th_r_2
+    21300242: lefthand_male_shield_male_cutoutforbody_th_r_3
+    21300244: lefthand_male_shield_male_cutoutforbody_th_r_4
+    21300246: lefthand_male_shield_male_cutoutforbody_th_r_5
+    21300248: lefthand_male_shield_male_cutoutforbody_th_r_6
+    21300250: lefthand_male_shield_male_cutoutforbody_th_r_7
+    21300252: lefthand_male_shield_male_cutoutforbody_th_d_0
+    21300254: lefthand_male_shield_male_cutoutforbody_th_d_1
+    21300256: lefthand_male_shield_male_cutoutforbody_th_d_2
+    21300258: lefthand_male_shield_male_cutoutforbody_th_d_3
+    21300260: lefthand_male_shield_male_cutoutforbody_th_d_4
+    21300262: lefthand_male_shield_male_cutoutforbody_th_d_5
+    21300264: lefthand_male_shield_male_cutoutforbody_th_d_6
+    21300266: lefthand_male_shield_male_cutoutforbody_th_d_7
+    21300268: lefthand_male_shield_male_cutoutforbody_th_l_0
+    21300270: lefthand_male_shield_male_cutoutforbody_th_l_1
+    21300272: lefthand_male_shield_male_cutoutforbody_th_l_2
+    21300274: lefthand_male_shield_male_cutoutforbody_th_l_3
+    21300276: lefthand_male_shield_male_cutoutforbody_th_l_4
+    21300278: lefthand_male_shield_male_cutoutforbody_th_l_5
+    21300280: lefthand_male_shield_male_cutoutforbody_th_l_6
+    21300282: lefthand_male_shield_male_cutoutforbody_th_l_7
+    21300284: lefthand_male_shield_male_cutoutforbody_th_t_0
+    21300286: lefthand_male_shield_male_cutoutforbody_th_t_1
+    21300288: lefthand_male_shield_male_cutoutforbody_th_t_2
+    21300290: lefthand_male_shield_male_cutoutforbody_th_t_3
+    21300292: lefthand_male_shield_male_cutoutforbody_th_t_4
+    21300294: lefthand_male_shield_male_cutoutforbody_th_t_5
+    21300296: lefthand_male_shield_male_cutoutforbody_th_t_6
+    21300298: lefthand_male_shield_male_cutoutforbody_th_t_7
+    21300300: lefthand_male_shield_male_cutoutforbody_sc_r_0
+    21300302: lefthand_male_shield_male_cutoutforbody_sc_r_1
+    21300304: lefthand_male_shield_male_cutoutforbody_sc_r_2
+    21300306: lefthand_male_shield_male_cutoutforbody_sc_r_3
+    21300308: lefthand_male_shield_male_cutoutforbody_sc_r_4
+    21300310: lefthand_male_shield_male_cutoutforbody_sc_r_5
+    21300312: lefthand_male_shield_male_cutoutforbody_sc_r_6
+    21300314: lefthand_male_shield_male_cutoutforbody_sc_d_0
+    21300316: lefthand_male_shield_male_cutoutforbody_sc_d_1
+    21300318: lefthand_male_shield_male_cutoutforbody_sc_d_2
+    21300320: lefthand_male_shield_male_cutoutforbody_sc_d_3
+    21300322: lefthand_male_shield_male_cutoutforbody_sc_d_4
+    21300324: lefthand_male_shield_male_cutoutforbody_sc_d_5
+    21300326: lefthand_male_shield_male_cutoutforbody_sc_d_6
+    21300328: lefthand_male_shield_male_cutoutforbody_sc_l_0
+    21300330: lefthand_male_shield_male_cutoutforbody_sc_l_1
+    21300332: lefthand_male_shield_male_cutoutforbody_sc_l_2
+    21300334: lefthand_male_shield_male_cutoutforbody_sc_l_3
+    21300336: lefthand_male_shield_male_cutoutforbody_sc_l_4
+    21300338: lefthand_male_shield_male_cutoutforbody_sc_l_5
+    21300340: lefthand_male_shield_male_cutoutforbody_sc_l_6
+    21300342: lefthand_male_shield_male_cutoutforbody_sc_t_0
+    21300344: lefthand_male_shield_male_cutoutforbody_sc_t_1
+    21300346: lefthand_male_shield_male_cutoutforbody_sc_t_2
+    21300348: lefthand_male_shield_male_cutoutforbody_sc_t_3
+    21300350: lefthand_male_shield_male_cutoutforbody_sc_t_4
+    21300352: lefthand_male_shield_male_cutoutforbody_sc_t_5
+    21300354: lefthand_male_shield_male_cutoutforbody_sc_t_6
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -440,7 +262,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: legs_male_platemail_hu_0
+      name: lefthand_male_shield_male_cutoutforbody_hu_0
       rect:
         serializedVersion: 2
         x: 0
@@ -454,13 +276,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 59bf76435141943f48e3ee65a1274a79
+      spriteID: 6377f86e3041f4bcaad82674cf7f2491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_hu_1
+      name: lefthand_male_shield_male_cutoutforbody_hu_1
       rect:
         serializedVersion: 2
         x: 64
@@ -474,13 +296,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 213262ad80c074a64b73672d76ad1824
+      spriteID: e2ee6e806c99348d38f18c43d1caccfe
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_hu_2
+      name: lefthand_male_shield_male_cutoutforbody_hu_2
       rect:
         serializedVersion: 2
         x: 128
@@ -494,13 +316,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c5c5885cdab394c1db092c78db9b3e08
+      spriteID: 73fe219ec74be40ac8297f47d6f90be2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_hu_3
+      name: lefthand_male_shield_male_cutoutforbody_hu_3
       rect:
         serializedVersion: 2
         x: 192
@@ -514,13 +336,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a11b3af9f88de46f2a4795bcdb7f65e7
+      spriteID: 3e41e7c8654cf4c33afadb6f383c52f3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_hu_4
+      name: lefthand_male_shield_male_cutoutforbody_hu_4
       rect:
         serializedVersion: 2
         x: 256
@@ -534,13 +356,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d2baadb3018a34731bbebe5991320825
+      spriteID: b54b712c011d44eed93a35ae6a68b8c2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_hu_5
+      name: lefthand_male_shield_male_cutoutforbody_hu_5
       rect:
         serializedVersion: 2
         x: 320
@@ -554,13 +376,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8a02db11e9044489a8f140ea5532b4d8
+      spriteID: 4843cd56758b0467a995c20b76e64801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_r_0
+      name: lefthand_male_shield_male_cutoutforbody_sh_r_0
       rect:
         serializedVersion: 2
         x: 0
@@ -574,13 +396,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7fecf56bbfa8047689fa691493a66361
+      spriteID: 17b1f38adcda64cb38053ed9eb04942a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_r_1
+      name: lefthand_male_shield_male_cutoutforbody_sh_r_1
       rect:
         serializedVersion: 2
         x: 64
@@ -594,13 +416,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d43c559ecf3a44a18ba82fd962045ab5
+      spriteID: 3009b27deb8634b958c3b7ea6ab18b59
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_r_2
+      name: lefthand_male_shield_male_cutoutforbody_sh_r_2
       rect:
         serializedVersion: 2
         x: 128
@@ -614,13 +436,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 07ef1913fb0254ad5a1406bf3bec877a
+      spriteID: 1972fbe05a8cd45a8841d3e2a92bd6e2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_r_3
+      name: lefthand_male_shield_male_cutoutforbody_sh_r_3
       rect:
         serializedVersion: 2
         x: 192
@@ -634,13 +456,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6802289f6f5b644acaa5a0d6ccbac52c
+      spriteID: 8acdfaa03004e4926a414183e8f9499e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_r_4
+      name: lefthand_male_shield_male_cutoutforbody_sh_r_4
       rect:
         serializedVersion: 2
         x: 256
@@ -654,13 +476,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 989b5ada84fcf4ad6bcae9bc7664982d
+      spriteID: 1ca5cc194a8ae4fdc8b0be8d41b67687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_r_5
+      name: lefthand_male_shield_male_cutoutforbody_sh_r_5
       rect:
         serializedVersion: 2
         x: 320
@@ -674,13 +496,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d6f6e3375a6b4664b2f5d1badca1ad5
+      spriteID: 391dd1096509b4eb884fe801183a472a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_r_6
+      name: lefthand_male_shield_male_cutoutforbody_sh_r_6
       rect:
         serializedVersion: 2
         x: 384
@@ -694,13 +516,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 45c0b301f00a1419488c373746f18dd0
+      spriteID: 572e7592eaff84ba7b82c40e416c642a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_r_7
+      name: lefthand_male_shield_male_cutoutforbody_sh_r_7
       rect:
         serializedVersion: 2
         x: 448
@@ -714,13 +536,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 11a4f245e6808436793fa3aadbda9540
+      spriteID: f34e5c2792d8e413389fc55566b52c8c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_r_8
+      name: lefthand_male_shield_male_cutoutforbody_sh_r_8
       rect:
         serializedVersion: 2
         x: 512
@@ -734,13 +556,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f65ec4e348234a6cbe992ec120f601c
+      spriteID: f60d1beedb2bf42e88b5f04412cc58fc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_r_9
+      name: lefthand_male_shield_male_cutoutforbody_sh_r_9
       rect:
         serializedVersion: 2
         x: 576
@@ -754,13 +576,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d98f4a7c7e04b4f8eb14209fee18140f
+      spriteID: 0549d5f81268c4ecfb5cb8795d3a9ece
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_r_10
+      name: lefthand_male_shield_male_cutoutforbody_sh_r_10
       rect:
         serializedVersion: 2
         x: 640
@@ -774,13 +596,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b96a54d7a0932477889d33b1f997cbae
+      spriteID: 2a335fffbcc144027b5b937c070b7f6a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_r_11
+      name: lefthand_male_shield_male_cutoutforbody_sh_r_11
       rect:
         serializedVersion: 2
         x: 704
@@ -794,13 +616,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d7f9835b1dcfd463d916cfd793d6f8cb
+      spriteID: 1c40448f631424e91a917efe5ea6900a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_r_12
+      name: lefthand_male_shield_male_cutoutforbody_sh_r_12
       rect:
         serializedVersion: 2
         x: 768
@@ -814,13 +636,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20c014390f4ac446c9bbb02edd7462aa
+      spriteID: 8f9e4dab965ae41649ce16e4da1722b5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_d_0
+      name: lefthand_male_shield_male_cutoutforbody_sh_d_0
       rect:
         serializedVersion: 2
         x: 0
@@ -834,13 +656,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f38151a5263254fe7bb730badc8e4960
+      spriteID: 119b4afc44f7d448da67248a90459421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_d_1
+      name: lefthand_male_shield_male_cutoutforbody_sh_d_1
       rect:
         serializedVersion: 2
         x: 64
@@ -854,13 +676,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: edfb8718aca014edd9019b0f4cc696e1
+      spriteID: e803b8dadef1244788a2099d646d63ed
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_d_2
+      name: lefthand_male_shield_male_cutoutforbody_sh_d_2
       rect:
         serializedVersion: 2
         x: 128
@@ -874,13 +696,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dde4cbb53d9ae4c82bf31cda235b19d7
+      spriteID: 3a83eb3e2ce344759979cf4fd5e26521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_d_3
+      name: lefthand_male_shield_male_cutoutforbody_sh_d_3
       rect:
         serializedVersion: 2
         x: 192
@@ -894,13 +716,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f9ce4acc4bb041569eb3a960aafe151
+      spriteID: baa05390bec7e4ea3aeecb08b0a290f1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_d_4
+      name: lefthand_male_shield_male_cutoutforbody_sh_d_4
       rect:
         serializedVersion: 2
         x: 256
@@ -914,13 +736,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 80e55a8c22d7c4cd685619004885ed02
+      spriteID: 747858be19b01405a96b3e35c46823d4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_d_5
+      name: lefthand_male_shield_male_cutoutforbody_sh_d_5
       rect:
         serializedVersion: 2
         x: 320
@@ -934,13 +756,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 911ddeca0dccc4c03b5f2bbe8b5fa0b0
+      spriteID: 38428ae17fc674fedb7b75a9c23cfffb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_d_6
+      name: lefthand_male_shield_male_cutoutforbody_sh_d_6
       rect:
         serializedVersion: 2
         x: 384
@@ -954,13 +776,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bde17bda4dda04db09271bf8b5950c82
+      spriteID: 7f6e41054c0d949d782debda4657a419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_d_7
+      name: lefthand_male_shield_male_cutoutforbody_sh_d_7
       rect:
         serializedVersion: 2
         x: 448
@@ -974,13 +796,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1798b6919187e4fa0a9d40d71021b7bd
+      spriteID: e065062e9eb9f401580147787a34e93d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_d_8
+      name: lefthand_male_shield_male_cutoutforbody_sh_d_8
       rect:
         serializedVersion: 2
         x: 512
@@ -994,13 +816,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0bbb73949fdf248208ce4137bc0141bf
+      spriteID: e7c269f6512df4bb8b2baa0868b44bc4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_d_9
+      name: lefthand_male_shield_male_cutoutforbody_sh_d_9
       rect:
         serializedVersion: 2
         x: 576
@@ -1014,13 +836,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fecb5ad522dd145fca57378cc7daabee
+      spriteID: 2998e32419218467ea2269dd279a0a14
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_d_10
+      name: lefthand_male_shield_male_cutoutforbody_sh_d_10
       rect:
         serializedVersion: 2
         x: 640
@@ -1034,13 +856,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f7814e516cda14ebaad35af43c6a6942
+      spriteID: 45041e609f6f24ed3863d2766fa44959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_d_11
+      name: lefthand_male_shield_male_cutoutforbody_sh_d_11
       rect:
         serializedVersion: 2
         x: 704
@@ -1054,13 +876,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a11d8ad6ae201487fafb37117945603b
+      spriteID: cedc2c9b8024449e5bd9001c4cd82492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_d_12
+      name: lefthand_male_shield_male_cutoutforbody_sh_d_12
       rect:
         serializedVersion: 2
         x: 768
@@ -1074,13 +896,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4dbde7a2a178b486da131d1fce046911
+      spriteID: 872843791efc549d899e8a949faa7216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_l_0
+      name: lefthand_male_shield_male_cutoutforbody_sh_l_0
       rect:
         serializedVersion: 2
         x: 0
@@ -1094,13 +916,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad517fb9b515d4d63b3f09cf0578ce66
+      spriteID: 7a7ca18b3b148487380cc8c8fe35614c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_l_1
+      name: lefthand_male_shield_male_cutoutforbody_sh_l_1
       rect:
         serializedVersion: 2
         x: 64
@@ -1114,13 +936,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5c80d39e8212b49b39f805cbd10cbc44
+      spriteID: fb821ba3391ab4689891d67697590e94
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_l_2
+      name: lefthand_male_shield_male_cutoutforbody_sh_l_2
       rect:
         serializedVersion: 2
         x: 128
@@ -1134,13 +956,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 07299b611088c4d98a0ddbe41069f647
+      spriteID: 98bf0237cc21e4f02aac996efa7dfa8f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_l_3
+      name: lefthand_male_shield_male_cutoutforbody_sh_l_3
       rect:
         serializedVersion: 2
         x: 192
@@ -1154,13 +976,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a3500feda9eed4c268271ed9ac9adf69
+      spriteID: 2b212b73a16a443ddaeecd93305d2750
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_l_4
+      name: lefthand_male_shield_male_cutoutforbody_sh_l_4
       rect:
         serializedVersion: 2
         x: 256
@@ -1174,13 +996,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 270a75e063a9d48549a460636177ac5a
+      spriteID: 04a82e5aae4434976bc45dd7684c43f8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_l_5
+      name: lefthand_male_shield_male_cutoutforbody_sh_l_5
       rect:
         serializedVersion: 2
         x: 320
@@ -1194,13 +1016,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b1d38994331c4861a71b487962114c0
+      spriteID: 2b9de2f7402cb4535b086b46e3f9ba57
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_l_6
+      name: lefthand_male_shield_male_cutoutforbody_sh_l_6
       rect:
         serializedVersion: 2
         x: 384
@@ -1214,13 +1036,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4fba69a6413954b7ba13ecba1d9a604a
+      spriteID: 23bbce658a3814213bc76605a388fc20
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_l_7
+      name: lefthand_male_shield_male_cutoutforbody_sh_l_7
       rect:
         serializedVersion: 2
         x: 448
@@ -1234,13 +1056,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4d2932b4d114d4d8184f79d598b97435
+      spriteID: 550b96cc7fa78466cad174fab06a64fd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_l_8
+      name: lefthand_male_shield_male_cutoutforbody_sh_l_8
       rect:
         serializedVersion: 2
         x: 512
@@ -1254,13 +1076,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: feebdb0d95c914885894e51bcddfb16c
+      spriteID: 7662dfd2cbc2241dcafa2b8631e1d4f0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_l_9
+      name: lefthand_male_shield_male_cutoutforbody_sh_l_9
       rect:
         serializedVersion: 2
         x: 576
@@ -1274,13 +1096,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4d8b39a0d0d3f4855b35b2e1fdb24b02
+      spriteID: fd680c6f2749a49e3af7bc504e7da347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_l_10
+      name: lefthand_male_shield_male_cutoutforbody_sh_l_10
       rect:
         serializedVersion: 2
         x: 640
@@ -1294,13 +1116,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 41ca2ea3f35fb48d6b9f3e1f48fe139e
+      spriteID: f448b3dada121482082136086a270a9e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_l_11
+      name: lefthand_male_shield_male_cutoutforbody_sh_l_11
       rect:
         serializedVersion: 2
         x: 704
@@ -1314,13 +1136,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e9cb72860dd0349288e439ba4e116feb
+      spriteID: c25f948abac4943b1896935c6fc64e59
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_l_12
+      name: lefthand_male_shield_male_cutoutforbody_sh_l_12
       rect:
         serializedVersion: 2
         x: 768
@@ -1334,13 +1156,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 470e547167763459b8c1dce79cc8ec79
+      spriteID: 470f6515ec0b549b286a1189d186a306
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_t_0
+      name: lefthand_male_shield_male_cutoutforbody_sh_t_0
       rect:
         serializedVersion: 2
         x: 0
@@ -1354,13 +1176,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ee6ff95bff9643f0a6ddfed828073e8
+      spriteID: be018b73709634e24a8c22cfc158b5c5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_t_1
+      name: lefthand_male_shield_male_cutoutforbody_sh_t_1
       rect:
         serializedVersion: 2
         x: 64
@@ -1374,13 +1196,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 50cadc1a47c1e48ba9e30971bf0237a7
+      spriteID: 34c084258712543409f57ab3302242b8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_t_2
+      name: lefthand_male_shield_male_cutoutforbody_sh_t_2
       rect:
         serializedVersion: 2
         x: 128
@@ -1394,13 +1216,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5b58c72dda22346e4b20ccc914f511ad
+      spriteID: 2923a8b0d693344998bc9d72dc07f725
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_t_3
+      name: lefthand_male_shield_male_cutoutforbody_sh_t_3
       rect:
         serializedVersion: 2
         x: 192
@@ -1414,13 +1236,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f7da8fef8740418aa98d35a8c234c31
+      spriteID: c16b35166e6d5419a8afa18ae39d9ab6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_t_4
+      name: lefthand_male_shield_male_cutoutforbody_sh_t_4
       rect:
         serializedVersion: 2
         x: 256
@@ -1434,13 +1256,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5bad957be6b61455785c8942a9b4d38c
+      spriteID: 9ae4633d672da47d1a1aa9f2bb805e13
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_t_5
+      name: lefthand_male_shield_male_cutoutforbody_sh_t_5
       rect:
         serializedVersion: 2
         x: 320
@@ -1454,13 +1276,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e1f83f93cf2874e5097039605d0ebee4
+      spriteID: f9c9afe7879134935ae5cf58c4aab42a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_t_6
+      name: lefthand_male_shield_male_cutoutforbody_sh_t_6
       rect:
         serializedVersion: 2
         x: 384
@@ -1474,13 +1296,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b10a344dc011425fb135f766f138b06
+      spriteID: 94342a3b4b8334ae391a0a899aef06e5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_t_7
+      name: lefthand_male_shield_male_cutoutforbody_sh_t_7
       rect:
         serializedVersion: 2
         x: 448
@@ -1494,13 +1316,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0db4c8e8178634073b675f25e8716b36
+      spriteID: eb8b9dd6fcdf349a197e30a41e9fe1b4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_t_8
+      name: lefthand_male_shield_male_cutoutforbody_sh_t_8
       rect:
         serializedVersion: 2
         x: 512
@@ -1514,13 +1336,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c81f59e2bda1f41cdbc3cdf101d33534
+      spriteID: 98782a14f245c449f8f9271ba7ce3a99
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_t_9
+      name: lefthand_male_shield_male_cutoutforbody_sh_t_9
       rect:
         serializedVersion: 2
         x: 576
@@ -1534,13 +1356,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 81075f55b044c4e53afd6d790794bc5c
+      spriteID: 8459830e206b64eddb5d532a71e3860a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_t_10
+      name: lefthand_male_shield_male_cutoutforbody_sh_t_10
       rect:
         serializedVersion: 2
         x: 640
@@ -1554,13 +1376,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 69c6efd4ea8524162b982f5c2f6f8190
+      spriteID: 930abc1ce92bf4bffb2cf74a2db11906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_t_11
+      name: lefthand_male_shield_male_cutoutforbody_sh_t_11
       rect:
         serializedVersion: 2
         x: 704
@@ -1574,13 +1396,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f790ce3322095427b9090be00ab7957f
+      spriteID: 2fb53827a69ba46fbb845dab1ceee05d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sh_t_12
+      name: lefthand_male_shield_male_cutoutforbody_sh_t_12
       rect:
         serializedVersion: 2
         x: 768
@@ -1594,13 +1416,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3587488da09c140118e7ccc0399bd87a
+      spriteID: 60420f60314a1409a8d55025e47722a8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_r_0
+      name: lefthand_male_shield_male_cutoutforbody_sl_r_0
       rect:
         serializedVersion: 2
         x: 0
@@ -1614,13 +1436,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bd8f5ce9045364be7bd846f5610ed186
+      spriteID: d04c560a3ae964d8c9d2615e7716c0b1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_r_1
+      name: lefthand_male_shield_male_cutoutforbody_sl_r_1
       rect:
         serializedVersion: 2
         x: 64
@@ -1634,13 +1456,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 32ef2ecb5bc5b454d911024c0eafccc4
+      spriteID: 2ca518447eb7c4c27bcdfd453ca16c5f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_r_2
+      name: lefthand_male_shield_male_cutoutforbody_sl_r_2
       rect:
         serializedVersion: 2
         x: 128
@@ -1654,13 +1476,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c556727468eb64c31ab8e1d6d1fc6176
+      spriteID: 76ea22bef5c914484a9c834e847c9b8a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_r_3
+      name: lefthand_male_shield_male_cutoutforbody_sl_r_3
       rect:
         serializedVersion: 2
         x: 192
@@ -1674,13 +1496,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0136eefd3e0b9437c8f919cd36506e89
+      spriteID: 0d99300b7b14546b99f45bed148f0250
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_r_4
+      name: lefthand_male_shield_male_cutoutforbody_sl_r_4
       rect:
         serializedVersion: 2
         x: 256
@@ -1694,13 +1516,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 406a265d0b84447fc9e8e5d9ce3fdaa3
+      spriteID: b8953dea5795e4b5b85da1c8d4231186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_r_5
+      name: lefthand_male_shield_male_cutoutforbody_sl_r_5
       rect:
         serializedVersion: 2
         x: 320
@@ -1714,13 +1536,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d2f9abd11fe924a4c924dc93cd7532d1
+      spriteID: a93d722222dcb4277a8d539cb3f246ea
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_d_0
+      name: lefthand_male_shield_male_cutoutforbody_sl_d_0
       rect:
         serializedVersion: 2
         x: 0
@@ -1734,13 +1556,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5d4af1e76feee46f399e33be576d2e84
+      spriteID: 8d8ea621c47ce479ca8833b5740d6300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_d_1
+      name: lefthand_male_shield_male_cutoutforbody_sl_d_1
       rect:
         serializedVersion: 2
         x: 64
@@ -1754,13 +1576,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 99be8b1cbeeaf4319917ddf97df5fc87
+      spriteID: ca03fc1d3b1004f4e8200802407d823d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_d_2
+      name: lefthand_male_shield_male_cutoutforbody_sl_d_2
       rect:
         serializedVersion: 2
         x: 128
@@ -1774,13 +1596,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eb7574d66e4af4a93bebb63399337db0
+      spriteID: 045830941e2b34438a88e03824b7f91f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_d_3
+      name: lefthand_male_shield_male_cutoutforbody_sl_d_3
       rect:
         serializedVersion: 2
         x: 192
@@ -1794,13 +1616,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6ae614c9c468045a68058b271c105033
+      spriteID: 1ae8833d25644494aafe11ef8d763739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_d_4
+      name: lefthand_male_shield_male_cutoutforbody_sl_d_4
       rect:
         serializedVersion: 2
         x: 256
@@ -1814,13 +1636,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c6643e9e0f5e14c3c92a4b585a7a87c3
+      spriteID: b197fdafb6c374198ab412483a784d5a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_d_5
+      name: lefthand_male_shield_male_cutoutforbody_sl_d_5
       rect:
         serializedVersion: 2
         x: 320
@@ -1834,13 +1656,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9031fb237ae834fe29629d8ffdeaf7d1
+      spriteID: 3f48e98752ba64d8d8bf1c2022736103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_l_0
+      name: lefthand_male_shield_male_cutoutforbody_sl_l_0
       rect:
         serializedVersion: 2
         x: 0
@@ -1854,13 +1676,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 36a00ac9df1b646e698c34b7f887c41b
+      spriteID: f9bdfbf4a9475453ab5c92d0dae8ea4e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_l_1
+      name: lefthand_male_shield_male_cutoutforbody_sl_l_1
       rect:
         serializedVersion: 2
         x: 64
@@ -1874,13 +1696,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 910320008745745ea8c05e41d9f400ea
+      spriteID: 3375912cc6bca419d8765eed2adf27d6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_l_2
+      name: lefthand_male_shield_male_cutoutforbody_sl_l_2
       rect:
         serializedVersion: 2
         x: 128
@@ -1894,13 +1716,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 484a28237302341389cd08cb84ba6823
+      spriteID: c5b35e49343de450eb08e0f6123fbb2b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_l_3
+      name: lefthand_male_shield_male_cutoutforbody_sl_l_3
       rect:
         serializedVersion: 2
         x: 192
@@ -1914,13 +1736,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 462527d3a95bc4adbab794242a6b48c3
+      spriteID: 5b012eaa443b44c97ac291b2b15fb81a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_l_4
+      name: lefthand_male_shield_male_cutoutforbody_sl_l_4
       rect:
         serializedVersion: 2
         x: 256
@@ -1934,13 +1756,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 941b6df0b2d284d18bd4e4d44495168c
+      spriteID: d3d0be750cdca48bcaf765828e4e470f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_l_5
+      name: lefthand_male_shield_male_cutoutforbody_sl_l_5
       rect:
         serializedVersion: 2
         x: 320
@@ -1954,13 +1776,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 484e4b85b62fa4cf69abd447d059a0b0
+      spriteID: ada882a2c2aed4d2dbf3e36f2c9274e6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_t_0
+      name: lefthand_male_shield_male_cutoutforbody_sl_t_0
       rect:
         serializedVersion: 2
         x: 0
@@ -1974,13 +1796,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b1595c6f1f29044719f8800de4bb7551
+      spriteID: 836873d59243e4f8fb85948786a07f27
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_t_1
+      name: lefthand_male_shield_male_cutoutforbody_sl_t_1
       rect:
         serializedVersion: 2
         x: 64
@@ -1994,13 +1816,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6f14c946b26da4746b43ad8cc2cc8879
+      spriteID: d8a83bcdb04454500801278e580aca9a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_t_2
+      name: lefthand_male_shield_male_cutoutforbody_sl_t_2
       rect:
         serializedVersion: 2
         x: 128
@@ -2014,13 +1836,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d982fe5aace94421197c443a176916c1
+      spriteID: bb6de3f6599bd4164882ed218d2c1937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_t_3
+      name: lefthand_male_shield_male_cutoutforbody_sl_t_3
       rect:
         serializedVersion: 2
         x: 192
@@ -2034,13 +1856,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6050f37a4f6244d9ea2b5ae59eed6f7e
+      spriteID: 51f6d0508b103475290be671b4155f64
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_t_4
+      name: lefthand_male_shield_male_cutoutforbody_sl_t_4
       rect:
         serializedVersion: 2
         x: 256
@@ -2054,13 +1876,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9e33d5f50354742c1bff6c3f8887c616
+      spriteID: e49038a51d416489eb438b10a82b8b5c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sl_t_5
+      name: lefthand_male_shield_male_cutoutforbody_sl_t_5
       rect:
         serializedVersion: 2
         x: 320
@@ -2074,13 +1896,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 362a80b351b444e94910181e22beac80
+      spriteID: 1b65bcaff3d5f40418b343ba5a9e8581
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_r_0
+      name: lefthand_male_shield_male_cutoutforbody_wc_r_0
       rect:
         serializedVersion: 2
         x: 0
@@ -2094,13 +1916,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1aeb190403094ef8838f99468a63f40
+      spriteID: 3d5978c4a69fa4c9fa82e51e84983efd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_r_1
+      name: lefthand_male_shield_male_cutoutforbody_wc_r_1
       rect:
         serializedVersion: 2
         x: 64
@@ -2114,13 +1936,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2aa53f7e15e084e0aacff749d7ba8c17
+      spriteID: 7e78a6e5e314d4cb3a6d35f609a698e9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_r_2
+      name: lefthand_male_shield_male_cutoutforbody_wc_r_2
       rect:
         serializedVersion: 2
         x: 128
@@ -2134,13 +1956,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eaf795018f7bb44b3b4c570a479df954
+      spriteID: 107134dd25530440f87120316538a338
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_r_3
+      name: lefthand_male_shield_male_cutoutforbody_wc_r_3
       rect:
         serializedVersion: 2
         x: 192
@@ -2154,13 +1976,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 08b13377b2b5a45938de655a3be1119e
+      spriteID: e603283b9e5a7411bbc0a00906cb613f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_r_4
+      name: lefthand_male_shield_male_cutoutforbody_wc_r_4
       rect:
         serializedVersion: 2
         x: 256
@@ -2174,13 +1996,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a65c6584fb97645c1b34f4db3a45ac41
+      spriteID: c19697e0073914215ac99e7376163b9a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_r_5
+      name: lefthand_male_shield_male_cutoutforbody_wc_r_5
       rect:
         serializedVersion: 2
         x: 320
@@ -2194,13 +2016,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b2af0d834901d4794b151889c00d2de9
+      spriteID: 94b1dc2c33a49446ea443af8b51c0fca
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_r_6
+      name: lefthand_male_shield_male_cutoutforbody_wc_r_6
       rect:
         serializedVersion: 2
         x: 384
@@ -2214,13 +2036,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d4fc4e4a7cc72469ea48bfeed729b7bb
+      spriteID: 229152b93636643308b74dfa4bb76777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_r_7
+      name: lefthand_male_shield_male_cutoutforbody_wc_r_7
       rect:
         serializedVersion: 2
         x: 448
@@ -2234,13 +2056,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ddd5c05c4fbb44871873314da2092bd8
+      spriteID: 7a12f83e8a7e74d68911799e077fd886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_r_8
+      name: lefthand_male_shield_male_cutoutforbody_wc_r_8
       rect:
         serializedVersion: 2
         x: 512
@@ -2254,13 +2076,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 719e19888a56b485c97c00cbb72a21df
+      spriteID: e056b8251d9874379a9dc3be221962ee
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_d_0
+      name: lefthand_male_shield_male_cutoutforbody_wc_d_0
       rect:
         serializedVersion: 2
         x: 0
@@ -2274,13 +2096,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3d187bd6eabce4c90b89b4a0096f3db7
+      spriteID: caa2271a563864639a070ad79c42d6cc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_d_1
+      name: lefthand_male_shield_male_cutoutforbody_wc_d_1
       rect:
         serializedVersion: 2
         x: 64
@@ -2294,13 +2116,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 155654320592e458bb5009466b22d953
+      spriteID: 56e5debc7701b47b988e857012d0e526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_d_2
+      name: lefthand_male_shield_male_cutoutforbody_wc_d_2
       rect:
         serializedVersion: 2
         x: 128
@@ -2314,13 +2136,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8345e23353c1f4c82a4b493392e52d4d
+      spriteID: 753b1fd6baea24932a231f4851c35dc8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_d_3
+      name: lefthand_male_shield_male_cutoutforbody_wc_d_3
       rect:
         serializedVersion: 2
         x: 192
@@ -2334,13 +2156,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 43a058ac69c194861abc3bdc65a12776
+      spriteID: dad0b3de52bfd4d8aad43f58bddcf1a4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_d_4
+      name: lefthand_male_shield_male_cutoutforbody_wc_d_4
       rect:
         serializedVersion: 2
         x: 256
@@ -2354,13 +2176,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 847bbf5d7128944678a9bfb9642ec742
+      spriteID: e5d252a8300ae4bd2b17e824644090de
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_d_5
+      name: lefthand_male_shield_male_cutoutforbody_wc_d_5
       rect:
         serializedVersion: 2
         x: 320
@@ -2374,13 +2196,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d42d6893767924283a8801e906382e76
+      spriteID: d5957452052b74364b67ebf625cbaf4d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_d_6
+      name: lefthand_male_shield_male_cutoutforbody_wc_d_6
       rect:
         serializedVersion: 2
         x: 384
@@ -2394,13 +2216,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e2e1cbfdcce5f4c2e9ba9142ade2966b
+      spriteID: 0f0e4a95eb5e14ca0b096d024d16de55
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_d_7
+      name: lefthand_male_shield_male_cutoutforbody_wc_d_7
       rect:
         serializedVersion: 2
         x: 448
@@ -2414,13 +2236,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 54edf31e05d8e4fa0a59bfc392b58ed2
+      spriteID: 3291fbb722f354455b722f9d0047b77c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_d_8
+      name: lefthand_male_shield_male_cutoutforbody_wc_d_8
       rect:
         serializedVersion: 2
         x: 512
@@ -2434,13 +2256,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 115828a5983474e23bd765f8956f2e8e
+      spriteID: ac16347a87ad44373a1681b68eff61c2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_l_0
+      name: lefthand_male_shield_male_cutoutforbody_wc_l_0
       rect:
         serializedVersion: 2
         x: 0
@@ -2454,13 +2276,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 846a558b16ecd49b29890639aaece4d1
+      spriteID: 079f294a2f72f44bba9d59b143cd1392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_l_1
+      name: lefthand_male_shield_male_cutoutforbody_wc_l_1
       rect:
         serializedVersion: 2
         x: 64
@@ -2474,13 +2296,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 83818c45066aa46c9bbfe4893f1afa1d
+      spriteID: c71f25be10b49476eac24f1f77ab8e06
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_l_2
+      name: lefthand_male_shield_male_cutoutforbody_wc_l_2
       rect:
         serializedVersion: 2
         x: 128
@@ -2494,13 +2316,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 65a6c86ffbd354ea68b35d88f0aad942
+      spriteID: a4876ad7c138747549d58c3d6f995d5c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_l_3
+      name: lefthand_male_shield_male_cutoutforbody_wc_l_3
       rect:
         serializedVersion: 2
         x: 192
@@ -2514,13 +2336,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a7e4bb4c7ee744f71a42b78de77a3d42
+      spriteID: 0136e2b22f06743e79d3101956b6672c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_l_4
+      name: lefthand_male_shield_male_cutoutforbody_wc_l_4
       rect:
         serializedVersion: 2
         x: 256
@@ -2534,13 +2356,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 84c0c95c2804e43daa4fa62d67e2cac4
+      spriteID: c04def2eea1774f9e81e5dcb2601fb83
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_l_5
+      name: lefthand_male_shield_male_cutoutforbody_wc_l_5
       rect:
         serializedVersion: 2
         x: 320
@@ -2554,13 +2376,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 070bac8c103cd4d5cab013c0432d1797
+      spriteID: cee811bb4761746f8ab41246a797dbf7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_l_6
+      name: lefthand_male_shield_male_cutoutforbody_wc_l_6
       rect:
         serializedVersion: 2
         x: 384
@@ -2574,13 +2396,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6b1efc5d2acc14dc8bfaee8683f142c3
+      spriteID: f025c3c631b574a48b0ec9530f8b8ca2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_l_7
+      name: lefthand_male_shield_male_cutoutforbody_wc_l_7
       rect:
         serializedVersion: 2
         x: 448
@@ -2594,13 +2416,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5fe9de3695d964d02ae52b370ac45819
+      spriteID: 4e838aee6256143dfb78f97eab22a1d9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_l_8
+      name: lefthand_male_shield_male_cutoutforbody_wc_l_8
       rect:
         serializedVersion: 2
         x: 512
@@ -2614,13 +2436,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0e382cbcebf8e4d48ac7f594ed2cf4fe
+      spriteID: e4ce8a78dd0e245a5a65e9c5c9c2fc4c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_t_0
+      name: lefthand_male_shield_male_cutoutforbody_wc_t_0
       rect:
         serializedVersion: 2
         x: 0
@@ -2634,13 +2456,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 19cce2861b462464293621c7c9488481
+      spriteID: e2a52b6d725904e359f9af9abb2233b0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_t_1
+      name: lefthand_male_shield_male_cutoutforbody_wc_t_1
       rect:
         serializedVersion: 2
         x: 64
@@ -2654,13 +2476,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b39f2e63b2e34a08a099a2d6b01f1ca
+      spriteID: 0288ba65e27754519ac8089af7bdd418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_t_2
+      name: lefthand_male_shield_male_cutoutforbody_wc_t_2
       rect:
         serializedVersion: 2
         x: 128
@@ -2674,13 +2496,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6d6ad940a5741498ebf8ea42ded6a12c
+      spriteID: 22df5e5adf9d449d0b7583b667ebbe11
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_t_3
+      name: lefthand_male_shield_male_cutoutforbody_wc_t_3
       rect:
         serializedVersion: 2
         x: 192
@@ -2694,13 +2516,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f3821edabe4f544d7bf6453450dccc11
+      spriteID: cf7c1bb1dee7947858f05348348c63f8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_t_4
+      name: lefthand_male_shield_male_cutoutforbody_wc_t_4
       rect:
         serializedVersion: 2
         x: 256
@@ -2714,13 +2536,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cc291ce02fc364d95a18619f3f559b82
+      spriteID: e8467fd82eb984ba4a3a32e17e225b5a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_t_5
+      name: lefthand_male_shield_male_cutoutforbody_wc_t_5
       rect:
         serializedVersion: 2
         x: 320
@@ -2734,13 +2556,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 17c8ba3ea95e74f50bc2eb82102eb9ef
+      spriteID: bc655609094444bc79c332616e0a6c9e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_t_6
+      name: lefthand_male_shield_male_cutoutforbody_wc_t_6
       rect:
         serializedVersion: 2
         x: 384
@@ -2754,13 +2576,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 66de0e749b4c24c409f8d43d8b68e39d
+      spriteID: ed67cd2d7520944d3b7bfc4f848084cc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_t_7
+      name: lefthand_male_shield_male_cutoutforbody_wc_t_7
       rect:
         serializedVersion: 2
         x: 448
@@ -2774,13 +2596,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b6a3f5d29950a42cea55fb8c857d497b
+      spriteID: f16a38d838a424104a5a88a1e0ee399b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_wc_t_8
+      name: lefthand_male_shield_male_cutoutforbody_wc_t_8
       rect:
         serializedVersion: 2
         x: 512
@@ -2794,13 +2616,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 68adb83c19b804e598c37485a45ca1ec
+      spriteID: 2c7aaf825433f44a7854205694e252ce
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_r_0
+      name: lefthand_male_shield_male_cutoutforbody_th_r_0
       rect:
         serializedVersion: 2
         x: 0
@@ -2814,13 +2636,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e90b8bab9eb9d4b43bef40b7611b7064
+      spriteID: 9fab0f5d9e6e846238ef7cdc95f566b2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_r_1
+      name: lefthand_male_shield_male_cutoutforbody_th_r_1
       rect:
         serializedVersion: 2
         x: 64
@@ -2834,13 +2656,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f2d46adf9eba49078b5753ec8d92f43
+      spriteID: 26acadd0b3056456baed549803d83849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_r_2
+      name: lefthand_male_shield_male_cutoutforbody_th_r_2
       rect:
         serializedVersion: 2
         x: 128
@@ -2854,13 +2676,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: da245a7f91e3743f9a0dceb688010af4
+      spriteID: 9f35df9befffb4e3f84b709726348b48
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_r_3
+      name: lefthand_male_shield_male_cutoutforbody_th_r_3
       rect:
         serializedVersion: 2
         x: 192
@@ -2874,13 +2696,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1739ca87f5d5641bd90bf60d0c3d11d2
+      spriteID: 99a067614d114436281ce3780b826813
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_r_4
+      name: lefthand_male_shield_male_cutoutforbody_th_r_4
       rect:
         serializedVersion: 2
         x: 256
@@ -2894,13 +2716,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: abff4a5390b744945b1c1d16ed0ac230
+      spriteID: ec45eae1ee13d4913addccba7a04b6a9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_r_5
+      name: lefthand_male_shield_male_cutoutforbody_th_r_5
       rect:
         serializedVersion: 2
         x: 320
@@ -2914,13 +2736,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a4170ca6706c241eeb78a5779c6b52ad
+      spriteID: dcece4971cbd34575ba33549cd5dfe2c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_r_6
+      name: lefthand_male_shield_male_cutoutforbody_th_r_6
       rect:
         serializedVersion: 2
         x: 384
@@ -2934,13 +2756,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b0a93c6cb7e4c46c9ac82d5171d96b3b
+      spriteID: a2b8c2599e838463aac9a5201d4a27d7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_r_7
+      name: lefthand_male_shield_male_cutoutforbody_th_r_7
       rect:
         serializedVersion: 2
         x: 448
@@ -2954,13 +2776,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 973cea0b1764341c9bf07eec585df773
+      spriteID: cd8cb027af6254e31a83fac9b15b748b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_d_0
+      name: lefthand_male_shield_male_cutoutforbody_th_d_0
       rect:
         serializedVersion: 2
         x: 0
@@ -2974,13 +2796,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0c7a407a34ed14cb19b537482f24415e
+      spriteID: 9f9e7555d86a64171a73705c6dc59132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_d_1
+      name: lefthand_male_shield_male_cutoutforbody_th_d_1
       rect:
         serializedVersion: 2
         x: 64
@@ -2994,13 +2816,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 89202addfdac74132907c85b3b073a44
+      spriteID: 12791565278a14297af2cfacc5c971f8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_d_2
+      name: lefthand_male_shield_male_cutoutforbody_th_d_2
       rect:
         serializedVersion: 2
         x: 128
@@ -3014,13 +2836,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 09a2f76a0e964413f9dedf71cfb0646f
+      spriteID: d621b20c471044bd299598e55756e02e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_d_3
+      name: lefthand_male_shield_male_cutoutforbody_th_d_3
       rect:
         serializedVersion: 2
         x: 192
@@ -3034,13 +2856,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4a749a6ca1eb44d919bd6b285efdc366
+      spriteID: 61e96cf510c344854b92343d245e0e9a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_d_4
+      name: lefthand_male_shield_male_cutoutforbody_th_d_4
       rect:
         serializedVersion: 2
         x: 256
@@ -3054,13 +2876,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 772f6c55204ff482daa9a8bd2a063795
+      spriteID: f1869a07642924f22aa0797d988dde53
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_d_5
+      name: lefthand_male_shield_male_cutoutforbody_th_d_5
       rect:
         serializedVersion: 2
         x: 320
@@ -3074,13 +2896,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 551067592eb204f28b22f58ae2634614
+      spriteID: 2ab281fa553394dcfb97a1f4e67c05b5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_d_6
+      name: lefthand_male_shield_male_cutoutforbody_th_d_6
       rect:
         serializedVersion: 2
         x: 384
@@ -3094,13 +2916,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 96ad710e9d04a42699267f65c0984479
+      spriteID: 8e946acad496a40438455b5acbf80a06
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_d_7
+      name: lefthand_male_shield_male_cutoutforbody_th_d_7
       rect:
         serializedVersion: 2
         x: 448
@@ -3114,13 +2936,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a53f9c121d3ba4a7eabe89c1e6a0c3d4
+      spriteID: b9ef3e25ceaca409a93f86df8a608b13
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_l_0
+      name: lefthand_male_shield_male_cutoutforbody_th_l_0
       rect:
         serializedVersion: 2
         x: 0
@@ -3134,13 +2956,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e414ff9341a5e45f0bb84a69d2291fa7
+      spriteID: 89e21af14312b470da1d95d454f596de
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_l_1
+      name: lefthand_male_shield_male_cutoutforbody_th_l_1
       rect:
         serializedVersion: 2
         x: 64
@@ -3154,13 +2976,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02ce4b2c127e347af99644a09a5d0192
+      spriteID: 46f4120c7703f40a3a02b81e6cd952fe
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_l_2
+      name: lefthand_male_shield_male_cutoutforbody_th_l_2
       rect:
         serializedVersion: 2
         x: 128
@@ -3174,13 +2996,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 15a3cef05e0634063b77e80f6ef84f4c
+      spriteID: 17f1a6387594342069c6bc4cdaa651c2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_l_3
+      name: lefthand_male_shield_male_cutoutforbody_th_l_3
       rect:
         serializedVersion: 2
         x: 192
@@ -3194,13 +3016,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 86205956bb6d24df3a7cc62b5de38fc8
+      spriteID: de6c64d13b7ff480c8c1b05875888e77
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_l_4
+      name: lefthand_male_shield_male_cutoutforbody_th_l_4
       rect:
         serializedVersion: 2
         x: 256
@@ -3214,13 +3036,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c3608e660199d4cbb8ef2ef3787b0d94
+      spriteID: 2deed6c64d002406abe4e10113cf255f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_l_5
+      name: lefthand_male_shield_male_cutoutforbody_th_l_5
       rect:
         serializedVersion: 2
         x: 320
@@ -3234,13 +3056,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3490de28370054368bc775088b6d1343
+      spriteID: 0191c8079456446b28e4705db08a5cc6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_l_6
+      name: lefthand_male_shield_male_cutoutforbody_th_l_6
       rect:
         serializedVersion: 2
         x: 384
@@ -3254,13 +3076,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4913dfff4c92141d5a9bd99ec23a3e9b
+      spriteID: 1ae3d59da674f4359964a958638f75a2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_l_7
+      name: lefthand_male_shield_male_cutoutforbody_th_l_7
       rect:
         serializedVersion: 2
         x: 448
@@ -3274,13 +3096,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: edd8f3989887b47d6aa781f76c1a9b08
+      spriteID: c336656a8a0ac4853b6a1437418f4df4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_t_0
+      name: lefthand_male_shield_male_cutoutforbody_th_t_0
       rect:
         serializedVersion: 2
         x: 0
@@ -3294,13 +3116,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e8ae046631f1a49ff9bee178eb658a10
+      spriteID: c471e1dba7cdf40b49f8385094a7dc87
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_t_1
+      name: lefthand_male_shield_male_cutoutforbody_th_t_1
       rect:
         serializedVersion: 2
         x: 64
@@ -3314,13 +3136,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5e0abdc6e29ab47b8a3f28b379dbc0c0
+      spriteID: 0eef85015c2554b9b96289d51449f9ec
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_t_2
+      name: lefthand_male_shield_male_cutoutforbody_th_t_2
       rect:
         serializedVersion: 2
         x: 128
@@ -3334,13 +3156,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d28f92e2b721402e94a714174e5ef69
+      spriteID: 93295b664dc564eab8c6f57ceb1f0fb1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_t_3
+      name: lefthand_male_shield_male_cutoutforbody_th_t_3
       rect:
         serializedVersion: 2
         x: 192
@@ -3354,13 +3176,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d536a35e3c66e443cb80e5a7bb544a67
+      spriteID: 2fe3d9e58d74a4a0dbff8eec128aac28
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_t_4
+      name: lefthand_male_shield_male_cutoutforbody_th_t_4
       rect:
         serializedVersion: 2
         x: 256
@@ -3374,13 +3196,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 52e2ec313ee7b4b90bc1f1bc95dbccc1
+      spriteID: 9644468901a4d45deb01407bce8fe71e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_t_5
+      name: lefthand_male_shield_male_cutoutforbody_th_t_5
       rect:
         serializedVersion: 2
         x: 320
@@ -3394,13 +3216,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 29cb3a9ddc4774878a0c13d24f90e38e
+      spriteID: 2ce51ade0d11f42b4a1ba91ee1a3e9e3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_t_6
+      name: lefthand_male_shield_male_cutoutforbody_th_t_6
       rect:
         serializedVersion: 2
         x: 384
@@ -3414,13 +3236,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ce001cc08a304e4e984b4560186fded
+      spriteID: fa87f72758088471894e8bb51c6120f1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_th_t_7
+      name: lefthand_male_shield_male_cutoutforbody_th_t_7
       rect:
         serializedVersion: 2
         x: 448
@@ -3434,13 +3256,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4880034e34bd144b79da49eccf9b9e23
+      spriteID: 2b5d6f2be1185405c85b0dfd7ed3a024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_r_0
+      name: lefthand_male_shield_male_cutoutforbody_sc_r_0
       rect:
         serializedVersion: 2
         x: 0
@@ -3454,13 +3276,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f06a69a3401814db6b19b94b8f1efaa5
+      spriteID: 75180652e99f0452dab6050366e89dc8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_r_1
+      name: lefthand_male_shield_male_cutoutforbody_sc_r_1
       rect:
         serializedVersion: 2
         x: 64
@@ -3474,13 +3296,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cac71ed9dfda54a2c8a8a1385f53a31a
+      spriteID: 040d6a133791242a08435d4813bde367
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_r_2
+      name: lefthand_male_shield_male_cutoutforbody_sc_r_2
       rect:
         serializedVersion: 2
         x: 128
@@ -3494,13 +3316,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5c614e50ef2424f8eb985756c1075cb2
+      spriteID: 9562cef840db0461c84d9bfecf797428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_r_3
+      name: lefthand_male_shield_male_cutoutforbody_sc_r_3
       rect:
         serializedVersion: 2
         x: 192
@@ -3514,13 +3336,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 87265322f359849d492ce3f3bc487dbd
+      spriteID: 0f71f3c67164747bea1470e8ab22be70
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_r_4
+      name: lefthand_male_shield_male_cutoutforbody_sc_r_4
       rect:
         serializedVersion: 2
         x: 256
@@ -3534,13 +3356,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4d5ba72b1500841a2ad9f0d9a6e102fc
+      spriteID: d2d6c2e68a6284457ade5e9b1526375a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_r_5
+      name: lefthand_male_shield_male_cutoutforbody_sc_r_5
       rect:
         serializedVersion: 2
         x: 320
@@ -3554,13 +3376,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cfb406aa90ec4470f8354a353b5f78eb
+      spriteID: 6f6ae9ea1066c47f299c220881a33857
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_r_6
+      name: lefthand_male_shield_male_cutoutforbody_sc_r_6
       rect:
         serializedVersion: 2
         x: 384
@@ -3574,13 +3396,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e5b9e74f6964b4b95a57e0b0af7c0c6d
+      spriteID: b469e4f264f904b6babffaf75ba37983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_d_0
+      name: lefthand_male_shield_male_cutoutforbody_sc_d_0
       rect:
         serializedVersion: 2
         x: 0
@@ -3594,13 +3416,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a8815d63a8c934058b2fcb1d4d6d29ea
+      spriteID: 929909fc8d16149e7af03f0710f35855
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_d_1
+      name: lefthand_male_shield_male_cutoutforbody_sc_d_1
       rect:
         serializedVersion: 2
         x: 64
@@ -3614,13 +3436,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 172dcecb61e4f4556b5f17c9b5dd60eb
+      spriteID: ed2827d7f968344cd95f69f8861517f2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_d_2
+      name: lefthand_male_shield_male_cutoutforbody_sc_d_2
       rect:
         serializedVersion: 2
         x: 128
@@ -3634,13 +3456,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3acae7cd0161745f58e9d63ae8c9f464
+      spriteID: 65d9f3e7d66eb4d75b60723410dca22f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_d_3
+      name: lefthand_male_shield_male_cutoutforbody_sc_d_3
       rect:
         serializedVersion: 2
         x: 192
@@ -3654,13 +3476,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d79dd650e429d4588b0c001a31f949d1
+      spriteID: bcb741c542c6c4953b193f29e76d0cc0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_d_4
+      name: lefthand_male_shield_male_cutoutforbody_sc_d_4
       rect:
         serializedVersion: 2
         x: 256
@@ -3674,13 +3496,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a29144630eaa46e0bc678b6cb44a1fe
+      spriteID: a44002db963e145268898ca6ac3a0659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_d_5
+      name: lefthand_male_shield_male_cutoutforbody_sc_d_5
       rect:
         serializedVersion: 2
         x: 320
@@ -3694,13 +3516,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b77c286e40cd0411bbc6e49855c71f3a
+      spriteID: 2cf069c4e79c7436a81416ca29ffd7e8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_d_6
+      name: lefthand_male_shield_male_cutoutforbody_sc_d_6
       rect:
         serializedVersion: 2
         x: 384
@@ -3714,13 +3536,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1ca239c5cd5a446c8b8acf5c491fa186
+      spriteID: 7e7283fd734594579b9a5029853bfa02
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_l_0
+      name: lefthand_male_shield_male_cutoutforbody_sc_l_0
       rect:
         serializedVersion: 2
         x: 0
@@ -3734,13 +3556,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c96c51e7f28b48c29d531506ee2a0df
+      spriteID: 17cc4b2a1f9e1444f85c55c8f29dddce
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_l_1
+      name: lefthand_male_shield_male_cutoutforbody_sc_l_1
       rect:
         serializedVersion: 2
         x: 64
@@ -3754,13 +3576,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 18ada23d92d3941e0a0d6f929e65734f
+      spriteID: 5e43c2a19df0240c8b67c0949ba06ad1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_l_2
+      name: lefthand_male_shield_male_cutoutforbody_sc_l_2
       rect:
         serializedVersion: 2
         x: 128
@@ -3774,13 +3596,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ca4de2fe1c9fa4e24942e8d1747d2d05
+      spriteID: e05f7855fd0074d9fb9f0cbd0c12a3c1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_l_3
+      name: lefthand_male_shield_male_cutoutforbody_sc_l_3
       rect:
         serializedVersion: 2
         x: 192
@@ -3794,13 +3616,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9555bd408413747c290d07a98b03b39e
+      spriteID: 7cae031cf0ba24aeb9f10c5af5d3a26e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_l_4
+      name: lefthand_male_shield_male_cutoutforbody_sc_l_4
       rect:
         serializedVersion: 2
         x: 256
@@ -3814,13 +3636,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 838915ab3fce547a8bd481062ada8ebe
+      spriteID: 8b1a8dfb46f334a71b68b2e34f4df651
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_l_5
+      name: lefthand_male_shield_male_cutoutforbody_sc_l_5
       rect:
         serializedVersion: 2
         x: 320
@@ -3834,13 +3656,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: db789b4dc7e084e178beca8277e3654b
+      spriteID: a2dcc68c2037e46439686404818e8314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_l_6
+      name: lefthand_male_shield_male_cutoutforbody_sc_l_6
       rect:
         serializedVersion: 2
         x: 384
@@ -3854,13 +3676,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13eae1a5cee584491bfe7e3bb798a5d6
+      spriteID: 871952faaf0ae444ea37b6fb5dfbfa5b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_t_0
+      name: lefthand_male_shield_male_cutoutforbody_sc_t_0
       rect:
         serializedVersion: 2
         x: 0
@@ -3874,13 +3696,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fb4e03bc9ccd84840849fbb9fd517d03
+      spriteID: bb2df40ba7f2b4539ad4c8997722214d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_t_1
+      name: lefthand_male_shield_male_cutoutforbody_sc_t_1
       rect:
         serializedVersion: 2
         x: 64
@@ -3894,13 +3716,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c4619fb14ec154a1399d9a691adca273
+      spriteID: eb45bcd30e92248d1a0c67482813463b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_t_2
+      name: lefthand_male_shield_male_cutoutforbody_sc_t_2
       rect:
         serializedVersion: 2
         x: 128
@@ -3914,13 +3736,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0cf837559b19f4df8ab576fdb7fca978
+      spriteID: 028af74388a7f42f5abf871aea2fd4da
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_t_3
+      name: lefthand_male_shield_male_cutoutforbody_sc_t_3
       rect:
         serializedVersion: 2
         x: 192
@@ -3934,13 +3756,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 66f99fd902a2a44508d22470e7f50939
+      spriteID: 0c43087ad0903461ea61ad2e0c9e1dd9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_t_4
+      name: lefthand_male_shield_male_cutoutforbody_sc_t_4
       rect:
         serializedVersion: 2
         x: 256
@@ -3954,13 +3776,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 46a0e55e0f51049c2ac338307a714766
+      spriteID: 265729d3a54a5422695494af77fd1384
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_t_5
+      name: lefthand_male_shield_male_cutoutforbody_sc_t_5
       rect:
         serializedVersion: 2
         x: 320
@@ -3974,13 +3796,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c73f3668d4173451bb2bc9acc339f6cd
+      spriteID: e0a5c05a83d7f42c8952fa88182210a5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: legs_male_platemail_sc_t_6
+      name: lefthand_male_shield_male_cutoutforbody_sc_t_6
       rect:
         serializedVersion: 2
         x: 384
@@ -3994,7 +3816,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: be5e5b662be8d4633badcb10501a5df7
+      spriteID: c60c89f75a4374d61a976ca98847561a
       vertices: []
       indices: 
       edges: []

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4efee85af8ce43128353ac4ee73df47, type: 3}
+  m_Name: righthand_male_dagger_male
+  m_EditorClassIdentifier: 
+  name: Iron Dagger
+  icon: {fileID: 21300000, guid: c5552bf11fd034aa498dd34d162da7ea, type: 3}
+  isDefaultItem: 0
+  equipSlot: 4
+  animationClips:
+  - {fileID: 7400000, guid: 09ea8c63c83f44dd5b999ab7d3e85175, type: 2}
+  - {fileID: 7400000, guid: 946f56ec7a96947b7adc96e4dfc6f09d, type: 2}
+  - {fileID: 7400000, guid: 08a4c10138d4a4976a06777ec648adba, type: 2}
+  - {fileID: 7400000, guid: a3135d95ea031461e8faaa35831ae898, type: 2}
+  - {fileID: 7400000, guid: 0531b97227a364aae8db03460455d3d2, type: 2}
+  - {fileID: 7400000, guid: f83a747bdb2fc4f909a106d9e8db8290, type: 2}
+  - {fileID: 7400000, guid: b0b23a673c1674bec9eda00a3a9ef0f7, type: 2}
+  - {fileID: 7400000, guid: 2355a25cea1494a96b5d08d589da0dad, type: 2}
+  - {fileID: 7400000, guid: 52013e9803ba54a6789a451f78e9fde9, type: 2}
+  - {fileID: 7400000, guid: 95a2bf4ac1ad9452db709d1bbdbe8fd7, type: 2}
+  - {fileID: 7400000, guid: 2c68481cbfb2e4fe998ae147b4483ef9, type: 2}
+  - {fileID: 7400000, guid: 068c716a6d9994c059800c9e86e08566, type: 2}
+  - {fileID: 7400000, guid: ce1cb29666aa34ef3a1796cc0eeef747, type: 2}
+  - {fileID: 7400000, guid: d9bcbd015d08b479fa7c066b361dbec8, type: 2}
+  - {fileID: 7400000, guid: 6df1064f382fe48faacaa582071ed56b, type: 2}
+  - {fileID: 7400000, guid: 78de0ffb7601a42da8339f1172584c92, type: 2}
+  - {fileID: 7400000, guid: 08597e783ee3c4a1abc35cd67d886d08, type: 2}
+  - {fileID: 7400000, guid: 87378375b91e447e582e2ef0816410e0, type: 2}
+  - {fileID: 7400000, guid: a70db2cb07d6a4f63b58413aa369779b, type: 2}
+  - {fileID: 7400000, guid: 160b0041f09eb4702b93ebdf980d700f, type: 2}
+  - {fileID: 7400000, guid: f80cecf771fac434bba7cda5497cbbc7, type: 2}
+  - {fileID: 7400000, guid: 3bf30c83f8234437590892218f527780, type: 2}
+  - {fileID: 7400000, guid: 07eb1bba4b4844c8a8871a2d8ead508a, type: 2}
+  - {fileID: 7400000, guid: 0023614081f4c48dabdec433515f5151, type: 2}
+  - {fileID: 7400000, guid: ee34a59bbb08242948d071ea72972810, type: 2}
+  armorModifier: 0
+  damageModifier: 5

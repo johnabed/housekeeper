@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -27,8 +28,8 @@ public class EquipmentManager : MonoBehaviour
 
     public Equipment[] defaultEquipment; //What is initially worn by the player
     public Equipment[] currentEquipment; //equipment worn by player
-    public GameObject targetSocket; //parent object (i.e. Player Graphics holding Anim & SpriteRenderer)
-
+    public GameObject[] equipmentSockets;
+    
     Inventory inventory;
 
     private void Start()
@@ -46,13 +47,16 @@ public class EquipmentManager : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.U))
         {
             UnequipAll();
+            EquipDefaultItems();
         }
     }
 
     public void Equip (Equipment newItem)
     {
+        Debug.Log("Equipping " + newItem.name);
         int slotIndex = (int)newItem.equipSlot; //get the index of the enum (i.e. Chest=1)
 
+        Debug.Log("But first to unequip...");
         Unequip(slotIndex); //removes any items currently equipped in this slot
 
         if (onEquipmentChangedCallback != null)
@@ -61,6 +65,8 @@ public class EquipmentManager : MonoBehaviour
         }
 
         currentEquipment[slotIndex] = newItem;
+        Debug.Log("Successfully Equipped " + newItem.name);
+        equipmentSockets[slotIndex].GetComponent<EquipmentSocketController>().AddEquipment(newItem);
     }
 
     public void Unequip (int slotIndex)
@@ -68,10 +74,15 @@ public class EquipmentManager : MonoBehaviour
         if(currentEquipment[slotIndex] != null)
         {
             Equipment oldItem = currentEquipment[slotIndex];
+            
+            Debug.Log("Unequipping " + oldItem.name);
             inventory.Add(oldItem);
-
             currentEquipment[slotIndex] = null; 
-            EquipDefaultItem(slotIndex); //put back on the default item
+            equipmentSockets[slotIndex].GetComponent<EquipmentSocketController>().RemoveEquipment();
+                
+            if(!oldItem.isDefaultItem) {
+                EquipDefaultItem(slotIndex); //put back on the default item
+            }
 
             if (onEquipmentChangedCallback != null)
             {
@@ -99,7 +110,7 @@ public class EquipmentManager : MonoBehaviour
     {
         for (int i = 0; i < defaultEquipment.Length; i++)
         {
-            Equip(defaultEquipment[i]);
+            EquipDefaultItem(i);
         }
     }
 

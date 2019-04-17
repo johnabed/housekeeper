@@ -5,8 +5,6 @@ using UnityEngine;
 
 public class EquipmentSocketController : MonoBehaviour
 {
-    public EquipmentType equipSlot;
-
     public Animator MyAnimator { get; set; }
 
     private Animator parentAnimator;
@@ -16,8 +14,6 @@ public class EquipmentSocketController : MonoBehaviour
 
     private void Awake()
     {
-        EquipmentManager.instance.onEquipmentChangedCallback += OnEquipmentChanged;
-        
         parentAnimator = transform.parent.GetComponent<Animator>();
         MyAnimator = GetComponent<Animator>();
 
@@ -36,10 +32,12 @@ public class EquipmentSocketController : MonoBehaviour
         MyAnimator.SetBool("IsDying", parentAnimator.GetBool("IsDying"));
     }
 
-    void OnEquipmentChanged(Equipment newItem, Equipment oldItem)
+    public void AddEquipment(Equipment newItem)
     {
-        if (newItem != null && newItem.equipSlot == equipSlot && newItem.animationClips.Length > 0)
+        if (newItem != null && newItem.animationClips.Length > 0)
         {
+            gameObject.GetComponent<SpriteRenderer>().enabled = true;
+            
             //convert array of clips into dict
             var animationClipsDict = newItem.animationClips.ToDictionary(item => item.name,
                 item => item);
@@ -51,5 +49,10 @@ public class EquipmentSocketController : MonoBehaviour
             }
             animatorOverrideController.ApplyOverrides(overrides);
         }
+    }
+
+    public void RemoveEquipment()
+    {
+        gameObject.GetComponent<SpriteRenderer>().enabled = false;
     }
 }

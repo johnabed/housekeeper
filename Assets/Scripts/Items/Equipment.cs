@@ -25,4 +25,4 @@ public class Equipment : Item
 
 }
 
-public enum EquipmentType { Head, Torso, Legs, Feet, Weapon }
+public enum EquipmentType { Head, Torso, Legs, Feet, Weapon, Shield }

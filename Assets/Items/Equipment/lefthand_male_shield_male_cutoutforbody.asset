@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4efee85af8ce43128353ac4ee73df47, type: 3}
+  m_Name: lefthand_male_shield_male_cutoutforbody
+  m_EditorClassIdentifier: 
+  name: Wooden Shield
+  icon: {fileID: 21300000, guid: bd9d3461e93274641a87c3b3bcabdd1f, type: 3}
+  isDefaultItem: 0
+  equipSlot: 5
+  animationClips:
+  - {fileID: 7400000, guid: a55c2fc1561f345579612fb24db86062, type: 2}
+  - {fileID: 7400000, guid: 0aa8108a8f9af42968b00e8fa40c4b12, type: 2}
+  - {fileID: 7400000, guid: 8da6c186fcad0456d9a6989be290da7c, type: 2}
+  - {fileID: 7400000, guid: 48f090419a6eb4bbead2a61e7667272a, type: 2}
+  - {fileID: 7400000, guid: e79ef8a85f2dd41b4a614f0c7fd9bc20, type: 2}
+  - {fileID: 7400000, guid: faa4e447f56704087bf74dc9bc1ee460, type: 2}
+  - {fileID: 7400000, guid: 2c46cfd08812b457e88c1aa55ee137bf, type: 2}
+  - {fileID: 7400000, guid: 04e272b2bc6b04038a403b75987155dd, type: 2}
+  - {fileID: 7400000, guid: 96c928f53c5a34f348a2b8459a014831, type: 2}
+  - {fileID: 7400000, guid: 4d5dc347c84e0481aab0803708ead469, type: 2}
+  - {fileID: 7400000, guid: 04e0f8192abca44b1a5025407cbe3c35, type: 2}
+  - {fileID: 7400000, guid: 29cd9c97b05664155b267289bb019b6d, type: 2}
+  - {fileID: 7400000, guid: dee93a91aea2c4fc2b1aa0f949283969, type: 2}
+  - {fileID: 7400000, guid: 8b5f26983b64d4544ba68222ae3abcb0, type: 2}
+  - {fileID: 7400000, guid: 52bf1a7a67b764303ab06dbbf99f1d72, type: 2}
+  - {fileID: 7400000, guid: 6165247dff248424ca1374bb5fdea8fc, type: 2}
+  - {fileID: 7400000, guid: abc519273e73042b4817a460313b3d0a, type: 2}
+  - {fileID: 7400000, guid: 120af046372d9416eb23f001567f40eb, type: 2}
+  - {fileID: 7400000, guid: b1024c1f9189849d59eab1a1b34dd9a6, type: 2}
+  - {fileID: 7400000, guid: 6655a15f4d5a245388636672efc786ec, type: 2}
+  - {fileID: 7400000, guid: 35755bd0e58f14eda8697ed295b24948, type: 2}
+  - {fileID: 7400000, guid: 75c5245fc297c4ac6af9d977612cb7bf, type: 2}
+  - {fileID: 7400000, guid: 6a75b902553584f8d9612d0191d24b1b, type: 2}
+  - {fileID: 7400000, guid: 1cc87766c143c407c888c4d581190b74, type: 2}
+  - {fileID: 7400000, guid: 6a7056e4dcc5d42278a9ce8bfe0eb9fd, type: 2}
+  armorModifier: 5
+  damageModifier: 0
