@@ -26,7 +26,7 @@ public class EquipmentManager : MonoBehaviour
     #endregion
 
     public Equipment[] defaultEquipment; //What is initially worn by the player
-    Equipment[] currentEquipment; //equipment worn by player
+    public Equipment[] currentEquipment; //equipment worn by player
     public GameObject targetSocket; //parent object (i.e. Player Graphics holding Anim & SpriteRenderer)
 
     Inventory inventory;
@@ -35,7 +35,7 @@ public class EquipmentManager : MonoBehaviour
     {
         inventory = Inventory.instance;
 
-        int numSlots = System.Enum.GetNames(typeof(EquipmentSlot)).Length; //string array of the elements inside the Enum
+        int numSlots = System.Enum.GetNames(typeof(EquipmentType)).Length; //string array of the elements inside the Enum
         currentEquipment = new Equipment[numSlots];
 
         EquipDefaultItems();
@@ -46,12 +46,6 @@ public class EquipmentManager : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.U))
         {
             UnequipAll();
-        }
-
-        //todo: testing. should have full equipment layout UI panel soon with E to open
-        if (Input.GetKeyDown(KeyCode.H))
-        {
-            Unequip((int)EquipmentSlot.Head);
         }
     }
 

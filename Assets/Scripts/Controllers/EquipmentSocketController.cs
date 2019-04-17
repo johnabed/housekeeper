@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class EquipmentSocketController : MonoBehaviour
 {
-    public EquipmentSlot equipSlot;
+    public EquipmentType equipSlot;
 
     public Animator MyAnimator { get; set; }
 

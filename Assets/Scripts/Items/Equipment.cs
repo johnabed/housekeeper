@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Equipment", menuName = "Inventory/Equipment")]
 public class Equipment : Item
 {
-    public EquipmentSlot equipSlot;
+    public EquipmentType equipSlot;
 
     public AnimationClip[] animationClips;
     
@@ -25,4 +25,4 @@ public class Equipment : Item
 
 }
 
-public enum EquipmentSlot { Head, Torso, Legs, Feet }
+public enum EquipmentType { Head, Torso, Legs, Feet, Weapon }
