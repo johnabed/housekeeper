@@ -4,6 +4,8 @@ public class ItemPickup : Interactable
 {
     public Item item;
 
+    public Texture2D cursorInteract;
+    
     public override void Interact()
     {
         base.Interact();
@@ -21,5 +23,15 @@ public class ItemPickup : Interactable
         {
             Destroy(gameObject);
         }
+    }
+
+    private void OnMouseEnter()
+    {
+        Cursor.SetCursor(cursorInteract, Vector2.zero, CursorMode.Auto);
+    }
+
+    private void OnMouseExit()
+    {
+        Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
     }
 }
