@@ -57,7 +57,7 @@ public class EquipmentManager : MonoBehaviour
 
         if (onEquipmentChangedCallback != null)
         {
-            onEquipmentChangedCallback.Invoke(newItem, null); //todo: make sure changing oldItem to null works
+            onEquipmentChangedCallback.Invoke(newItem, null);
         }
 
         currentEquipment[slotIndex] = newItem;
@@ -97,9 +97,9 @@ public class EquipmentManager : MonoBehaviour
 
     public void EquipDefaultItems ()
     {
-        foreach (Equipment item in defaultEquipment)
+        for (int i = 0; i < defaultEquipment.Length; i++)
         {
-            Equip(item);
+            Equip(defaultEquipment[i]);
         }
     }
 

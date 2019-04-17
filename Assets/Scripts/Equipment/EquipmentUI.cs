@@ -9,8 +9,7 @@ public class EquipmentUI : MonoBehaviour
 
     EquipmentSlot[] slots;
 
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         equipmentManager = EquipmentManager.instance;
         equipmentManager.onEquipmentChangedCallback += UpdateUI; //causes function to trigger whenever item is added/removed
@@ -29,7 +28,8 @@ public class EquipmentUI : MonoBehaviour
 
     void UpdateUI (Equipment newItem, Equipment oldItem)
     {
-        if(newItem != null) {
+        if(newItem != null) 
+        {
             slots[(int)newItem.equipSlot].AddEquipment(newItem);
         }
 

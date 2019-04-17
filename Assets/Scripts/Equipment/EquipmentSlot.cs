@@ -5,12 +5,13 @@ public class EquipmentSlot : MonoBehaviour
 {
     Equipment equipment;
     public Image icon;
+    public Text equipmentName;
     
     public void AddEquipment (Equipment newItem)
     {
-        if(!newItem.isDefaultItem) {
-            equipment = newItem;
-
+        equipment = newItem;
+        equipmentName.text = equipment.equipSlot.ToString();
+        if(!newItem.isDefaultItem) {    
             icon.sprite = equipment.icon;
             icon.enabled = true;
             icon.preserveAspect = true;
@@ -23,5 +24,13 @@ public class EquipmentSlot : MonoBehaviour
 
         icon.sprite = null;
         icon.enabled = false;
+    }
+
+    public void Unequip()
+    {
+        if (equipment != null)
+        {
+            EquipmentManager.instance.Unequip((int)equipment.equipSlot);
+        }
     }
 }
