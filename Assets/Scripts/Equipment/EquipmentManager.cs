@@ -53,10 +53,8 @@ public class EquipmentManager : MonoBehaviour
 
     public void Equip (Equipment newItem)
     {
-        Debug.Log("Equipping " + newItem.name);
         int slotIndex = (int)newItem.equipSlot; //get the index of the enum (i.e. Chest=1)
 
-        Debug.Log("But first to unequip...");
         Unequip(slotIndex); //removes any items currently equipped in this slot
 
         if (onEquipmentChangedCallback != null)
@@ -65,7 +63,6 @@ public class EquipmentManager : MonoBehaviour
         }
 
         currentEquipment[slotIndex] = newItem;
-        Debug.Log("Successfully Equipped " + newItem.name);
         equipmentSockets[slotIndex].GetComponent<EquipmentSocketController>().AddEquipment(newItem);
     }
 
@@ -75,7 +72,6 @@ public class EquipmentManager : MonoBehaviour
         {
             Equipment oldItem = currentEquipment[slotIndex];
             
-            Debug.Log("Unequipping " + oldItem.name);
             inventory.Add(oldItem);
             currentEquipment[slotIndex] = null; 
             equipmentSockets[slotIndex].GetComponent<EquipmentSocketController>().RemoveEquipment();
