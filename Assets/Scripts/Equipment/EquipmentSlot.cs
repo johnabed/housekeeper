@@ -13,6 +13,7 @@ public class EquipmentSlot : MonoBehaviour
 
             icon.sprite = equipment.icon;
             icon.enabled = true;
+            icon.preserveAspect = true;
         }
     }
 
@@ -22,13 +23,5 @@ public class EquipmentSlot : MonoBehaviour
 
         icon.sprite = null;
         icon.enabled = false;
-    }
-
-    public void RemoveEquipment()
-    {
-        if(equipment != null)
-        {
-            EquipmentManager.instance.Unequip((int)equipment.equipSlot);
-        }
     }
 }

@@ -13,6 +13,7 @@ public class InventorySlot : MonoBehaviour
 
         icon.sprite = item.icon;
         icon.enabled = true;
+        icon.preserveAspect = true;
         removeButton.interactable = true;
     }
 

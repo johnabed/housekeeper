@@ -53,7 +53,7 @@ public class EquipmentManager : MonoBehaviour
     {
         int slotIndex = (int)newItem.equipSlot; //get the index of the enum (i.e. Chest=1)
 
-        Equipment oldItem = Unequip(slotIndex); //removes any items currently equipped in this slot
+        Unequip(slotIndex); //removes any items currently equipped in this slot
 
         if (onEquipmentChangedCallback != null)
         {
@@ -63,7 +63,7 @@ public class EquipmentManager : MonoBehaviour
         currentEquipment[slotIndex] = newItem;
     }
 
-    public Equipment Unequip (int slotIndex)
+    public void Unequip (int slotIndex)
     {
         if(currentEquipment[slotIndex] != null)
         {
@@ -77,9 +77,7 @@ public class EquipmentManager : MonoBehaviour
             {
                 onEquipmentChangedCallback.Invoke(null, oldItem);
             }
-            return oldItem;
         }
-        return null;
     }
 
     public void UnequipAll ()
