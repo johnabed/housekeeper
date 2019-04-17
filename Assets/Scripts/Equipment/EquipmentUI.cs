@@ -1,10 +1,11 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class EquipmentUI : MonoBehaviour
 {
     public Transform itemsParent;
     public GameObject equipmentUI;
-
+    
     EquipmentManager equipmentManager;
 
     EquipmentSlot[] slots;
