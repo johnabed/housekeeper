@@ -6,12 +6,16 @@ public class EquipmentSlot : MonoBehaviour
     Equipment equipment;
     public Image icon;
     public Text equipmentName;
+    public Button equipmentButton;
     
     public void AddEquipment (Equipment newItem)
     {
         equipment = newItem;
         equipmentName.text = equipment.equipSlot.ToString();
-        if(!newItem.isDefaultItem) {    
+        if(!newItem.isDefaultItem)
+        {
+            equipmentButton.interactable = true;
+            equipmentName.text = equipment.name;
             icon.sprite = equipment.icon;
             icon.enabled = true;
             icon.preserveAspect = true;
@@ -24,6 +28,8 @@ public class EquipmentSlot : MonoBehaviour
 
         icon.sprite = null;
         icon.enabled = false;
+
+        equipmentButton.interactable = false;
     }
 
     public void Unequip()

@@ -2628,7 +2628,6 @@ GameObject:
   - component: {fileID: 751942870}
   - component: {fileID: 751942873}
   - component: {fileID: 751942871}
-  - component: {fileID: 751942872}
   - component: {fileID: 751942874}
   m_Layer: 0
   m_Name: Spiked Helm
@@ -2663,35 +2662,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8771a85ba1f9f449594cfd6b75cc9c26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 0.8
+  radius: 1.45
   interactionTransform: {fileID: 751942870}
   item: {fileID: 11400000, guid: f7de3a4539eda4d9dabb582555bfef6e, type: 2}
---- !u!61 &751942872
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 751942869}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.21454334}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 2, y: 2}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 0.6}
-  m_EdgeRadius: 0
 --- !u!212 &751942873
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2709,7 +2682,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: e2544b72fe3bb49e78367c8789e49cd7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2729,7 +2702,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21301596, guid: 1303602ab00ac4b8fa2475ebf8e20b72, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 72ce7f887dfad48fc877e204da3f1d56, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2750,14 +2723,14 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.78125, y: 0.84375}
     newSize: {x: 2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2902,7 +2875,6 @@ GameObject:
   - component: {fileID: 786417551}
   - component: {fileID: 786417554}
   - component: {fileID: 786417553}
-  - component: {fileID: 786417552}
   - component: {fileID: 786417555}
   m_Layer: 0
   m_Name: Iron Chainmail
@@ -2925,32 +2897,6 @@ Transform:
   m_Father: {fileID: 476370467}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &786417552
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 786417550}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.21454334}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 2, y: 2}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 0.6}
-  m_EdgeRadius: 0
 --- !u!114 &786417553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2963,7 +2909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8771a85ba1f9f449594cfd6b75cc9c26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 0.8
+  radius: 1.45
   interactionTransform: {fileID: 786417551}
   item: {fileID: 11400000, guid: af532cbaaec684369a7cc55588e7a853, type: 2}
 --- !u!212 &786417554
@@ -2983,7 +2929,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: e2544b72fe3bb49e78367c8789e49cd7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3003,7 +2949,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21301596, guid: 1303602ab00ac4b8fa2475ebf8e20b72, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bd1d9149788f7423fbf84d3a81514c8a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3024,14 +2970,14 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.96875, y: 0.71875}
     newSize: {x: 2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3301,6 +3247,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Red Goblin (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8510871321031879440, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
         type: 3}
@@ -3975,6 +3926,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Red Goblin (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8510871321031879440, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4465,6 +4421,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Red Goblin (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8510871321031879440, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4858,7 +4819,6 @@ GameObject:
   - component: {fileID: 1734647002}
   - component: {fileID: 1734647006}
   - component: {fileID: 1734647005}
-  - component: {fileID: 1734647004}
   - component: {fileID: 1734647003}
   m_Layer: 0
   m_Name: Wizards Hat
@@ -4891,14 +4851,14 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.9375, y: 0.84375}
     newSize: {x: 2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -4906,32 +4866,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!61 &1734647004
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1734647001}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.21454334}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 2, y: 2}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 0.6}
   m_EdgeRadius: 0
 --- !u!114 &1734647005
 MonoBehaviour:
@@ -4945,7 +4879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8771a85ba1f9f449594cfd6b75cc9c26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 0.8
+  radius: 1.45
   interactionTransform: {fileID: 1734647002}
   item: {fileID: 11400000, guid: d90cbbaf87f4d4d37b1dd9c96e1a5265, type: 2}
 --- !u!212 &1734647006
@@ -4965,7 +4899,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: e2544b72fe3bb49e78367c8789e49cd7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4985,7 +4919,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21301596, guid: 1303602ab00ac4b8fa2475ebf8e20b72, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 903e87448993745d58a8fa0430b0f87a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6150,6 +6084,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Red Goblin
+      objectReference: {fileID: 0}
+    - target: {fileID: 8510871321031879440, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
         type: 3}
