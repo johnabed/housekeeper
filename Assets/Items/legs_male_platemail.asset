@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4efee85af8ce43128353ac4ee73df47, type: 3}
+  m_Name: legs_male_platemail
+  m_EditorClassIdentifier: 
+  name: Iron Platelegs
+  icon: {fileID: 21300000, guid: e34fdee8fb31c4fc1b735d94f1cfad6e, type: 3}
+  isDefaultItem: 0
+  equipSlot: 2
+  animationClips:
+  - {fileID: 7400000, guid: f10e02b641f3a492c9f8c360a59a2ba7, type: 2}
+  - {fileID: 7400000, guid: e8054c388da064c9fa4412f411ebefa5, type: 2}
+  - {fileID: 7400000, guid: 099c410b058f84696a0ccf46efdd5189, type: 2}
+  - {fileID: 7400000, guid: 13e8b6f8ee86e47c6b50766dfd018695, type: 2}
+  - {fileID: 7400000, guid: 85658d30227fb4049b39664ced9d2558, type: 2}
+  - {fileID: 7400000, guid: 1adbdd3a7e44c4023aa139f7c317f58e, type: 2}
+  - {fileID: 7400000, guid: cf16e27150210439288fba567dcaab63, type: 2}
+  - {fileID: 7400000, guid: 844e9656d42bc46909bbe31f00163e02, type: 2}
+  - {fileID: 7400000, guid: e1b332f1da7894333bc1029bdd17629d, type: 2}
+  - {fileID: 7400000, guid: 8d9267478baa943508d4a7d8446d6022, type: 2}
+  - {fileID: 7400000, guid: 0b2135ff5b18a444ba23b00dfcb62ce2, type: 2}
+  - {fileID: 7400000, guid: 9a8e401dbff7f492da0767d65419c83c, type: 2}
+  - {fileID: 7400000, guid: 60537ffa46b934e17b1b214ba77f894c, type: 2}
+  - {fileID: 7400000, guid: de0263a61064c495abf964f1b153f6ee, type: 2}
+  - {fileID: 7400000, guid: 3b6e5519e7a7845cfad8ab1c7821853d, type: 2}
+  - {fileID: 7400000, guid: 863a4df41ea214864bc056aac310922c, type: 2}
+  - {fileID: 7400000, guid: 858e3a4bb74bf48a0975cf909e69971a, type: 2}
+  - {fileID: 7400000, guid: f5c48e77374584d8e93c3f84d21cc76e, type: 2}
+  - {fileID: 7400000, guid: 7b153d9576374451ba6ffa99152e8673, type: 2}
+  - {fileID: 7400000, guid: 672b51f95fc4e46e4a5157cda9eb98ba, type: 2}
+  - {fileID: 7400000, guid: 9d08599c8445a4591aa610e12811b7be, type: 2}
+  - {fileID: 7400000, guid: be841feae2c8f4a89a9e3d3918692bbc, type: 2}
+  - {fileID: 7400000, guid: fec401cb6dd194f28acbda9307f76675, type: 2}
+  - {fileID: 7400000, guid: 33bdf38ce0f854763b759db6e86d309f, type: 2}
+  - {fileID: 7400000, guid: b2e645a6efdff4c79965371c5f566512, type: 2}
+  armorModifier: 4
+  damageModifier: 0
