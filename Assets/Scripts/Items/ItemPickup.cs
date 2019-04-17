@@ -8,6 +8,7 @@ public class ItemPickup : Interactable
     {
         base.Interact();
 
+        Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
         Pickup();
     }
 

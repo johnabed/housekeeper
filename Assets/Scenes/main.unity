@@ -213,6 +213,8 @@ MonoBehaviour:
   radius: 1
   interactionTransform: {fileID: 33664459}
   item: {fileID: 11400000, guid: 90ed7d9dc1d074354ab23c2a3088f514, type: 2}
+  cursorDefault: {fileID: 2800000, guid: d671f3d64791f4259a26265761066cb1, type: 3}
+  cursorInteract: {fileID: 2800000, guid: bc80340416a10435b8039c550636ec19, type: 3}
 --- !u!212 &33664463
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2387,7 +2389,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: -174, y: 300}
-  m_SizeDelta: {x: 152, y: 318}
+  m_SizeDelta: {x: 152, y: 308}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &606765374 stripped
 GameObject:
@@ -2969,6 +2971,8 @@ MonoBehaviour:
   radius: 1
   interactionTransform: {fileID: 689325115}
   item: {fileID: 11400000, guid: ca8ad2fa4388a410d9342931104ec895, type: 2}
+  cursorDefault: {fileID: 2800000, guid: d671f3d64791f4259a26265761066cb1, type: 3}
+  cursorInteract: {fileID: 2800000, guid: bc80340416a10435b8039c550636ec19, type: 3}
 --- !u!212 &689325119
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3348,6 +3352,8 @@ MonoBehaviour:
   radius: 1
   interactionTransform: {fileID: 740440391}
   item: {fileID: 11400000, guid: 286e01ffe55af44f7a6c2ccffbd3e7f9, type: 2}
+  cursorDefault: {fileID: 2800000, guid: d671f3d64791f4259a26265761066cb1, type: 3}
+  cursorInteract: {fileID: 2800000, guid: bc80340416a10435b8039c550636ec19, type: 3}
 --- !u!212 &740440395
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3445,6 +3451,8 @@ MonoBehaviour:
   radius: 1
   interactionTransform: {fileID: 751942870}
   item: {fileID: 11400000, guid: f7de3a4539eda4d9dabb582555bfef6e, type: 2}
+  cursorDefault: {fileID: 2800000, guid: d671f3d64791f4259a26265761066cb1, type: 3}
+  cursorInteract: {fileID: 2800000, guid: bc80340416a10435b8039c550636ec19, type: 3}
 --- !u!61 &751942872
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3745,6 +3753,8 @@ MonoBehaviour:
   radius: 1
   interactionTransform: {fileID: 786417551}
   item: {fileID: 11400000, guid: af532cbaaec684369a7cc55588e7a853, type: 2}
+  cursorDefault: {fileID: 2800000, guid: d671f3d64791f4259a26265761066cb1, type: 3}
+  cursorInteract: {fileID: 2800000, guid: bc80340416a10435b8039c550636ec19, type: 3}
 --- !u!212 &786417554
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4214,7 +4224,7 @@ MonoBehaviour:
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 120, y: 45}
-  m_Spacing: {x: 2, y: 2}
+  m_Spacing: {x: 0, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
 --- !u!114 &917487569
@@ -4905,6 +4915,8 @@ MonoBehaviour:
   radius: 1
   interactionTransform: {fileID: 1206790318}
   item: {fileID: 11400000, guid: 0821ac31762c147198f19b1d2581df61, type: 2}
+  cursorDefault: {fileID: 2800000, guid: d671f3d64791f4259a26265761066cb1, type: 3}
+  cursorInteract: {fileID: 2800000, guid: bc80340416a10435b8039c550636ec19, type: 3}
 --- !u!212 &1206790322
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5772,8 +5784,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 157.5}
-  m_SizeDelta: {x: -40, y: -285}
+  m_AnchoredPosition: {x: 0, y: 152.5}
+  m_SizeDelta: {x: -40, y: -275}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1554647141
 MonoBehaviour:
@@ -6168,6 +6180,8 @@ MonoBehaviour:
   radius: 1
   interactionTransform: {fileID: 1734647002}
   item: {fileID: 11400000, guid: d90cbbaf87f4d4d37b1dd9c96e1a5265, type: 2}
+  cursorDefault: {fileID: 2800000, guid: d671f3d64791f4259a26265761066cb1, type: 3}
+  cursorInteract: {fileID: 2800000, guid: bc80340416a10435b8039c550636ec19, type: 3}
 --- !u!212 &1734647006
 SpriteRenderer:
   m_ObjectHideFlags: 0
