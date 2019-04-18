@@ -6,6 +6,7 @@
   <terrain name="Grass" tile="118"/>
   <terrain name="Grass-Water" tile="358"/>
   <terrain name="Dirt-Water" tile="361"/>
+  <terrain name="Mountain_1" tile="102"/>
  </terraintypes>
  <tile id="16" terrain="0,0,0,"/>
  <tile id="17" terrain="0,0,,0"/>
@@ -15,18 +16,27 @@
  <tile id="49" terrain=",0,0,0"/>
  <tile id="54" terrain="1,,1,1"/>
  <tile id="55" terrain=",1,1,1"/>
+ <tile id="69" terrain=",,,4"/>
+ <tile id="70" terrain=",,4,4"/>
+ <tile id="71" terrain=",,4,"/>
  <tile id="79" terrain=",,,0"/>
  <tile id="80" terrain=",,0,0"/>
  <tile id="81" terrain=",,0,"/>
  <tile id="85" terrain=",,,1"/>
  <tile id="86" terrain=",,1,1"/>
  <tile id="87" terrain=",,1,"/>
+ <tile id="101" terrain=",4,,4"/>
+ <tile id="102" terrain="4,4,4,4"/>
+ <tile id="103" terrain="4,,4,"/>
  <tile id="111" terrain=",0,,0"/>
  <tile id="112" terrain="0,0,0,0"/>
  <tile id="113" terrain="0,,0,"/>
  <tile id="117" terrain=",1,,1"/>
  <tile id="118" terrain="1,1,1,1"/>
  <tile id="119" terrain="1,,1,"/>
+ <tile id="133" terrain=",4,,"/>
+ <tile id="134" terrain="4,4,,"/>
+ <tile id="135" terrain="4,,,"/>
  <tile id="143" terrain=",0,,"/>
  <tile id="144" terrain="0,0,,"/>
  <tile id="145" terrain="0,,,"/>

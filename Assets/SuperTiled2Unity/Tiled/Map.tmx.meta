@@ -3,19 +3,75 @@ guid: 1cdd57d6d4db0444c871a19da5e39e56
 ScriptedImporter:
   fileIDToRecycleName:
     100000: _MapPrfab/Map
-    100004: _MapPrfab/Map/Tile Layer 1
+    100002: _MapPrfab/Map/Dirt
+    100004: _MapPrfab/Map/Colliders
+    100006: _MapPrfab/Map/Grass
+    100008: _MapPrfab/Map/Water
+    100010: _MapPrfab/Map/Colliders/Object_26
+    100012: _MapPrfab/Map/Colliders/Object_31
+    100014: _MapPrfab/Map/Colliders/Object_32
+    100016: _MapPrfab/Map/Colliders/Object_33
+    100018: _MapPrfab/Map/Mountain_1
+    100020: _MapPrfab/Map/Mountain_2
     400000: _MapPrfab/Map/Transform
-    400004: _MapPrfab/Map/Tile Layer 1/Transform
+    400002: _MapPrfab/Map/Dirt/Transform
+    400004: _MapPrfab/Map/Colliders/Transform
+    400006: _MapPrfab/Map/Grass/Transform
+    400008: _MapPrfab/Map/Water/Transform
+    400010: _MapPrfab/Map/Colliders/Object_26/Transform
+    400012: _MapPrfab/Map/Colliders/Object_31/Transform
+    400014: _MapPrfab/Map/Colliders/Object_32/Transform
+    400016: _MapPrfab/Map/Colliders/Object_33/Transform
+    400018: _MapPrfab/Map/Mountain_1/Transform
+    400020: _MapPrfab/Map/Mountain_2/Transform
+    6100000: _MapPrfab/Map/Colliders/Object_26/BoxCollider2D
+    6100002: _MapPrfab/Map/Colliders/Object_31/BoxCollider2D
+    6100004: _MapPrfab/Map/Colliders/Object_32/BoxCollider2D
+    6100006: _MapPrfab/Map/Colliders/Object_33/BoxCollider2D
     11400000: _MapPrfab/Map/MonoBehaviour-SuperTiled2Unity.SuperMap
     11400002: _superAsset
     11400004: _MapPrfab/Map/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
-    11400010: _MapPrfab/Map/Tile Layer 1/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
-    11400012: _MapPrfab/Map/Tile Layer 1/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
-    11400014: _MapPrfab/Map/Tile Layer 1/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400006: _MapPrfab/Map/Dirt/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400008: _MapPrfab/Map/Dirt/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400010: _MapPrfab/Map/Colliders/MonoBehaviour-SuperTiled2Unity.SuperObjectLayer
+    11400012: _MapPrfab/Map/Colliders/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400014: _MapPrfab/Map/Colliders/Object_26/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400016: _MapPrfab/Map/Dirt/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400018: _MapPrfab/Map/Grass/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400020: _MapPrfab/Map/Grass/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400022: _MapPrfab/Map/Grass/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400024: _MapPrfab/Map/Water/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400026: _MapPrfab/Map/Water/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400028: _MapPrfab/Map/Water/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400030: _MapPrfab/Map/Colliders/Object_26/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400032: _MapPrfab/Map/Colliders/Object_26/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400034: _MapPrfab/Map/Colliders/Object_31/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400036: _MapPrfab/Map/Colliders/Object_31/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400038: _MapPrfab/Map/Colliders/Object_31/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400040: _MapPrfab/Map/Colliders/Object_32/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400042: _MapPrfab/Map/Colliders/Object_32/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400044: _MapPrfab/Map/Colliders/Object_32/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400046: _MapPrfab/Map/Colliders/Object_33/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400048: _MapPrfab/Map/Colliders/Object_33/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400050: _MapPrfab/Map/Colliders/Object_33/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400052: _MapPrfab/Map/Mountain_1/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400054: _MapPrfab/Map/Mountain_1/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400056: _MapPrfab/Map/Mountain_1/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400058: _MapPrfab/Map/Mountain_2/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400060: _MapPrfab/Map/Mountain_2/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400062: _MapPrfab/Map/Mountain_2/MonoBehaviour-SuperTiled2Unity.TilemapData
     100100000: _MapPrfab
     2569400265252428796: _MapPrfab/Map/Grid
-    3664157343022684190: _MapPrfab/Map/Tile Layer 1/TilemapRenderer
-    8195094279510102556: _MapPrfab/Map/Tile Layer 1/Tilemap
+    3664157343022684176: _MapPrfab/Map/Dirt/TilemapRenderer
+    3664157343022684178: _MapPrfab/Map/Grass/TilemapRenderer
+    3664157343022684180: _MapPrfab/Map/Water/TilemapRenderer
+    3664157343022684182: _MapPrfab/Map/Mountain_1/TilemapRenderer
+    3664157343022684184: _MapPrfab/Map/Mountain_2/TilemapRenderer
+    8195094279510102542: _MapPrfab/Map/Dirt/Tilemap
+    8195094279510102544: _MapPrfab/Map/Grass/Tilemap
+    8195094279510102546: _MapPrfab/Map/Water/Tilemap
+    8195094279510102548: _MapPrfab/Map/Mountain_1/Tilemap
+    8195094279510102550: _MapPrfab/Map/Mountain_2/Tilemap
   externalObjects: {}
   userData: 
   assetBundleName: 
