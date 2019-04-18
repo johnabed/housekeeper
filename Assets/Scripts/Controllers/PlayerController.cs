@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -13,6 +14,7 @@ public class PlayerController : MonoBehaviour
 
     private Animator anim;
     private Rigidbody2D myRigidbody;
+    private CharacterCombat myCombat;
 
     private bool isMoving;
     private Vector2 currMove;
@@ -27,6 +29,7 @@ public class PlayerController : MonoBehaviour
     {
         anim = GetComponentInChildren<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
+        myCombat = GetComponent<CharacterCombat>();
         cam = Camera.main;
     }
 
@@ -57,6 +60,39 @@ public class PlayerController : MonoBehaviour
         {
             return;
         }
+        
+        //Check for leftmouse click for Attacking
+        if (Input.GetMouseButtonDown(0))
+        {
+            StartCoroutine(AttackAnimation(0.5f));
+            
+            //Raycast Cone in front of Player
+            Vector2 ray = new Vector2(transform.position.x, transform.position.y);
+            RaycastHit2D[] hits = Physics2D.RaycastAll(ray, lastMove, 1f);
+            
+            List<CharacterStats> targets = new List<CharacterStats>();
+            //Cycle through hits
+            for (int i = 0; i < hits.Length; i++)
+            {
+                if (hits[i].collider != null)
+                {
+                    Hitbox hitbox = hits[i].collider.GetComponent<Hitbox>();
+                    
+                    //Was it a hitbox and was Player within Enemy radius?
+                    if (hitbox != null && hitbox.WithinRadius(transform))
+                    {
+                        Transform target = hitbox.transform.parent;
+                        Debug.Log("Raycast Left-click Hitbox hit " + target.name);
+                        CharacterStats targetStats = target.GetComponent<CharacterStats>();
+                        targets.Add(targetStats);
+                    }
+                }
+            }
+            if(targets.Count > 0)
+            {
+                myCombat.AttackGroup(targets);
+            }
+        }
 
         //Check for rightmouse click on Interactables
         if (Input.GetMouseButtonDown(1))
@@ -68,7 +104,7 @@ public class PlayerController : MonoBehaviour
             //check if ray hits (num is distance)
             if (hit.collider != null)
             {
-                Debug.Log("Raycast Hit: " + hit.collider.gameObject.name);
+                Debug.Log("Raycast Right-click Hit: " + hit.collider.gameObject.name);
 
                 Interactable interactable = hit.collider.GetComponent<Interactable>();
                 //Did we hit an interactable
@@ -76,17 +112,8 @@ public class PlayerController : MonoBehaviour
                 {
                     //Set our focus to the object
                     SetFocus(interactable);
-
-                    //Attacking anim should not occur if player is focusing on ItemPickup
-                    if (interactable is ItemPickup)
-                    {
-                        return;
-                    }
                 }
             }
-            
-            //Attack Slash
-            StartCoroutine(Attack());
         }
     }
 
@@ -117,7 +144,7 @@ public class PlayerController : MonoBehaviour
         }
 
         newFocus.OnFocused(transform);
-        FaceFocus();
+        LookAt(focus.transform);
     }
 
     void RemoveFocus()
@@ -129,15 +156,16 @@ public class PlayerController : MonoBehaviour
         focus = null;
     }
 
-    void FaceFocus()
+    void LookAt(Transform target)
     {
-        lastMove = (focus.transform.position - transform.position).normalized;
+        lastMove = (target.position - transform.position).normalized;
     }
     
-    IEnumerator Attack()
+    
+    IEnumerator AttackAnimation(float delay)
     {
         anim.SetBool("IsAttacking", true);
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(delay);
         anim.SetBool("IsAttacking", false);
     }
 }

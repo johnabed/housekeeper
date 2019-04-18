@@ -723,6 +723,80 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 143024573}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &166147008
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6202552971662724575, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_Name
+      value: Red Goblin (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724514, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8366c232e9fcd4be58c67307a5f8fbd2, type: 3}
 --- !u!1001 &185400167
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -848,80 +922,6 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 185400167}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &185657520
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 8510871321031879440, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_Name
-      value: Red Goblin (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879440, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 27
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -10
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8366c232e9fcd4be58c67307a5f8fbd2, type: 3}
 --- !u!1001 &246566659
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1286,6 +1286,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 1cdd57d6d4db0444c871a19da5e39e56, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1cdd57d6d4db0444c871a19da5e39e56, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1349,10 +1353,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingLayer
       value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: 1cdd57d6d4db0444c871a19da5e39e56, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100024, guid: 1cdd57d6d4db0444c871a19da5e39e56, type: 3}
       propertyPath: m_IsActive
@@ -1941,80 +1941,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cdd57d6d4db0444c871a19da5e39e56, type: 3}
---- !u!1001 &432251239
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 8510871321031879440, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_Name
-      value: Red Goblin (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879440, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 38
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -18
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8366c232e9fcd4be58c67307a5f8fbd2, type: 3}
 --- !u!1 &433816721
 GameObject:
   m_ObjectHideFlags: 0
@@ -4258,77 +4184,77 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 858567612}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &866999107
+--- !u!1001 &882297826
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8510871321031879440, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+    - target: {fileID: 6202552971662724575, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
         type: 3}
       propertyPath: m_Name
       value: Red Goblin (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879440, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12
+      value: 27
       objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -13
+      value: -18
       objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
         type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
         type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
         type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
         type: 3}
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724514, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8366c232e9fcd4be58c67307a5f8fbd2, type: 3}
@@ -5347,80 +5273,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1271458477}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1336047095
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 8510871321031879440, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_Name
-      value: Red Goblin (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879440, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -11
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8366c232e9fcd4be58c67307a5f8fbd2, type: 3}
 --- !u!1 &1361014960
 GameObject:
   m_ObjectHideFlags: 0
@@ -5847,154 +5699,6 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1520199675}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1522637806
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 8510871321031879440, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_Name
-      value: Red Goblin (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879440, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -11
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8366c232e9fcd4be58c67307a5f8fbd2, type: 3}
---- !u!1001 &1551559598
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 8510871321031879440, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_Name
-      value: Red Goblin (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879440, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 22
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -12
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8366c232e9fcd4be58c67307a5f8fbd2, type: 3}
 --- !u!1 &1554647139
 GameObject:
   m_ObjectHideFlags: 0
@@ -6070,80 +5774,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1554647139}
   m_CullTransparentMesh: 0
---- !u!1001 &1611373549
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 8510871321031879440, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_Name
-      value: Red Goblin (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879440, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 31
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -13
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8366c232e9fcd4be58c67307a5f8fbd2, type: 3}
 --- !u!1001 &1644651888
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6799,6 +6429,80 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1782475693}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1838423882
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6202552971662724575, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_Name
+      value: Red Goblin (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724514, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8366c232e9fcd4be58c67307a5f8fbd2, type: 3}
 --- !u!1001 &1846813115
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6929,80 +6633,6 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1846813115}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1948882301
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 8510871321031879440, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_Name
-      value: Red Goblin (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879440, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 35
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -19
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8366c232e9fcd4be58c67307a5f8fbd2, type: 3}
 --- !u!1001 &1987185733
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7213,80 +6843,6 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1991996186}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1994198331
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 8510871321031879440, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_Name
-      value: Red Goblin (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879440, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 39
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -19
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8366c232e9fcd4be58c67307a5f8fbd2, type: 3}
 --- !u!1 &2000260435
 GameObject:
   m_ObjectHideFlags: 0
@@ -7371,6 +6927,80 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 9112818610512403832}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6202552972814599137
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6202552971662724575, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_Name
+      value: Red Goblin
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724518, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202552971662724514, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8366c232e9fcd4be58c67307a5f8fbd2, type: 3}
 --- !u!1001 &6970753026582547634
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7490,80 +7120,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbcdac548de2f41e298c396fbab31837, type: 3}
---- !u!1001 &8510871321918717950
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 8510871321031879440, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_Name
-      value: Red Goblin
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879440, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -10
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8510871321031879441, guid: 8366c232e9fcd4be58c67307a5f8fbd2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8366c232e9fcd4be58c67307a5f8fbd2, type: 3}
 --- !u!1001 &9112818610512403832
 PrefabInstance:
   m_ObjectHideFlags: 0

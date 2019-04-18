@@ -33,17 +33,32 @@ public class CharacterCombat : MonoBehaviour
             {
                 OnAttack();
             }
+            
             attackCooldown = 1f / attackSpeed; //larger attack speed = shorter cooldown
         }
-
     }
-
+    
+    public void AttackGroup(List<CharacterStats> targets)
+    {
+        if(attackCooldown <= 0f)
+        {
+            foreach (var targetStats in targets)
+            {
+                StartCoroutine(DoDamage(targetStats, attackDelay));
+            }
+            
+            if (OnAttack != null)
+            {
+                OnAttack();
+            }
+            
+            attackCooldown = 1f / attackSpeed; //larger attack speed = shorter cooldown
+        }
+    }
+    
     IEnumerator DoDamage(CharacterStats stats, float delay)
     {
         yield return new WaitForSeconds(delay);
-
         stats.TakeDamage(myStats.damage.GetValue());
     }
-
-
 }
