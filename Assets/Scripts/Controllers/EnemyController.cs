@@ -24,6 +24,11 @@ public class EnemyController : MonoBehaviour
     private Vector2 lastMove;
     private bool isAttacking;
 
+    private float timeBetweenRandomMoveCounter;
+    private float movementTimeCounter;
+    Vector2 randomMove;
+    bool randomMoving;
+    
     CharacterCombat combat;
 
     // Start is called before the first frame update
@@ -33,6 +38,10 @@ public class EnemyController : MonoBehaviour
         anim = GetComponentInChildren<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
         combat = GetComponent<CharacterCombat>();
+
+        timeBetweenRandomMoveCounter = Random.Range(3f, 7f);
+        movementTimeCounter = Random.Range(0f, 1f);
+
     }
 
     // Update is called once per frame
@@ -62,6 +71,37 @@ public class EnemyController : MonoBehaviour
 
                 //Face target
                 FaceTarget();
+            }
+            
+            //Reset random movement
+            randomMoving = false;
+            timeBetweenRandomMoveCounter = Random.Range(3f, 7f);
+        }
+        //Random movement
+        else
+        {
+            if (randomMoving)
+            {
+                isMoving = true;
+                movementTimeCounter -= Time.deltaTime;
+                currMove = randomMove;
+                lastMove = new Vector2(currMove.normalized.x, currMove.normalized.y);;
+
+                if (movementTimeCounter < 0f)
+                {
+                    randomMoving = false;
+                    timeBetweenRandomMoveCounter = Random.Range(3f, 7f);
+                }
+            }
+            else { 
+                timeBetweenRandomMoveCounter -= Time.deltaTime;
+                if (timeBetweenRandomMoveCounter < 0f)
+                {
+                    randomMoving = true;
+                    movementTimeCounter = Random.Range(0f, 1f);
+                
+                    randomMove = new Vector2(Random.Range(-1f,1f) * moveSpeed, Random.Range(-1f,1f) * moveSpeed);
+                }
             }
         }
 
